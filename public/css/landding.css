@@ -1,0 +1,118 @@
+.navbar-top {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#body-content .page-content {
+    padding: 0 325px;
+}
+.bg-content {
+    background-image: url("../img/bg-content.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12px 63px 118px 31px;
+}
+.bg-content h1 {
+    color:#6EEAA6;
+    font-size: 35px;
+}
+.bg-content p {
+    /* color: #fff; */
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: -1px;
+}
+.bg-reward {
+    background-image: url("../img/bg-reward.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
+}
+.bg-green {
+    background-color: #378A75;
+    border-radius: 3px 3px 0 0;
+}
+.t-white {
+    color: #fff;
+}
+.bg-green.p {
+    padding: 12.4px 26px;
+}
+.bg-green p {
+    font-size: 28px;
+}
+.fill-text.six-top {
+    font-size: 65px;
+    font-weight: 400;
+}
+.show-top6 .center-padding {
+    padding: 0 29px;
+}
+.bg-num6 {
+    background-image: url("../img/num6.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    margin: 0 29px 0 29px;
+}
+.bg-num6 p {
+    font-size: 41px;
+    font-weight: 300;
+}
+.fill-text.front3,
+.fill-text.back3,
+.fill-text.back2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.bg-front3,
+.bg-back3 {
+    background-image: url("../img/front-back.png");
+    background-repeat: no-repeat;
+    margin: 0 0 0 29px;
+}
+.t-white.front3,
+.t-white.back3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+.bg-back2 {
+    width: 157px;
+    height: 156px;
+    margin: auto;
+    background-image: url("../img/back2.png");
+    background-repeat: no-repeat;
+}
+.t-white.back2 {
+    font-size: 90px;
+    font-weight: 300;
+}
+
+
+/* .bg-wrapper {
+    background-image: url("../img/bg-slidetext.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* #landdingpage img {
+    height: max-content;
+}
+.fill-text {
+    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title-text {
+    font-size: 52px;
+}
+.reward-text {
+    font-size: 40px;
+} */

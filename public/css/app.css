@@ -1,0 +1,86 @@
+@import "landding.css";
+img {
+    width: 100%;
+}
+html {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+body {
+    font-family: Kanit;
+    font-style: normal;
+    background-image: url("../img/BGzonelotto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+#body-head {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+.bg-wrapper {
+    background-image: url("../img/bg-slidetext.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 7px;
+}
+.fill-text {
+    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.announce-text {
+    font-size: 25px;
+}
+marquee {
+    color: #fff;
+}
+marquee > b {
+    color: #378A75;
+}
+.title-text {
+    font-size: 52px;
+}
+.reward-text {
+    font-size: 40px;
+}
+
+/* Regular Style */
+.w-0 {
+    width: unset;
+}
+.text-justify {
+    text-align: justify;
+}
+.t-right {
+    text-align: right;
+}
+.t-left {
+    text-align: left;
+}

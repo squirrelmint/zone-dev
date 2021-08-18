@@ -44,6 +44,10 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 .bg-wrapper {
     background-image: url("../img/bg-slidetext.png");
     background-repeat: no-repeat;
@@ -56,9 +60,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 .fill-text2 {
-    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: #FFEEC9;
 }
 .announce-text {
     font-size: 25px;
@@ -71,6 +73,10 @@ marquee > b {
 }
 .title-text {
     font-size: 52px;
+}
+.title-text-2 {
+    font-size: 22px;
+    font-weight: 600;
 }
 .reward-text {
     font-size: 40px;

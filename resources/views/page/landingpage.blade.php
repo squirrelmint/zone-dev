@@ -44,8 +44,8 @@
                 <a href="{{route('Landingpage.promotion')}}">
                     <img src="{{asset('img/btn-promotion.png')}}" alt="">
                 </a>
-                <a href="{{route('Landingpage.contract')}}">
-                    <img src="{{asset('img/btn-contract.png')}}" alt="">
+                <a href="{{route('Landingpage.contact')}}">
+                    <img src="{{asset('img/btn-contact.png')}}" alt="">
                 </a>
             </div>
         </div>
@@ -401,33 +401,135 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-2">
-                    <div class="col-2 pe-0">
-                        <img src="{{asset('img/pop-yeekee.png')}}" alt="">
-                    </div>
-                    <div class="col-4 px-0 py-1">
-                        <div class="bg-fade2 padding-x-2 padding-y-2">
-                            <h6 class="">ddddd</h6>
+                <div class="row">
+                    <div class="row row-cols-2 pe-0">
+                        <div class="col-6 pe-0">
+                            <div class="bg-fade2 d-flex">
+                                <div class="col-4">
+                                    <img src="{{asset('img/pop-yeekee.png')}}" alt="">
+                                </div>
+                                <div class="col-8 padding-x-2 padding-y-2 pb-1">
+                                    <h6 class="title-text-2 fill-text2 mb-0">หวยยี่กี หวยยี่กี</h6>
+                                <p class="t-white mb-0"> หวยจับยี่กีออนไลน์ หรือ อีกชื่อนึงคือหวยปิงปอง เป็น การเลือกซื้อหวยออนไลน์อีกรูปแบบ ที่กำลังเป็นที่ชื่น ชอบและเป็นที่นิยมเป็นอย่างมากในกลุ่มคอหวย หวย ปิงปอง (ยี่กี) นี้ สามารถแทงได้ทุกๆ 15 นาที ใน 1 วัน สามารถซื้อยี่กีนี้ได้ถึง 88 ครั้งเลยทีเดียว</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 pe-0 ps-0">
+                            <div class="bg-fade2 d-flex">
+                                <div class="col-4">
+                                    <img src="{{asset('img/pop-laos.png')}}" alt="">
+                                </div>
+                                <div class="col-8 padding-x-2 padding-y-2 pb-1">
+                                    <h6 class="title-text-2 fill-text2 mb-0">หวยลาว</h6>
+                                <p class="t-white mb-0"> หวยลาวเป็นหนึ่งในหวยต่างประเทศที่คนนิยมเล่นกัน มาก โดยเฉพาะในรูปแบบ หวยออนไลน์ เข้าเล่นง่ายและ สามารถแทงผ่านออนไลน์ได้บ่อยกว่าหวยรัฐบาลไทย</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-2 pe-0">
-                        <img src="{{asset('img/pop-laos.png')}}" alt="">
-                    </div>
-                    <div class="col-4 px-0">ssss</div>
                 </div>
                 <div class="margin-y-2 mb-0"></div>
-                <div class="row row-cols-2">
-                    <div class="col-2 pe-0">
-                        <img src="{{asset('img/pop-thai.png')}}" alt="">
+                <div class="row">
+                    <div class="row row-cols-2 pe-0">
+                        <div class="col-6 pe-0">
+                            <div class="bg-fade2 d-flex">
+                                <div class="col-4">
+                                    <img src="{{asset('img/pop-thai.png')}}" alt="">
+                                </div>
+                                <div class="col-8 padding-x-2 padding-y-2 pb-1">
+                                    <h6 class="title-text-2 fill-text2 mb-0">หวยรัฐบาล</h6>
+                                <p class="t-white mb-0">เป็นหวยที่นิยมมากที่สุด หวยรัฐบาล ในหนึ่งเดือน สามารถแทงได้สองรอบ คือ งวดวันที่ 1 และงวด วันที่ 16 ของทุกเดือน ตามวันที่ออกผลการออก สลากกินแบ่งรัฐบาล</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 pe-0 ps-0">
+                            <div class="bg-fade2 d-flex">
+                                <div class="col-4">
+                                    <img src="{{asset('img/pop-stock.png')}}" alt="">
+                                </div>
+                                <div class="col-8 padding-x-2 padding-y-2 pb-1">
+                                    <h6 class="title-text-2 fill-text2 mb-0">หวยหุ้น</h6>
+                                <p class="t-white mb-0">หวยหุ้นคือเล่นทายผลตัวเลขที่อิงผลการออกรางวัล จากตลาดหลักทรัพย์ ทั้งหุ้นไทย และหุ้นต่างประเทศ ที่สามารถเล่นได้ทุกที่ เป็นหวยที่กำลังนิยมกันมากใน ปัจจุบัน ง่าย สะดวก ปลอดภัย</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-4 px-0">ssss</div>
-                    <div class="col-2 pe-0">
-                        <img src="{{asset('img/pop-stock.png')}}" alt="">
+                </div>
+                <div class="margin-y-6 mt-0"></div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="bg-box-footer">
+                            <h5 class="title-text fw-light fill-text mb-0">เกี่ยวกับเรา</h5>
+                            <hr class="mt-0 fill-text2">
+                            <p class="mb-0 t-white text-justify">เรามีทีมงานมืออาชีพ ที่คอยดูแลท่านดั่ง VIP ตลอด 24
+                                ชั่วโมง จึงเชื่อใจได้ว่าเรามีระบบที่มีคุณภาพระดับโลกและ
+                                การดูแลที่เป็นเลิศ เพื่อคุณ เรามีหวยต่างๆมากมาย หวย
+                                รัฐบาลไทย หวยลาว หวยหุ้นไทย หุ้นดาวน์โจนส์ หุ้นนิเคอิ
+                                หุ้นฮั่งเส็ง หุ้นสิงคโปร์ หุ้นเกาหลีหุ้นจีน หุ้นไต้หวัน หวย
+                                เวียดนาม หวยมาเลย์ หวยยี่กีที่นิยม ที่สุดในประเทศไทย
+                                ออกทุก 15 นาที วันละ 88 รอบ และ หวยยี่กี 264 รอบ
+                                ออกผลทุก 5 นาที</p>
+                        </div>
                     </div>
-                    <div class="col-4 px-0">ssss</div>
+                    <div class="col-4">
+                        <div class="bg-box-footer">
+                            <h5 class="title-text fw-light fill-text mb-0">ฝาก - ถอน 24 ชม.</h5>
+                            <hr class="mt-0 fill-text2">
+                            <p class="mb-0 t-white">ผ่านธนาคารชั้นนำของไทย โอนไว จ่ายเต็ม มั่นใจ 100%</p>
+                            <div class="mt-3"></div>
+                            <div class="row px-3">
+                                <div class="col-3 text-center">
+                                    <img class="w-auto" src="{{asset('img/kbank.png')}}" alt="">
+                                </div>
+                                <div class="col-3 text-center">
+                                    <img class="w-auto" src="{{asset('img/scb.png')}}" alt="">
+                                </div>
+                                <div class="col-3 text-center">
+                                    <img class="w-auto" src="{{asset('img/ktb.png')}}" alt="">
+                                </div>
+                                <div class="col-3 text-center">
+                                    <img class="w-auto" src="{{asset('img/kungsi.png')}}" alt="">
+                                </div>
+                            </div>
+                            <div class="mt-4"></div>
+                            <div class="col mb-2 px-3">
+                                <img class="w-auto" src="{{asset('img/tmb.png')}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-box-footer">
+                            <h5 class="title-text fw-light fill-text mb-0">เกี่ยวกับเรา</h5>
+                            <hr class="mt-0 fill-text2">
+                            <p class="mb-0 t-white">สอบถามหรือแจ้งปัญหากับทางเว็บไซต์ได้ตลอด 24 ชม.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="margin-y-6 mb-0"></div>
+            <div class="footer text-center">
+                <div class="row row-cols-5 t-white justify-content-center">
+                    <div class="col-auto">
+                        <a class="t-white" href="">สมัครสมาชิก</a>
+                    </div>
+                    |
+                    <div class="col-auto">
+                        <a class="t-white" href="">เข้าแทงหวย</a>
+                    </div>
+                    |
+                    <div class="col-auto">
+                        <a class="t-white" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
+                    </div>
+                    |
+                    <div class="col-auto">
+                        <a class="t-white" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
+                    </div>
+                    |
+                    <div class="col-auto">
+                        <a class="t-white" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
+                    </div>
+                </div>
+                <p class="t-white">Copyright © 2020 amblotto.com All right reserved.</p>
+            </div>
         </div>
-    </div>
 </body>
 </html>

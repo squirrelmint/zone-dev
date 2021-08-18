@@ -13,7 +13,7 @@
 }
 
 #body-content .page-content {
-    padding: 0 325px;
+    padding: 0 325px 60px 325px;
 }
 .bg-content {
     background-image: url("../img/bg-content.png");
@@ -141,10 +141,31 @@
     top:50%;
     transform: translateY(-50%);
 }
+.pop-yeekee {
+    background-image: url("../img/pop-yeekee.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 .bg-fade2 {
     background-image: url("../img/bg-fade2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.bg-fade2 p {
+    font-size: 18px;
+}
+.bg-box-footer {
+    background-image: url("../img/bgbox-footer.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10px;
+    min-height: 320px;
+}
+.bg-box-footer hr {
+    height: 2px;
+}
+.bg-box-footer p {
+    font-size: 18px;
 }
 /* .bg-wrapper {
     background-image: url("../img/bg-slidetext.png");

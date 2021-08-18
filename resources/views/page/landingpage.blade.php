@@ -123,21 +123,21 @@
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/2bacc.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/3gsb.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/4laos4x.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/4laos.png')}}" alt="">
                 </a>
             </div>
         </div>
@@ -147,28 +147,28 @@
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/5hanoy.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/6malay.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/7yeekee.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/8pingpong.png')}}" alt="">
                 </a>
             </div>
         </div>
@@ -178,28 +178,28 @@
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/9stocksingapore.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/10stockthai.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/11stocknikkei.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/12stockchina.png')}}" alt="">
                 </a>
             </div>
         </div>
@@ -209,28 +209,28 @@
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/13stockhangseng.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/14stockkorea.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/15stocktaiwan.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/16stockindia.png')}}" alt="">
                 </a>
             </div>
         </div>
@@ -240,28 +240,28 @@
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/17stockgerman.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/18stockeng.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/19stockdownjones.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/20stockrussia.png')}}" alt="">
                 </a>
             </div>
         </div>
@@ -271,10 +271,99 @@
         <div class="col pe-0">
             <div class="bg-border">
                 <a href="">
-                    <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
+                    <img src="{{asset('img/lotto-icon/21stockegypt.png')}}" alt="">
                 </a>
             </div>
         </div>
     </div>
+</div>
+<div class="mt-3"></div>
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex align-items-baseline">
+            <img class="me-2 w-0 align-self-center" src="{{asset('img/icon-lotto.png')}}" alt="">
+            <div class="title-text fill-text">เว็บแทงหวยออนไลน์ที่ดีที่สุด</div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="bg-fade">
+            <div class="row row-cols-2">
+                <div class="col-6 padding-x-5 padding-y-5 pe-0">
+                    <ul>
+                        <li class="t-white">
+                            เราเป็นทีมงานโดยตรงในไทย สามารถตอบคำถามและช่วยเหลือได้ตลอด
+                        </li>
+                        <li class="t-white">
+                            หมดปัญหาการถูกโกง จ่ายแน่นอนการันตี 100%
+                        </li>
+                        <li class="t-white">
+                            สมัครสมาชิกกับเราและแนะนำเพื่อนรับทันที จากยอดที่เพื่อนเแทง
+                        </li>
+                        <li class="t-white">
+                            มีหวยให้ลุ้นทุกวัน แจกรางวัลกิจกรรมประจำ มีทีมงานออนไลน์ตลอด 24 ชั่วโมง
+                        </li>
+                        <li class="t-white">
+                            สมัครครั้งเดียว รับสิทธิ์ลุ้นของรางวัลมากมายมีโปรโมชั่นตลอด
+                        </li>
+                        <li class="t-white">
+                            ระบบฝาก – ถอน ปลอดภัย รวดเร็ว ไว้ใจได้ โอนไวด้วยระบบอัตโนมัติ
+
+                        </li>
+                        <li class="t-white">
+                            เราเปิดให้เล่นหวยทุกชนิด จับยี่กี หวยรัฐบาล หวยลาว ฮานอย หวยหุ้นไทย
+                        </li>
+                        <li class="t-white">
+                            หวยหุ้นต่างประเทศ และอื่นๆ
+                        </li>
+                        <li class="t-white">
+                            เว็บภาษาไทย เข้าใจง่าย และเล่นผ่านมือถือได้ทุกที่ ที่ต้องการ
+                        </li>
+                        <li class="t-white">
+                            เว็บไซต์มีความปลอดภัย สามารถเข้าเล่นได้โดยไร้กังวล
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <div class="set-image relative">
+                        <img class="absolute" src="{{asset('img/ban1.png')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mt-4"></div>
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex align-items-baseline">
+            <img class="me-2 w-0 align-self-center" src="{{asset('img/icon-lotto.png')}}" alt="">
+            <div class="title-text fill-text">หวยออนไลน์ยอดนิยมในไทย</div>
+        </div>
+    </div>
+</div>
+<div class="row row-cols-2">
+    <div class="col-2 pe-0">
+        <img src="{{asset('img/pop-yeekee.png')}}" alt="">
+    </div>
+    <div class="col-4 px-0 py-1">
+        <div class="bg-fade2 padding-x-2 padding-y-2">
+            <h6 class=""></h6>
+        </div>
+    </div>
+    <div class="col-2 pe-0">
+        <img src="{{asset('img/pop-laos.png')}}" alt="">
+    </div>
+    <div class="col-4 px-0">ssss</div>
+</div>
+<div class="margin-y-2 mb-0"></div>
+<div class="row row-cols-2">
+    <div class="col-2 pe-0">
+        <img src="{{asset('img/pop-thai.png')}}" alt="">
+    </div>
+    <div class="col-4 px-0">ssss</div>
+    <div class="col-2 pe-0">
+        <img src="{{asset('img/pop-stock.png')}}" alt="">
+    </div>
+    <div class="col-4 px-0">ssss</div>
 </div>
 @endsection

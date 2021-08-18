@@ -55,6 +55,11 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.fill-text2 {
+    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .announce-text {
     font-size: 25px;
 }
@@ -131,4 +136,58 @@ marquee > b {
 .padding-x-6 {
     padding-left: 30px;
     padding-right: 30px;
+}
+.margin-x-1 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.margin-x-2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.margin-x-3 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.margin-x-4 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.margin-x-5 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.margin-x-6 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.margin-y-1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.margin-y-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.margin-y-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.margin-y-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-y-5 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.margin-y-6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
 }

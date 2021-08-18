@@ -17,4 +17,4 @@ use App\Http\Controllers\Controller;
 Route::get('/', [Controller::class, 'index'])->name('Landingpage.index');
 Route::get('/rewardlotto', [Controller::class, 'rewardlotto'])->name('Landingpage.rewardlotto');
 Route::get('/promotion', [Controller::class, 'promotion'])->name('Landingpage.promotion');
-Route::get('/contract', [Controller::class, 'contract'])->name('Landingpage.contract');
+Route::get('/contact', [Controller::class, 'contact'])->name('Landingpage.contact');

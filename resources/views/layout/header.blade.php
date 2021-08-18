@@ -18,6 +18,38 @@
     <title>ZoneDev</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg zone-navbar-top">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto zone-navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link zone-nav-link" href="#"> 
+                        <span class='icon-home'></span> หน้าแรก
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zone-nav-link" href="#"> 
+                        <span class='icon-register'></span> สมัครสมาชิก
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zone-nav-link" href="#"> 
+                        <span class='icon-gift'></span> วิธีเช็ครางวัลหวย
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zone-nav-link" href="#"> 
+                        <span class='icon-promotion'></span> โปรโมชั่น
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link zone-nav-link" href="#"> 
+                        <span class='icon-contact'></span> ติดต่อเรา
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div id="body-head">
         <img src="{{asset('img/Header.png')}}" alt="">
     </div>
@@ -31,10 +63,7 @@
                     <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                 </div>
                 <div class="mt-3"></div>
-                @yield('content_rewardlotto')
-                @yield('content_promotion')
-                @yield('content_contract')
-            </div>
+                @yield('content')
         </div>
     </div>
 </body>

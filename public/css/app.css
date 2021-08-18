@@ -1,4 +1,6 @@
 @import "landding.css";
+@import "contact.css";
+
 img {
     width: 100%;
 }
@@ -49,6 +51,7 @@ a {
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 7px;
+    height: 76px;
 }
 .fill-text {
     background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
@@ -190,4 +193,52 @@ marquee > b {
 }
 .absolute {
     position: absolute;
+}
+
+/* zone */
+.zone-background {
+    background: linear-gradient(360deg, #1C493E 0%, #378A75 100%);
+    position: relative;
+    box-sizing: border-box;
+    color: #FFF;
+    background-clip: padding-box;
+    border: solid 3px transparent;
+    border-radius: 5px;
+}
+
+.zone-background:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -3px;
+    /* !importanté */
+    border-radius: inherit;
+    /* !importanté */
+    background: linear-gradient(to bottom, #FDEEC8, #8D7748);
+}
+.zone-content {
+    /* margin-right: 5px; */
+}
+.zone-sidebar-right {
+    padding-right: 0;
+}
+
+.zone-border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.zone-border-gradient-gold {
+    border-image-source: linear-gradient(to bottom, #FDEEC8, #8D7748);
+    border-radius: 5px;
+}
+.zone-content p {
+    font-size: 18px; 
+    line-height: 26.91px;
+    font-weight: 300;
 }

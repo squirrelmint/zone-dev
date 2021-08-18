@@ -1,0 +1,119 @@
+.zone-navbar-top {
+    position: fixed;
+    background: linear-gradient(360deg, #0F0F0F 0%, #3F3F3F 100%);
+    height: 71px;
+    width: 100%;;
+    z-index: 1;
+}
+.zone-navbar-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.zone-navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+.zone-navbar-nav .zone-nav-link {
+    display: flex;
+    vertical-align: middle;
+    color: #6EEAA6;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    align-items: center;
+    text-align: center;
+    padding: 13px 32px !important;
+}
+.zone-contact-title {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    line-height: 75px;
+}
+.zone-contact-line {
+    margin-top: 10px;
+}
+.zone-contact-qr {
+    margin: 2em 20%;
+}
+.zone-head-contact {
+    display: flex;
+    background: linear-gradient(360deg, #1C493E 0%, #378A75 100%);
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 37.38px;
+    padding: 13px 8px;
+}
+ul.zone-sidebar-contact {
+    list-style-image: url('../img/lotto-icon/arrow-rigth.png');
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul.zone-sidebar-contact>li {
+    vertical-align: middle;
+    padding: 10px 5px;
+}
+.zone-sidebar-link {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 10px;
+    vertical-align: top;
+}
+
+/* icon */
+span.icon-home {
+    background: url('../img/lotto-icon/home.png');
+    height: 34px;
+    width: 34px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+}
+span.icon-register {
+    background: url('../img/lotto-icon/register.png');
+    height: 36px;
+    width: 33px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+}
+span.icon-gift {
+    background: url('../img/lotto-icon/gift.png');
+    height: 33px;
+    width: 35px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+}
+span.icon-promotion {
+    background: url('../img/lotto-icon/promotion.png');
+    height: 34px;
+    width: 38px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+}
+span.icon-contact {
+    background: url('../img/lotto-icon/contact.png');
+    height: 35px;
+    width: 30px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+}
+span.icon-contact-lotto {
+    background: url('../img/lotto-icon/contact-lotto.png') no-repeat;
+    height: 35px;
+    width: 37px;
+    background-size: 100%;
+    display: inline-block;
+    margin-right: 8px;
+}
+

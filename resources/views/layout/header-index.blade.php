@@ -44,7 +44,7 @@
                 <a href="{{route('Landingpage.promotion')}}">
                     <img src="{{asset('img/btn-promotion.png')}}" alt="">
                 </a>
-                <a href="{{route('Landingpage.contract')}}">
+                <a href="{{route('Landingpage.contact')}}">
                     <img src="{{asset('img/btn-contract.png')}}" alt="">
                 </a>
             </div>

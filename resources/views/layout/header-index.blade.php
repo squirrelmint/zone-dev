@@ -19,33 +19,33 @@
 </head>
 <body>
     <div id="body-head">
-        <img src="img/Header.png" alt="">
+        <img src="{{asset('img/Header.png')}}" alt="">
         <div class="navbar-top">
             <div class="menu d-flex justify-content-center">
                 <a href="https://www.google.com/">
-                    <img src="img/btn-regis.png" alt="">
+                    <img src="{{asset('img/btn-regis.png')}}" alt="">
                 </a>
                 <a href="https://www.facebook.com/">
-                    <img src="img/btn-lotto.png" alt="">
+                    <img src="{{asset('img/btn-lotto.png')}}" alt="">
                 </a>
             </div>
         </div>
         <div class="navbar-bottom w-100">
             <div class="sub-menu d-flex justify-content-center">
                 <a href="{{route('Landingpage.index')}}">
-                    <img src="img/btn-home.png" alt="">
+                    <img src="{{asset('img/btn-home.png')}}" alt="">
                 </a>
                 <a href="">
-                    <img src="img/btn-regis2.png" alt="">
+                    <img src="{{asset('img/btn-regis2.png')}}" alt="">
                 </a>
                 <a href="{{route('Landingpage.rewardlotto')}}">
-                    <img src="img/btn-howplay.png" alt="">
+                    <img src="{{asset('img/btn-howplay.png')}}" alt="">
                 </a>
                 <a href="{{route('Landingpage.promotion')}}">
-                    <img src="img/btn-promotion.png" alt="">
+                    <img src="{{asset('img/btn-promotion.png')}}" alt="">
                 </a>
                 <a href="{{route('Landingpage.contract')}}">
-                    <img src="img/btn-contract.png" alt="">
+                    <img src="{{asset('img/btn-contract.png')}}" alt="">
                 </a>
             </div>
         </div>

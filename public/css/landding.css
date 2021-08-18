@@ -33,8 +33,8 @@
 .bg-reward {
     background-image: url("../img/bg-reward.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2px;
+    background-size: 100% 100%;
+    padding: 2px 2px 32px 2px;
 }
 .bg-green {
     background-color: #378A75;
@@ -95,8 +95,34 @@
     font-size: 90px;
     font-weight: 300;
 }
-
-
+.col-pro.col-edit {
+    width: 100%;
+}
+.foot-ban {
+    background-image: url("../img/foot-ban.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.foot-ban .text-area {
+    padding-right: 78px;
+}
+.foot-ban h1 {
+    color:#6EEAA6;
+    font-weight: 400;
+    font-size: 45px;
+}
+.foot-ban p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: -1px;
+    letter-spacing: 0.004em;
+}
+.bg-border {
+    background-image: url("../img/border-lotto.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2px;
+}
 /* .bg-wrapper {
     background-image: url("../img/bg-slidetext.png");
     background-repeat: no-repeat;

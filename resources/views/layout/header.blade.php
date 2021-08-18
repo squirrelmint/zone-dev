@@ -19,7 +19,7 @@
 </head>
 <body>
     <div id="body-head">
-        <img src="img/Header.png" alt="">
+        <img src="{{asset('img/Header.png')}}" alt="">
     </div>
     <div id="body-content">
         <div class="page-content">

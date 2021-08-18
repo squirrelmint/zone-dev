@@ -121,7 +121,29 @@
     background-image: url("../img/border-lotto.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 2px;
+    padding: 3px 1px 3px 3px;
+}
+.bg-fade {
+    background-image: url("../img/bg-fade.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg-fade li {
+    font-size: 20px;
+}
+.set-image {
+    width: 100%;
+    height: 296px;
+}
+.set-image img {
+    width: 36.0375vmax;
+    top:50%;
+    transform: translateY(-50%);
+}
+.bg-fade2 {
+    background-image: url("../img/bg-fade2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 /* .bg-wrapper {
     background-image: url("../img/bg-slidetext.png");

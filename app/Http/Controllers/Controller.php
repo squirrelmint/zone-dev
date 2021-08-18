@@ -24,6 +24,6 @@ class Controller extends BaseController
     }
     public function contract()
     {
-        return view('page.contract');
+        return view('page.contact');
     }
 }

@@ -248,3 +248,7 @@ marquee > b {
     line-height: 26.91px;
     font-weight: 300;
 }
+.zone-footer-content {
+    padding-top: 38px;
+    padding-bottom: 25px;
+}

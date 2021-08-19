@@ -23,13 +23,13 @@
         <div class="navbar-top">
             <div class="menu d-flex justify-content-center">
                 <div class="btn-link-regis">
-                    <a class="d-flex align-items-center justify-content-center" href="">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="">
                         <img src="{{asset('img/icon-regis.png')}}">
                         <div>สมัครสมาชิก</div>
                     </a>
                 </div>
                 <div class="btn-link-intolotto">
-                    <a class="d-flex align-items-center justify-content-center" href="">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="">
                         <img src="{{asset('img/icon-intolotto.png')}}">
                         <div>เข้าแทงหวย</div>
                     </a>
@@ -43,19 +43,57 @@
             </div>
         </div>
         <div class="navbar-bottom w-100">
-            <div class="row row-cols-5">
-                <div class="col-auto">
+            <div class="row row-cols-5 mx-0 justify-content-center">
+                <div class="col-auto  px-0">
                     <div class="bg-gold-border1 link-home">
-                        <div class="bg-link-brown d-flex align-items-center justify-content-center">
-                            <img src="{{asset('img/.png')}}" alt="">
-                            <h3 class="text-center mb-0 fill-text">หน้าแรก</h3>
+                        <div class="bg-link-brown link-bg-hover">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="{{route('Landingpage.index')}}">
+                                <img src="{{asset('img/icon-home.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text fill-text-hover">หน้าแรก</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-auto"></div>
-                <div class="col-auto"></div>
-                <div class="col-auto"></div>
-                <div class="col-auto"></div>
+                <div class="col-auto px-0">
+                    <div class="bg-gold-border1 link-regis">
+                        <div class="bg-link-brown link-bg-hover">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                                <img src="{{asset('img/icon-regis2.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text fill-text-hover">สมัครสมาชิก</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto px-0">
+                    <div class="bg-gold-border1 link-reward">
+                        <div class="bg-link-brown link-bg-hover">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                                <img src="{{asset('img/icon-reward.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto px-0">
+                    <div class="bg-gold-border1 link-promotion">
+                        <div class="bg-link-brown link-bg-hover">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                                <img src="{{asset('img/icon-promotion2.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text fill-text-hover">โปรโมชั่น</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto px-0">
+                    <div class="bg-gold-border1 link-contact">
+                        <div class="bg-link-brown link-bg-hover">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                                <img src="{{asset('img/icon-contact.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text">ติดต่อเรา</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             {{-- <div class="sub-menu d-flex justify-content-center">
                 <a href="{{route('Landingpage.index')}}">
@@ -544,7 +582,7 @@
             </div>
             <div class="margin-y-6 mb-0"></div>
             <div class="footer text-center">
-                <div class="row row-cols-5 t-white justify-content-center">
+                <div class="row row-cols-5 mx-0 t-white justify-content-center">
                     <div class="col-auto">
                         <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
                     </div>
@@ -568,6 +606,7 @@
                 <p class="t-white">Copyright © 2021 amblotto.com All right reserved.</p>
             </div>
         </div>
+    </div>
 </body>
 <script>
     // function hover(thai) {

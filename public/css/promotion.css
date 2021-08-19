@@ -1,0 +1,10 @@
+.zone-promotion {
+    padding: 15px;
+}
+.zone-promotion img:first-child {
+    margin-top: 0px;
+}
+.zone-promotion img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

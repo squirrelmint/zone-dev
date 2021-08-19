@@ -1,0 +1,31 @@
+.zone-reward {
+    padding: 30px;
+}
+.zone-reward .zone-contact-title-gradient {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 52px;
+    background: linear-gradient(90deg, #AE8625 0%, #F7EF8A 36.46%, #D2AC47 79.69%, #EDC967 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.zone-reward .zone-contact-title {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #ffffff;
+    margin: 0;
+}
+.zone-reward p {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.002em;
+    font-weight: 300;
+}
+.zone-reward ul li {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.002em;
+    font-weight: 300;
+}

@@ -1,7 +1,7 @@
 @extends('layout.header')
 @section('content')
 
-            <div class="col-md-9 col-sm-12 zone-background zone-content text-center">
+            <div class="col-md-9 col-sm-12 zone-background zone-contact zone-content text-center">
                 <h1 class="zone-contact-title">ติดต่อเรา</h1>
                 <p class="text-center">
                     หากมีปัญหาเรื่องการเติมเงินไม่เข้า หรือ สอบถามรายละเอียดเกี่ยวกับ การแทงหวย<br>

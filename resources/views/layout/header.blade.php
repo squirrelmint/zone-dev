@@ -22,27 +22,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto zone-navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link zone-nav-link" href="#"> 
+                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.index')}}">
                         <span class='icon-home'></span> หน้าแรก
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="#"> 
+                    <a class="nav-link zone-nav-link" href="#">
                         <span class='icon-register'></span> สมัครสมาชิก
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="#"> 
+                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.rewardlotto')}}">
                         <span class='icon-gift'></span> วิธีเช็ครางวัลหวย
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="#"> 
+                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.promotion')}}">
                         <span class='icon-promotion'></span> โปรโมชั่น
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="#"> 
+                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.contact')}}">
                         <span class='icon-contact'></span> ติดต่อเรา
                     </a>
                 </li>
@@ -78,23 +78,23 @@
                     <div class="footer zone-footer-content zone-background zone-content justify-content-center text-center mb-4">
                         <div class="row row-cols-5 t-white justify-content-center">
                             <div class="col-auto">
-                                <a class="t-white" href="">สมัครสมาชิก</a>
+                                <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
                             </div>
                             |
                             <div class="col-auto">
-                                <a class="t-white" href="">เข้าแทงหวย</a>
+                                <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
                             </div>
                             |
                             <div class="col-auto">
-                                <a class="t-white" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
+                                <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                             </div>
                             |
                             <div class="col-auto">
-                                <a class="t-white" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
+                                <a class="t-white fill-hover" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
                             </div>
                             |
                             <div class="col-auto">
-                                <a class="t-white" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
+                                <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                             </div>
                         </div>
                         <p class="t-white m-0">Copyright © 2020 amblotto.com All right reserved.</p>

@@ -44,6 +44,7 @@ body {
     position: relative;
 }
 a {
+    color: #fff;
     text-decoration: none;
 }
 a:hover {
@@ -55,7 +56,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 7px;
-    height: 76px;
 }
 .fill-text {
     background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
@@ -64,6 +64,11 @@ a:hover {
 }
 .fill-text2 {
     color: #FFEEC9;
+}
+.fill-hover:hover {
+    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .announce-text {
     font-size: 25px;
@@ -226,13 +231,9 @@ marquee > b {
     /* !importanté */
     background: linear-gradient(to bottom, #FDEEC8, #8D7748);
 }
-.zone-content {
-    /* margin-right: 5px; */
-}
 .zone-sidebar-right {
     padding-right: 0;
 }
-
 .zone-border-gradient {
     border: 10px solid;
     border-image-slice: 1;
@@ -244,7 +245,7 @@ marquee > b {
     border-radius: 5px;
 }
 .zone-content p {
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 26.91px;
     font-weight: 300;
 }

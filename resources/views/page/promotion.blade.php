@@ -1,4 +1,8 @@
 @extends('layout.header')
-@section('content_promotion')
-    <h1 style="font-size:100px;color:#fff">Promotion</h1>
+@section('content')
+            <div class="col-md-9 col-sm-12 zone-background zone-content zone-promotion text-center">
+                <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
+                <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
+                <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
+            </div>     
 @endsection

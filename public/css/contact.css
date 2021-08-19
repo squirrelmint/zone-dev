@@ -28,7 +28,7 @@
     text-align: center;
     padding: 13px 32px !important;
 }
-.zone-contact-title {
+.zone-contact .zone-contact-title {
     font-size: 50px;
     font-weight: 400;
     margin-top: 45px;
@@ -55,6 +55,9 @@ ul.zone-sidebar-contact {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+ul.zone-sidebar-contact li:hover {
+    list-style-image: url('../img/lotto-icon/arrow-rigth-hover.png');
+}
 ul.zone-sidebar-contact>li {
     vertical-align: middle;
     padding: 10px 5px;
@@ -65,6 +68,12 @@ ul.zone-sidebar-contact>li {
     color: #fff;
     line-height: 10px;
     vertical-align: top;
+}
+.zone-sidebar-link:hover {
+    font-weight: 400;
+    background: linear-gradient(360deg, #8F774A 0%, #CAA663 50.52%, #FFEEC9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* icon */

@@ -67,7 +67,7 @@
                 <div class="col-auto px-0">
                     <div class="bg-gold-border1 link-reward">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
@@ -77,7 +77,7 @@
                 <div class="col-auto px-0">
                     <div class="bg-gold-border1 link-promotion">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="{{route('Landingpage.promotion')}}">
                                 <img src="{{asset('img/icon-promotion2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">โปรโมชั่น</h3>
                             </a>
@@ -87,7 +87,7 @@
                 <div class="col-auto px-0">
                     <div class="bg-gold-border1 link-contact">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
                                 <img src="{{asset('img/icon-contact.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text">ติดต่อเรา</h3>
                             </a>

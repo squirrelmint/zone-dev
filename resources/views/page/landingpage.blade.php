@@ -22,16 +22,42 @@
         <img src="{{asset('img/Header.png')}}" alt="">
         <div class="navbar-top">
             <div class="menu d-flex justify-content-center">
-                <a href="https://www.google.com/">
-                    <img src="{{asset('img/btn-regis.png')}}" alt="">
+                <div class="btn-link-regis">
+                    <a class="d-flex align-items-center justify-content-center" href="">
+                        <img src="{{asset('img/icon-regis.png')}}">
+                        <div>สมัครสมาชิก</div>
+                    </a>
+                </div>
+                <div class="btn-link-intolotto">
+                    <a class="d-flex align-items-center justify-content-center" href="">
+                        <img src="{{asset('img/icon-intolotto.png')}}">
+                        <div>เข้าแทงหวย</div>
+                    </a>
+                </div>
+                {{-- <a href="https://www.google.com/">
+                    <img src="{{asset('img/btn-regis.png')}}" onmouseover="hover(this);" onmouseout="unhover(this);">
                 </a>
                 <a href="https://www.facebook.com/">
                     <img src="{{asset('img/btn-lotto.png')}}" alt="">
-                </a>
+                </a> --}}
             </div>
         </div>
         <div class="navbar-bottom w-100">
-            <div class="sub-menu d-flex justify-content-center">
+            <div class="row row-cols-5">
+                <div class="col-auto">
+                    <div class="bg-gold-border1 link-home">
+                        <div class="bg-link-brown d-flex align-items-center justify-content-center">
+                            <img src="{{asset('img/.png')}}" alt="">
+                            <h3 class="text-center mb-0 fill-text">หน้าแรก</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto"></div>
+                <div class="col-auto"></div>
+                <div class="col-auto"></div>
+                <div class="col-auto"></div>
+            </div>
+            {{-- <div class="sub-menu d-flex justify-content-center">
                 <a href="{{route('Landingpage.index')}}">
                     <img src="{{asset('img/btn-home.png')}}" alt="">
                 </a>
@@ -45,9 +71,9 @@
                     <img src="{{asset('img/btn-promotion.png')}}" alt="">
                 </a>
                 <a href="{{route('Landingpage.contact')}}">
-                    <img src="{{asset('img/btn-contact.png')}}" alt="">
+                    <img src="{{asset('img/btn-contract.png')}}" alt="">
                 </a>
-            </div>
+            </div> --}}
         </div>
     </div>
     <div id="body-content">
@@ -82,7 +108,7 @@
                 สำหรับสมาชิกใหม่ และสิทธิพิเศษมากมาย แจกเครดิตฟรีอย่างต่อเนื่อง</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 ps-0">
                         <div class="bg-reward">
                             <div class="row">
                                 <div class="col-12 t-white">
@@ -95,35 +121,44 @@
                                 <div class="col-12">
                                     <p class="text-center mb-0 mt-2 fill-text six-top">รางวัลที่ 1</p>
                                 </div>
-                                <div class="show-top6">
-                                    <div class="col-12">
-                                        <div class="bg-num6">
-                                            <p class="text-center mb-0 t-white">910261</p>
+                                <div class="col-12">
+                                    <div class="bg-gold-border2 bg-num6">
+                                        <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                            <h2 class="text-center mb-0 t-white">910261</h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
-                                <div class="col-6 d-flex flex-column">
-                                    <div class="col-12">
-                                        <p class="t-right mb-0 fill-text front3">เลขหน้า 3 ตัว</p>
-                                        <div class="bg-front3">
-                                            <p class="text-center mb-0 t-white front3">103,307</p>
+                                <div class="col-6 pe-0 d-flex flex-column">
+                                    <div class="col-12" style="padding-left:29px;">
+                                        <p class="t-left mb-0 fill-text front3">เลขหน้า 3 ตัว</p>
+                                        <div class="mt-1"></div>
+                                        <div class="bg-gold-border2 bg-front3">
+                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                <h3 class="text-center mb-0 t-white">103, 307</h3>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 mt-3">
-                                        <p class="t-right mb-0 fill-text back3">เลขท้าย 3 ตัว</p>
-                                        <div class="bg-back3">
-                                            <p class="text-center mb-0 t-white back3">910,261</p>
+                                    <div class="mt-3"></div>
+                                    <div class="col-12" style="padding-left:29px;">
+                                        <p class="t-left mb-0 fill-text back3">เลขท้าย 3 ตัว</p>
+                                        <div class="mt-1"></div>
+                                        <div class="bg-gold-border2 bg-back3">
+                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                <h3 class="text-center mb-0 t-white">910, 261</h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 d-flex flex-column">
+                                <div class="col-6 ps-0 d-flex flex-column">
                                     <div class="col-12">
                                         <p class="text-center mb-0 fill-text back2">ท้าย 2 ตัว</p>
-                                        <div class="bg-back2">
-                                            <p class="text-center mb-0 t-white back2">69</p>
-                                            <!-- <p class="text-center mb-0 t-white back2">69</p> -->
+                                        <div class="mt-1"></div>
+                                        <div class="bg-gold-border2 bg-back2" style="margin-left:23px">
+                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                <h1 class="text-center mb-0 t-white">69</h1>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -176,6 +211,8 @@
                         <div class="col pe-0">
                             <div class="bg-border">
                                 <a href="">
+                                    {{-- <div class="bg-btn-thai"></div> --}}
+                                    {{-- <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="" onmouseover="hover(this);" onmouseout="unhover(this);"> --}}
                                     <img src="{{asset('img/lotto-icon/1thai.png')}}" alt="">
                                 </a>
                             </div>
@@ -509,27 +546,36 @@
             <div class="footer text-center">
                 <div class="row row-cols-5 t-white justify-content-center">
                     <div class="col-auto">
-                        <a class="t-white" href="">สมัครสมาชิก</a>
+                        <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
                     </div>
                     |
                     <div class="col-auto">
-                        <a class="t-white" href="">เข้าแทงหวย</a>
+                        <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
                     </div>
                     |
                     <div class="col-auto">
-                        <a class="t-white" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
+                        <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                     </div>
                     |
                     <div class="col-auto">
-                        <a class="t-white" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
+                        <a class="t-white fill-hover" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
                     </div>
                     |
                     <div class="col-auto">
-                        <a class="t-white" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
+                        <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                     </div>
                 </div>
-                <p class="t-white">Copyright © 2020 amblotto.com All right reserved.</p>
+                <p class="t-white">Copyright © 2021 amblotto.com All right reserved.</p>
             </div>
         </div>
 </body>
+<script>
+    // function hover(thai) {
+    //     thai.setAttribute('src', "{{asset('img/lotto-icon/1thaihover.png')}}");
+    //     }
+
+    //     function unhover(thai) {
+    //         thai.setAttribute('src', "{{asset('img/lotto-icon/1thai.png')}}");
+    //     }
+</script>
 </html>

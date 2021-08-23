@@ -1,6 +1,6 @@
-
-            <div class="col-md-3 col-sm-12 zone-sidebar-right">
-                <div class="col-md-12 col-sm-12 zone-background mb-4">
+            <div class="mt-2 d-block d-lg-none"></div>
+            <div class="col-md-3 col-sm-12 padding-x2-m zone-sidebar-right">
+                <div class="col-md-12 col-sm-12 zone-background">
                     <div class="zone-contact-line">
                         <img src="{{asset('img/contact/line-add.png')}}" />
                     </div>
@@ -8,6 +8,7 @@
                         <img src="{{asset('img/contact/qr-code-line.png')}}" />
                     </div>
                 </div>
+                <div class="mt-2"></div>
                 <div class="col-md-12 col-sm-12 zone-background">
                     <div class="zone-head-contact">
                         <span class='icon-contact-lotto'></span> หวยออนไลน์ที่เปิดให้บริการ

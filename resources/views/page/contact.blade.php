@@ -1,7 +1,7 @@
 @extends('layout.header')
 @section('content')
 
-            <div class="col-md-9 col-sm-12 zone-background zone-contact zone-content text-center">
+            <div class="col-md-9 col-sm-12 padding-x2-m zone-background zone-contact zone-content text-center">
                 <h1 class="zone-contact-title">ติดต่อเรา</h1>
                 <p class="text-center">
                     หากมีปัญหาเรื่องการเติมเงินไม่เข้า หรือ สอบถามรายละเอียดเกี่ยวกับ การแทงหวย<br>
@@ -12,6 +12,6 @@
                     โทรศัพท์ : 098-772-9338<br>
                     Line : @chudjen111
                 </p>
-            </div>     
+            </div>
 
 @endsection

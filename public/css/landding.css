@@ -123,9 +123,6 @@
     font-weight: 400;
 
 }
-#body-content .page-content {
-    padding: 0px 16.9270833333vmax 60px 16.9270833333vmax;
-}
 .bg-content {
     background-image: url("../img/bg-content.png");
     background-repeat: no-repeat;
@@ -173,24 +170,22 @@
     border-radius: 5px;
     padding: 2px;
 }
+.padding-x-m {
+    padding: 0 29px;
+}
 .bg-content-green {
     border-radius: inherit;
     background: #378A75;
     width: 100%;
     height: 100%;
 }
-.bg-num6 {
-    width: 360px;
-    height: 65px;
-    margin: auto;
-}
 .bg-front3,
 .bg-back3 {
-    width: 157px;
+    width: 100%;
     height: 45px;
 }
 .bg-back2 {
-    width: 157px;
+    width: 100%;
     height: 156px;
 }
 .bg-num6 .bg-content-green h2 {
@@ -206,17 +201,7 @@
     font-size: 90px;
     font-weight: 300;
 }
-.bg-num6 {
-    background-image: url("../img/num6.png");
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
-    margin: 0 29px 0 29px;
-}
-.bg-num6 p {
-    font-size: 41px;
-    font-weight: 300;
-}
+
 .fill-text.front3,
 .fill-text.back3,
 .fill-text.back2 {
@@ -228,16 +213,27 @@
     font-size: 30px;
     font-weight: 300;
 }
-/* .bg-back2 {
-    width: 157px;
-    height: 156px;
-    margin: auto;
-    background-image: url("../img/back2.png");
-    background-repeat: no-repeat;
-} */
 .t-white.back2 {
     font-size: 90px;
     font-weight: 300;
+}
+.padding-y-m {
+    padding: 0 29px;
+}
+.padding-right-m {
+    padding: 0 23px 0 0;
+}
+.padding-left-m {
+    padding: 0 0 0 23px;
+}
+.margin-t-m {
+    margin-top: -50px;
+}
+.ban-promotion img{
+    height: 24.0104166667vmax;
+}
+.bg-qr img {
+    height: 20.2604166667vmax;
 }
 .col-pro.col-edit {
     width: 100%;
@@ -246,6 +242,8 @@
     background-image: url("../img/foot-ban.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding-top: 0.2604166667vmax;
+    padding-bottom: 0.2604166667vmax;
 }
 .foot-ban .text-area {
     padding-right: 78px;
@@ -320,39 +318,291 @@ img {
 .bg-fade2 p {
     font-size: 18px;
 }
-.bg-box-footer {
+.bg-fade3 {
+    background: linear-gradient(90deg, #378A75 0%, rgba(110, 234, 166, 0) 100%);
+}
+.bg-gold-border3 {
+    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+    border-radius: 5px;
+    padding: 2px;
+}
+.bg-foot-green {
+    background: linear-gradient(360deg, #1C493E 0%, #378A75 100%);
+    padding: 10px;
+    border-radius: inherit;
+}
+/* .bg-box-footer {
     background-image: url("../img/bgbox-footer.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 10px;
     min-height: 320px;
+} */
+.bg-foot-green hr {
+    height: 1px;
+    opacity: 1;
 }
-.bg-box-footer hr {
-    height: 2px;
-}
-.bg-box-footer p {
+.bg-foot-green p {
     font-size: 18px;
 }
 .footer a {
     font-size: 15px;
     font-weight: 400;
 }
-/* .bg-wrapper {
-    background-image: url("../img/bg-slidetext.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-/* #landdingpage img {
-    height: max-content;
+
+/* tablets */
+/*  */
+
+
+/* mobile */
+/*  */
+.header-mobile {
+    display: none;
 }
-.fill-text {
-    background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+@media (max-width: 767px) {
+    .navbar-top {
+        display: none;
+    }
+    .navbar-bottom {
+        position: relative;
+        left: 0;
+        transform: translateX(0%);
+    }
+    .header {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+        position: relative;
+        z-index: 10;
+    }
+    .bg-gold-border1 {
+        padding: 0 1px 1px 0;
+    }
+    .m-noborder {
+        padding: 0 0px 1px 0;
+    }
+    .link-home {
+        width: 100%;
+        height: 64px;
+        border-radius: 0;
+    }
+    .link-regis {
+        width: 100%;
+        height: 64px;
+    }
+    .link-reward {
+        width: 100%;
+        height: 64px;
+    }
+    .link-promotion {
+        width: 100%;
+        height: 64px;
+    }
+    .link-contact {
+        width: 100%;
+        height: 64px;
+        border-radius: 0;
+    }
+    .link-home img {
+        width: 25px;
+        height: 25px;
+        margin-right: 0;
+    }
+    .link-regis img {
+        width: 23px;
+        height: 25px;
+        margin-right: 0;
+    }
+    .link-reward img {
+        width: 47px;
+        height: 28px;
+        margin-right: 0;
+    }
+    .link-promotion img {
+        width: 32px;
+        height: 29px;
+        margin-right: 0;
+    }
+    .link-contact img {
+        width: 23px;
+        height: 29px;
+        margin-right: 0;
+    }
+    .bg-link-brown h3 {
+        font-size: 10px;
+    }
+    .bg-announce {
+        background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+        padding: 2px;
+        border-radius: 0 0 5px 5px;
+    }
+    .bg-announce .fill-black {
+        background: #000;
+        height: 25px;
+        padding: 0 2.5px;
+    }
+    .announce-mobile {
+        position: absolute;
+        z-index: 9;
+        top : 0;
+    }
+    .bg-green-border {
+        background: linear-gradient(#378A75,#6EEAA6);
+        padding: 2px;
+    }
+    .row.group-link .col-4:nth-child(2) .bg-green-border {
+        padding: 2px 1px 2px 1px;
+    }
+    .fill-black {
+        background: linear-gradient(360deg, #0F0F0F 0%, #3F3F3F 100%);
+        padding: 12px 9px;
+    }
+    .group-link .regis img {
+        width: 33px;
+        height: 36px;
+        margin-bottom: 3px;
+    }
+    .group-link .intolotto img {
+        width: 66px;
+        height: 39px;
+    }
+    .group-link .contact img {
+        width: 33px;
+        height: 39px;
+    }
+    .bg-content h1 {
+        font-size: 12px;
+    }
+    .bg-content p {
+        font-size: 9px;
+    }
+    .bg-content {
+        padding: 6px 31px 1px 10px;
+    }
+    .bg-green p {
+        font-size: 13px;
+    }
+    .fill-text.six-top {
+        font-size: 29px;
+    }
+    .bg-num6 .bg-content-green h2 {
+        font-size: 22px;
+    }
+    .fill-text.front3,
+    .fill-text.back3,
+    .fill-text.back2 {
+        font-size: 13px;
+    }
+    .bg-front3 .bg-content-green h3,
+    .bg-back3 .bg-content-green h3 {
+        font-size: 13px;
+    }
+    .bg-back2 .bg-content-green h1 {
+        font-size: 40px;
+    }
+    .bg-gold-border2 {
+        border-radius: 2px;
+    }
+    .bg-front3, .bg-back3 {
+        height: 19px;
+    }
+    .bg-back2 {
+        height: 69px;
+    }
+    .margin-top-m {
+        margin-top: .5rem !important;
+    }
+    .bg-reward {
+        margin: 0 61px 0 61px;
+    }
+    .bg-green.p {
+        padding: 12.4px 5px
+    }
+    .padding-x-m {
+        padding: 0 12px;
+    }
+    .padding-right-m {
+        padding: 0 12px 0 0;
+    }
+    .padding-left-m {
+        padding: 0 0 0 12px;
+    }
+    .margin-top2-m {
+        margin-top: 10px;
+    }
+    .ban-promotion {
+        width: 100%;
+    }
+    .bg-fade ul {
+        margin-bottom: .5rem;
+    }
+    .bg-fade li {
+        font-size: 5px;
+    }
+    .padding-xy-m {
+        padding: 15px 0px 2px 0px !important;
+    }
+    .set-image {
+        height: 100%;
+    }
+    .set-image img {
+        width: 27.4647887324vmax;
+    }
+    .foot-ban h1 {
+        font-size: 10px;
+    }
+    .foot-ban p {
+        font-size: 4.5px;
+        margin-bottom: .5rem;
+    }
+    .foot-ban .text-area {
+        padding-right: 100px;
+    }
+    .padding-left2-m {
+        padding-left: 10px !important;
+    }
+    .foot-ban h1 {
+        margin-bottom: .25rem !important;
+    }
+    .margin-bottom-m {
+        margin-bottom: .25rem !important;
+    }
+    .margin-top3-m {
+        margin-top: .25rem !important;
+    }
+    .t-white.details {
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .padding-xy2-m {
+        padding: 7px 10px 5px 10px !important;
+    }
+    .bg-foot-green {
+        padding: 5px;
+    }
+    .bg-foot-green p {
+        font-size: 6px;
+    }
+    .bg-foot-green hr {
+        margin: .25rem 0;
+    }
+    .size-m-img .kbank,
+    .size-m-img .scb,
+    .size-m-img .ktb,
+    .size-m-img .kungsi {
+        width: auto;
+        height: 22px;
+    }
+    .padding-x2-m {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer-mobile {
+        font-size: 10px;
+    }
+    .section-link {
+        margin: 0 5px;
+        color: #fff;
+    }
 }
-.title-text {
-    font-size: 52px;
-}
-.reward-text {
-    font-size: 40px;
-} */

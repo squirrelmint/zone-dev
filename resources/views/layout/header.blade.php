@@ -17,6 +17,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>ZoneDev</title>
 </head>
+<style>
+    body {
+        background-image: url("../img/BGzonelotto2.png");
+        background-position: unset;
+}
+@media (max-width: 767px) {
+    body {
+        background-image: url("../img/mobile/BGzonelotto-mobile.png");
+        background-position: center;
+    }
+}
+</style>
 <body>
     <nav class="navbar navbar-expand-lg zone-navbar-top">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">

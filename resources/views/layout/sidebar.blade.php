@@ -1,8 +1,8 @@
-            <div class="mt-2 d-block d-lg-none"></div>
+            <div class="mt-2 d-block d-md-none"></div>
             <div class="col-12 col-md-3 ps-0 padding-x3-m">
                 <div class="row">
 
-                    <div class="zone-sidebar-line col-md-12 col-sm-12">
+                    <div class="zone-sidebar-line col-md-12 col-sm-12 qr-pro">
                         <div class="zone-background">
                             <div class="zone-contact-line">
                                 <img src="{{asset('img/contact/line-add.png')}}" />

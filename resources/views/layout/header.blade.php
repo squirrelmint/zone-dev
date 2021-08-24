@@ -22,12 +22,11 @@
         background-image: url("../img/BGzonelotto2.png");
         background-position: unset;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     body {
         background-image: url("../img/mobile/BGzonelotto-mobile.png");
         background-position: center;
     }
-
 }
 @media (min-device-width: 991px) {
         .navbar-bottom {
@@ -102,8 +101,8 @@
                     @include('layout.sidebar')
                 </div>
             </div>
-            <div class="margin-y-6 d-block d-lg-none"></div>
-            <div class="footer-mobile d-block d-lg-none justify-content-center">
+            <div class="margin-y-6 d-block d-xxl-none"></div>
+            <div class="footer-mobile d-block d-xxl-none justify-content-center">
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
@@ -119,9 +118,33 @@
             </div>
         </div>
 
-        <footer class="d-none d-md-block">
-            <div class="container">
+        <footer class="d-none d-xxl-block">
+            <div class="container-fluid">
                 <div class="row">
+                    {{-- <div class="footer text-center d-none d-xxl-block">
+                        <div class="row footer text-center row-cols-5 row-cols-lg-5 mx-0 t-white justify-content-center">
+                            <div class="col col-xxl-auto d-flex pe-0">
+                                <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                                <div class="section-link">|</div>
+                            </div>
+                            <div class="col col-xxl-auto d-flex pe-0">
+                                <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                                <div class="section-link">|</div>
+                            </div>
+                            <div class="col col-xxl-auto d-flex pe-0">
+                                <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
+                                <div class="section-link">|</div>
+                            </div>
+                            <div class="col col-xxl-auto d-flex pe-0">
+                                <a class="t-white fill-hover" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
+                                <div class="section-link">|</div>
+                            </div>
+                            <div class="col col-xxl-auto d-flex pe-0">
+                                <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
+                            </div>
+                        </div>
+                        <p class="t-white">Copyright © 2021 amblotto.com All right reserved.</p>
+                    </div> --}}
                     <div class="footer zone-footer-content padding-x2-m zone-background zone-content justify-content-center text-center mb-4">
                         <div class="row row-cols-5 t-white justify-content-center">
                             <div class="col col-xxl-auto d-flex pe-0">

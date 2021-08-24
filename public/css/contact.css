@@ -22,7 +22,8 @@
     font-family: Kanit;
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.5625vmax;
     line-height: 45px;
     align-items: center;
     text-align: center;

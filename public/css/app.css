@@ -786,12 +786,37 @@ a:hover {
     .set-image {
         height: 80%;
     }
+    .bg-reward {
+        /* margin: 0 250px 0 250px; */
+        margin: 0 24.4140625vmin 0 24.4140625vmin;
+    }
+    .padding-left5-m {
+        padding-left: 3.125vmin !important;
+    }
+    .title-text-2 {
+        font-size: 2.9296875vmin;
+    }
+    .t-white.details {
+        /* font-size: 18px; */
+        font-size: 1.757813vmax;
+        font-weight: 400;
+    }
+    .title-text {
+        font-size: 3.41796875vmin;
+    }
+    .bg-foot-green p {
+        /* font-size: 11px; */
+        font-size: 1.07421875vmin;
+    }
     @media only screen and (max-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         .set-image img {
             right: 0;
+        }
+        .bg-foot-green p {
+            /* font-size: 13px; */
+            font-size: 1.26953125vmax;
         }
     }
 }

@@ -23,9 +23,15 @@ body {
         background-image: url("../img/BGzonelotto.png");
         background-position: unset;
     }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     body {
         background-image: url("../img/mobile/BGzonelotto-mobile.png");
+        background-position: center;
+    }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1399px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        background-image: url("../img/mobile/bg-x4.png");
         background-position: center;
     }
 }

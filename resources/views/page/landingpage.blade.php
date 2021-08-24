@@ -29,6 +29,7 @@ body {
         background-position: center;
     }
 }
+
 </style>
 <body>
     <div id="body-head">
@@ -54,7 +55,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-home">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.index')}}">
+                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.index')}}">
                                 <img src="{{asset('img/icon-home.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">หน้าแรก</h3>
                             </a>
@@ -64,7 +65,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-regis">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="">
                                 <img src="{{asset('img/icon-regis2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">สมัครสมาชิก</h3>
                             </a>
@@ -74,11 +75,11 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-reward">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center d-none d-lg-flex" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center d-none d-md-flex" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-block d-lg-none" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-md-none" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -88,7 +89,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-promotion">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.promotion')}}">
+                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.promotion')}}">
                                 <img src="{{asset('img/icon-promotion2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">โปรโมชั่น</h3>
                             </a>
@@ -98,7 +99,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-contact m-noborder">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
+                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
                                 <img src="{{asset('img/icon-contact.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">ติดต่อเรา</h3>
                             </a>
@@ -128,7 +129,7 @@ body {
                     </div>
                     <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                 </div>
-                <div class="row group-link d-flex d-lg-none" style="padding: 0 23px">
+                <div class="row group-link d-flex d-lg-none">
                     <div class="col-4 px-0">
                         <div class="bg-green-border h-100">
                             <div class="fill-black h-100">
@@ -646,23 +647,23 @@ body {
             <div class="margin-y-6 mb-0"></div>
             <div class="footer text-center d-none d-lg-block">
                 <div class="row footer text-center row-cols-5 row-cols-lg-5 mx-0 t-white justify-content-center">
-                    <div class="col col-xxl-auto">
+                    <div class="col col-xxl-auto d-flex pe-0">
                         <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                        <div class="section-link">|</div>
                     </div>
-                    |
-                    <div class="col col-xxl-auto">
+                    <div class="col col-xxl-auto d-flex pe-0">
                         <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                        <div class="section-link">|</div>
                     </div>
-                    |
-                    <div class="col col-xxl-auto">
+                    <div class="col col-xxl-auto d-flex pe-0">
                         <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
+                        <div class="section-link">|</div>
                     </div>
-                    |
-                    <div class="col col-xxl-auto">
+                    <div class="col col-xxl-auto d-flex pe-0">
                         <a class="t-white fill-hover" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
+                        <div class="section-link">|</div>
                     </div>
-                    |
-                    <div class="col col-xxl-auto">
+                    <div class="col col-xxl-auto d-flex pe-0">
                         <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                     </div>
                 </div>
@@ -686,15 +687,15 @@ body {
     </div>
 </body>
 <script>
-    cal_img();
-    function cal_img() {
-        div = document.querySelector('.bg-fade').offsetHeight;
-        cal1 = (div * 74.7474747475) / 100;
-        set_height = document.querySelector('.set-image').style.height = cal1 + "px"
-        cal2 = (((cal1 * 100) / 42.8364688857)* 100) / screen.width;;
-        set_width = document.querySelector('.absolute').style.width = cal2 + "vmax"
-        console.log(cal1,cal2)
-    }
+    // cal_img();
+    // function cal_img() {
+    //     div = document.querySelector('.bg-fade').offsetHeight;
+    //     cal1 = (div * 74.7474747475) / 100;
+    //     set_height = document.querySelector('.set-image').style.height = cal1 + "px"
+    //     cal2 = (((cal1 * 100) / 42.8364688857)* 100) / screen.width;;
+    //     set_width = document.querySelector('.absolute').style.width = cal2 + "vmax"
+    //     console.log(cal1,cal2)
+    // }
     // function hover(thai) {
     //     thai.setAttribute('src', "{{asset('img/lotto-icon/1thaihover.png')}}");
     //     }

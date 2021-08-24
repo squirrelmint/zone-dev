@@ -27,7 +27,13 @@
         background-image: url("../img/mobile/BGzonelotto-mobile.png");
         background-position: center;
     }
+
 }
+@media (min-device-width: 768px) {
+        .navbar-bottom {
+            display: none;
+        }
+    }
 </style>
 <body>
     <nav class="navbar navbar-expand-lg zone-navbar-top d-none d-lg-flex">
@@ -64,7 +70,10 @@
 
     <div id="body-head">
         <img src="{{asset('img/Header.png')}}" class="d-none d-lg-block" alt="">
-        <div class="navbar-bottom w-100">
+        @yield('mobile-menu-contact')
+        @yield('mobile-menu-promotion')
+        @yield('mobile-menu-rewardlotto')
+        {{-- <div class="navbar-bottom w-100">
             <div class="row row-cols-5 mx-0 justify-content-center">
                 <div class="col-xxl-auto px-0">
                     <div class="bg-gold-border1 link-home">
@@ -121,7 +130,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="header-mobile w-100">
             <img src="{{asset('img/mobile/header.png')}}" alt="">
             <div class="announce-mobile w-100 d-block d-xxl-none">
@@ -136,7 +145,7 @@
     </div>
     <div id="body-content">
         <div class="page-content">
-            <div class="container">
+            <div class="container-fluid px-0">
                 <div class="bg-wrapper d-flex align-items-center d-none d-lg-flex">
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
@@ -144,13 +153,13 @@
                     <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                 </div>
                 <div class="mt-3 d-none d-lg-block"></div>
-                <div class="mb-4">
-                    <div class="row">
-                        @yield('content')
-                        @include('layout.sidebar')
-                    </div>
+                <div class="row">
+                {{-- <div class="row paading-x-2large"> --}}
+                    @yield('content')
+                    @include('layout.sidebar')
                 </div>
             </div>
+            <div class="margin-y-6 d-block d-lg-none"></div>
             <div class="footer-mobile d-block d-lg-none justify-content-center">
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
@@ -167,32 +176,37 @@
             </div>
         </div>
 
-        <footer class="d-none d-lg-block">
+        <footer class="d-none d-md-block">
             <div class="container">
                 <div class="row">
                     <div class="footer zone-footer-content padding-x2-m zone-background zone-content justify-content-center text-center mb-4">
                         <div class="row row-cols-5 t-white justify-content-center">
-                            <div class="col-auto">
+                            <div class="col col-xxl-auto d-flex pe-0">
                                 <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                                <div class="section-link">|</div>
                             </div>
-                            |
-                            <div class="col-auto">
+
+                            <div class="col col-xxl-auto d-flex pe-0">
                                 <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                                <div class="section-link">|</div>
                             </div>
-                            |
-                            <div class="col-auto">
+
+                            <div class="col col-xxl-auto d-flex pe-0">
                                 <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
+                                <div class="section-link">|</div>
                             </div>
-                            |
-                            <div class="col-auto">
+
+                            <div class="col col-xxl-auto d-flex pe-0">
                                 <a class="t-white fill-hover" href="{{route('Landingpage.promotion')}}">โปรโมชั่น</a>
+                                <div class="section-link">|</div>
                             </div>
-                            |
-                            <div class="col-auto">
+
+                            <div class="col col-xxl-auto d-flex pe-0">
                                 <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
+                                <div class="section-link">|</div>
                             </div>
                         </div>
-                        <p class="t-white m-0">Copyright © 2020 amblotto.com All right reserved.</p>
+                        <p class="t-white m-0">Copyright © 2021 amblotto.com All right reserved.</p>
                     </div>
                 </div>
             </div>

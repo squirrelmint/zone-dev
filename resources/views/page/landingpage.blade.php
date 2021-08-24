@@ -163,16 +163,16 @@ body {
                 </div>
                 <div class="mt-3"></div>
                 <div class="row">
-                    <div class="col-xxl-8 d-flex align-items-baseline">
+                    <div class="col-xl-8 d-flex align-items-baseline">
                         <img class="me-2 w-0 m-size" src="{{asset('img/icon-crown.png')}}" alt="">
                         <div class="title-text fill-text">เว็บแทงหวยที่มั่นคงที่สุด</div>
                     </div>
-                    <div class="col-xxl-4 d-flex align-items-center d-none d-xxl-flex">
+                    <div class="col-xl-4 d-flex align-items-center d-none d-xl-flex">
                         <div class="reward-text fill-text">ผลสลากกินแบ่งรัฐบาล</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xxl-8">
+                    <div class="col-xl-8">
                         <div class="bg-content">
                             <h1>AMB Lotto.vip แทงหวยออนไลน์ 24 ชั่วโมง</h1>
                             <p class="text-justify t-white">ด้วยประสบการณ์การให้บริการทั้งคาสิโนออนไลน์ และ แทงหวยออนไลน์ นานนับ 10 ปี และไม่หยุด
@@ -184,10 +184,10 @@ body {
                 สำหรับสมาชิกใหม่ และสิทธิพิเศษมากมาย แจกเครดิตฟรีอย่างต่อเนื่อง</p>
                         </div>
                     </div>
-                    <div class="col-xxl-4 mt-2 d-flex align-items-center justify-content-center d-flex d-xxl-none">
+                    <div class="col-xl-4 mt-2 d-flex align-items-center justify-content-center d-flex d-xl-none">
                         <div class="reward-text fill-text">ผลสลากกินแบ่งรัฐบาล</div>
                     </div>
-                    <div class="col-xxl-4 ps-0 padding-left3-m">
+                    <div class="col-xl-4 ps-0 padding-left3-m">
                         <div class="bg-reward">
                             <div class="row">
                                 <div class="col-xxl-12 t-white">
@@ -235,7 +235,7 @@ body {
                                     </div>
                                 </div>
                                 <div class="col-6 col-sm-6 col-xxl-6 ps-0 d-flex flex-column">
-                                    <div class="row padding-left2-m">
+                                    <div class="row padding-left5-m">
                                         <div class="col-xxl-12">
                                             <p class="text-center mb-0 fill-text back2">ท้าย 2 ตัว</p>
                                             <div class="mt-1"></div>
@@ -508,7 +508,7 @@ body {
                 </div>
                 <div class="row d-flex d-xl-none">
                     <div class="col-xxl-12 my-3 margin-bottom-m">
-                        <div class="foot-ban padding-x-5 padding-left2-m">
+                        <div class="foot-ban padding-x-5 padding-left4-m">
                             <div class="col-xxl-8">
                                 <div class="text-area">
                                     <h1 class="pt-1">AMBLOTTOVIP เว็บหวยออนไลน์ที่ดีที่สุด</h1>
@@ -652,7 +652,7 @@ body {
                 </div>
             </div>
             <div class="margin-y-6 mb-0"></div>
-            <div class="footer text-center d-none d-lg-block">
+            <div class="footer text-center d-none d-xxl-block">
                 <div class="row footer text-center row-cols-5 row-cols-lg-5 mx-0 t-white justify-content-center">
                     <div class="col col-xxl-auto d-flex pe-0">
                         <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
@@ -676,7 +676,7 @@ body {
                 </div>
                 <p class="t-white">Copyright © 2021 amblotto.com All right reserved.</p>
             </div>
-            <div class="footer-mobile d-block d-lg-none justify-content-center">
+            <div class="footer-mobile d-block d-xxl-none justify-content-center">
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
                     <div class="section-link">|</div>

@@ -135,17 +135,17 @@
     background-image: url("../img/bg-content.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 12px 63px 118px 31px;
-    /* padding: 0.625vmax 3.28125vmax 6.1458333333vmax 1.6145833333vmax; */
+    /* padding: 12px 63px 118px 31px; */
+    padding: 0.625vmax 3.28125vmax 6.1458333333vmax 1.6145833333vmax;
 }
 .bg-content h1 {
     color:#6EEAA6;
-    font-size: 35px;
-    /* font-size: 1.8229166667vmax; */
+    /* font-size: 35px; */
+    font-size: 1.8229166667vmax;
 }
 .bg-content p {
-    font-size: 20px;
-    /* font-size: 1.0416666667vmax; */
+    /* font-size: 20px; */
+    font-size: 1.0416666667vmax;
     font-weight: 400;
     word-spacing: -1px;
 }
@@ -163,16 +163,16 @@
     color: #fff;
 }
 .bg-green.p {
-    padding: 12.4px 26px;
-    /* padding: 0.6458333333vmax 1.3541666667vmax; */
+    /* padding: 12.4px 26px; */
+    padding: 0.6458333333vmax 1.3541666667vmax;
 }
 .bg-green p {
-    font-size: 28px;
-    /* font-size: 1.4583333333vmax; */
+    /* font-size: 28px; */
+    font-size: 1.4583333333vmax;
 }
 .fill-text.six-top {
-    font-size: 65px;
-    /* font-size: 3.3854166667vmax; */
+    /* font-size: 65px; */
+    font-size: 3.3854166667vmax;
     font-weight: 400;
 }
 .show-top6 .center-padding {
@@ -197,45 +197,47 @@
 .bg-front3,
 .bg-back3 {
     width: 100%;
-    height: 45px;
+    /* height: 45px; */
+    height: 2.34375vmax;
 }
 .bg-back2 {
     width: 100%;
-    height: 156px;
+    /* height: 156px; */
+    height: 8.125vmax;
 }
 .bg-num6 .bg-content-green h2 {
-    font-size: 50px;
-    /* font-size: 2.6041666667vmax; */
+    /* font-size: 50px; */
+    font-size: 2.6041666667vmax;
     font-weight: 300;
 }
 .bg-front3 .bg-content-green h3,
 .bg-back3 .bg-content-green h3 {
-    font-size: 30px;
-    /* font-size: 1.5625vmax; */
+    /* font-size: 30px; */
+    font-size: 1.5625vmax;
     font-weight: 300;
 }
 .bg-back2 .bg-content-green h1 {
-    font-size: 90px;
-    /* font-size: 4.6875vmax; */
+    /* font-size: 90px; */
+    font-size: 4.6875vmax;
     font-weight: 300;
 }
 
 .fill-text.front3,
 .fill-text.back3,
 .fill-text.back2 {
-    font-size: 30px;
-    /* font-size: 1.5625vmax; */
+    /* font-size: 30px; */
+    font-size: 1.5625vmax;
     font-weight: 400;
 }
 .t-white.front3,
 .t-white.back3 {
-    font-size: 30px;
-    /* font-size: 1.5625vmax; */
+    /* font-size: 30px; */
+    font-size: 1.5625vmax;
     font-weight: 300;
 }
 .t-white.back2 {
-    font-size: 90px;
-    /* font-size: 4.6875vmax; */
+    /* font-size: 90px; */
+    font-size: 4.6875vmax;
     font-weight: 300;
 }
 .padding-y-m {
@@ -243,6 +245,7 @@
 }
 .padding-right-m {
     padding: 0 23px 0 0;
+    padding: 0 1.197916667vmax 0 0;
 }
 .margin-t-m {
     margin-top: -50px;
@@ -261,15 +264,18 @@
     padding-bottom: 0.2604166667vmax;
 }
 .foot-ban .text-area {
-    padding-right: 78px;
+    /* padding-right: 78px; */
+    padding-right: 4.0625vmax;
 }
 .foot-ban h1 {
     color:#6EEAA6;
     font-weight: 400;
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 2.34375vmax;
 }
 .foot-ban p {
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 0.9375vmax;
     font-weight: 400;
     word-spacing: -1px;
     letter-spacing: 0.004em;
@@ -353,16 +359,21 @@ img {
 }
 .bg-foot-green p {
     font-size: 18px;
+    font-size: 0.9375vmax;
 }
 /* contact pormmotion rewardlotto */
+.footer p,
 .footer a,
-.section-link {
-    font-size: 15px;
+.footer .section-link {
+    /* font-size: 15px; */
+    font-size: 0.78125vmax;
     font-weight: 400;
 }
-.section-link {
+.footer .section-link {
     margin-left: 12px;
 }
+
+
 @media (hover: hover) {
     .bg-border:hover::after {
         box-shadow: inset 11px 8px 16px rgb(0 0 0 / 90%);

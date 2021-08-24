@@ -289,6 +289,9 @@ footer {
 /* mobile */
 /*  */
 @media only screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+    .zone-sidebar-line {
+        display: none;
+    }
     .btn-link-regis a div {
 
     }
@@ -695,7 +698,9 @@ footer {
 
     }
     @media only screen and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
+        .zone-sidebar-line {
+            display: none;
+        }
         .foot-ban .text-area {
             padding-right: 65.625vmin;
         }

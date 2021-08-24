@@ -123,7 +123,7 @@ body {
     <div id="body-content">
         <div class="page-content">
             <div class="container-fluid px-0">
-                <div class="bg-wrapper d-flex align-items-center d-none d-xxl-flex">
+                <div class="bg-wrapper d-flex align-items-center d-none d-lg-flex">
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
@@ -187,7 +187,7 @@ body {
                     <div class="col-xxl-4 mt-2 d-flex align-items-center justify-content-center d-flex d-xxl-none">
                         <div class="reward-text fill-text">ผลสลากกินแบ่งรัฐบาล</div>
                     </div>
-                    <div class="col-xxl-4 ps-0 padding-left-m">
+                    <div class="col-xxl-4 ps-0 padding-left3-m">
                         <div class="bg-reward">
                             <div class="row">
                                 <div class="col-xxl-12 t-white">
@@ -235,7 +235,7 @@ body {
                                     </div>
                                 </div>
                                 <div class="col-6 col-sm-6 col-xxl-6 ps-0 d-flex flex-column">
-                                    <div class="row padding-left-m">
+                                    <div class="row padding-left2-m">
                                         <div class="col-xxl-12">
                                             <p class="text-center mb-0 fill-text back2">ท้าย 2 ตัว</p>
                                             <div class="mt-1"></div>
@@ -251,19 +251,26 @@ body {
                         </div>
                     </div>
                 </div>
-                <div class="row margin-top2-m d-none d-xxl-block">
+
+                <div class="row margin-top2-m">
                     <div class="d-flex align-items-baseline">
                         <img class="me-2 w-0 m-size" src="{{asset('img/icon-annouce.png')}}" alt="">
                         <div class="title-text fill-text">โปรโมชั่นสำหรับสมาชิก</div>
                     </div>
                     <div class="row pe-0">
-                            <div class="col-xxl-12 pe-0 d-flex">
-                            <div class="ban-promotion">
-                                <img src="{{asset('img/ban-pro.png')}}" alt="">
-                            </div>
-                            <div class="qr padding-y-6 d-none d-md-block">
-                                <div class="bg-qr">
-                                    <img src="{{asset('img/qr.png')}}" alt="">
+                        <div class="col-xxl-12 pe-0 d-flex">
+                            <div class="row">
+                                <div class="col-12 col-xxl-9 pe-0 padding-right3-m">
+                                    <div class="ban-promotion">
+                                        <img src="{{asset('img/ban-pro.png')}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col col-xxl-3 ps-0">
+                                    <div class="qr padding-y-6 d-none d-xxl-block">
+                                        <div class="bg-qr">
+                                            <img src="{{asset('img/qr.png')}}" alt="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -526,7 +533,7 @@ body {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="row row-cols-1 row-cols-lg-2 pe-0">
+                    <div class="row row-cols-1 row-cols-xxl-2 pe-0">
                         <div class="col-12 col-xxl-6 pe-0 pb-1">
                             <div class="row">
                                 <div class="col-4 pe-0">

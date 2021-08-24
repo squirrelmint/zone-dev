@@ -69,7 +69,8 @@ a {
     color: #FFEEC9;
 }
 .announce-text {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.302083333vmax;
 }
 marquee {
     color: #fff;
@@ -494,7 +495,7 @@ a:hover {
     }
     .bg-content {
         /* padding: 6px 31px 1px 10px; */
-        padding: 1.875vmin 9.6875vmin 6.25vmin 3.125vmin;
+        padding: 1.875vmin 9.6875vmin 0.3125vmin 3.125vmin;
     }
     .bg-green p {
         /* font-size: 13px; */
@@ -553,9 +554,15 @@ a:hover {
         /* padding: 0 12px 0 0; */
         padding: 0 3.75vmin 0 0;
     }
-    .padding-left-m {
+    .padding-left2-m {
+        padding-left: 23px;
+    }
+    .padding-left1-m {
         /* padding: 0 0 0 12px; */
         padding: 0 0 0 3.75vmin;
+    }
+    .padding-left3-m {
+        padding-left: calc(var(--bs-gutter-x) * .5) !important;
     }
     .margin-top2-m {
         margin-top: 10px;
@@ -698,17 +705,33 @@ a:hover {
         /* font-size: 3.75vmin; */
         line-height: var(--bs-body-line-height);
     }
+    .padding-right3-m {
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    }
+
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .set-image img {
             width: 41.6666666667vmin;
             right: 0;
         }
+        .bg-content {
+            /* padding: 6px 31px 1px 10px; */
+            padding: 1.875vmin 9.6875vmin 2.6041666667vmin 3.125vmin;
+        }
+        .foot-ban .text-area {
+            padding-right: 37.7604166667vmin;
+        }
+        .padding-right3-m {
+            padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
         .foot-ban .text-area {
             padding-right: 65.625vmin;
         }
@@ -725,15 +748,27 @@ a:hover {
         .set-image {
             height: 80%;
         }
-
     }
 }
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
-
-    @media only screen and (max-device-width: 767px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 992px) and (max-device-width: 1399px) and (-webkit-min-device-pixel-ratio: 2) {
+    .padding-right3-m {
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    }
+    .padding-left3-m {
+        padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    }
+    @media only screen and (max-device-width: 992px) and (max-device-width: 1399px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
+    @media only screen and (min-device-width: 992px) and (max-device-width: 1399px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        .set-image img {
+            right: 0;
+        }
     }
-} */
+}
+@media only screen and (min-device-width: 1400px) {
+    .margin-top2-m {
+        margin-top: -50px;
+    }
+}
+

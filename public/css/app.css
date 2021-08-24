@@ -493,7 +493,8 @@ a:hover {
         font-size: 2.8125vmin;
     }
     .bg-content {
-        padding: 6px 31px 1px 10px;
+        /* padding: 6px 31px 1px 10px; */
+        padding: 1.875vmin 9.6875vmin 6.25vmin 3.125vmin;
     }
     .bg-green p {
         /* font-size: 13px; */
@@ -561,6 +562,9 @@ a:hover {
     }
     .ban-promotion {
         width: 100%;
+    }
+    .ban-promotion img {
+        height: unset;
     }
     .bg-fade ul {
         margin-bottom: .5rem;
@@ -693,6 +697,12 @@ a:hover {
         font-size: 12px;
         /* font-size: 3.75vmin; */
         line-height: var(--bs-body-line-height);
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .set-image img {
+            width: 41.6666666667vmin;
+            right: 0;
+        }
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 

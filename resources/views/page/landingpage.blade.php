@@ -33,8 +33,8 @@ body {
 </style>
 <body>
     <div id="body-head">
-        <img class="header" src="{{asset('img/Header.png')}}" alt="">
-        <div class="navbar-top">
+        <img class="header d-none d-lg-block" src="{{asset('img/Header.png')}}" alt="">
+        <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
                 <div class="btn-link-regis">
                     <a class="d-flex h-100 align-items-center justify-content-center" href="">
@@ -55,7 +55,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-home">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.index')}}">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.index')}}">
                                 <img src="{{asset('img/icon-home.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">หน้าแรก</h3>
                             </a>
@@ -65,7 +65,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-regis">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="">
                                 <img src="{{asset('img/icon-regis2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">สมัครสมาชิก</h3>
                             </a>
@@ -75,11 +75,11 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-reward">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center d-none d-md-flex" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center d-none d-lg-flex" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-md-none" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-lg-none" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -89,7 +89,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-promotion">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.promotion')}}">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.promotion')}}">
                                 <img src="{{asset('img/icon-promotion2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">โปรโมชั่น</h3>
                             </a>
@@ -99,7 +99,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-contact m-noborder">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-md-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
                                 <img src="{{asset('img/icon-contact.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">ติดต่อเรา</h3>
                             </a>

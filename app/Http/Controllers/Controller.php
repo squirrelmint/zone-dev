@@ -16,7 +16,7 @@ class Controller extends BaseController
     }
     public function rewardlotto()
     {
-        return view('page.checklotto');
+        return view('page.rewardlotto');
     }
     public function promotion()
     {

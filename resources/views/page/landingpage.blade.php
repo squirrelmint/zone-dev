@@ -161,7 +161,7 @@ body {
                     <div class="col-4 px-0">
                         <div class="bg-green-border h-100">
                             <div class="fill-black h-100">
-                                <a href="" class="contact d-flex flex-column align-items-center">
+                                <a href="{{route('Landingpage.contact')}}" class="contact d-flex flex-column align-items-center">
                                     <img src="{{asset('img/mobile/icon-g-contact.png')}}" alt="">
                                     <div class="fill-text3 size-h1">ติดต่อเรา</div>
                                 </a>

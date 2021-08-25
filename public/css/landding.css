@@ -131,30 +131,46 @@
     font-weight: 400;
 
 }
-.bg-content {
+.bg-content2,
+.bg-reward-content,
+.bg-promotion-content {
+    width: 100%;
+    background: linear-gradient(#FFEEC9,#CAA663,#8F774A);
+    padding: 2px;
+    border-radius: 5px;
+}
+.bg-green-content,
+.bg-green-reward {
+    background: linear-gradient(360deg, #1C493E 0%, #378A75 100%);
+    border-radius: inherit;
+}
+.bg-green-content {
+    padding: 0.625vmax 3.28125vmax 6.1458333333vmax 1.6145833333vmax;
+}
+/* .bg-content {
     background-image: url("../img/bg-content.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* padding: 12px 63px 118px 31px; */
+    padding: 12px 63px 118px 31px;
     padding: 0.625vmax 3.28125vmax 6.1458333333vmax 1.6145833333vmax;
-}
-.bg-content h1 {
+}*/
+.bg-green-content h1 {
     color:#6EEAA6;
     /* font-size: 35px; */
     font-size: 1.8229166667vmax;
 }
-.bg-content p {
+.bg-green-content p {
     /* font-size: 20px; */
     font-size: 1.0416666667vmax;
     font-weight: 400;
     word-spacing: -1px;
 }
-.bg-reward {
+/* .bg-reward {
     background-image: url("../img/bg-reward.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 2px 2px 32px 2px;
-}
+} */
 .bg-green {
     background-color: #378A75;
     border-radius: 3px 3px 0 0;
@@ -169,6 +185,11 @@
 .bg-green p {
     /* font-size: 28px; */
     font-size: 1.4583333333vmax;
+}
+.bg-black-reward {
+    background: linear-gradient(360deg, #0F0F0F 0%, #3F3F3F 100%);
+    border-radius: 0 0 5px 5px;
+    padding-bottom: 32px;
 }
 .fill-text.six-top {
     /* font-size: 65px; */
@@ -250,6 +271,9 @@
 .margin-t-m {
     margin-top: -50px;
 }
+.ban-promotion img {
+    border-radius: 2px;
+}
 .bg-qr img {
     height: 20.2604166667vmax;
 }
@@ -307,6 +331,10 @@ img {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+/* .bg-fade {
+    background: linear-gradient(90deg, #378A75 0%, rgba(110, 234, 166, 0) 100%);
+    border-radius: inherit;
+} */
 .bg-fade li {
     font-size: 20px;
 }
@@ -343,7 +371,8 @@ img {
 }
 .bg-foot-green {
     background: linear-gradient(360deg, #1C493E 0%, #378A75 100%);
-    padding: 10px;
+    padding: 10px 10px 6.09375vmax 10px;
+
     border-radius: inherit;
 }
 /* .bg-box-footer {
@@ -361,6 +390,14 @@ img {
     font-size: 18px;
     font-size: 0.9375vmax;
 }
+.bank-trans img.kbank,
+.bank-trans img.scb,
+.bank-trans img.ktb,
+.bank-trans img.kungsi
+{
+    max-width: max-content;
+}
+
 /* contact pormmotion rewardlotto */
 .footer p,
 .footer a,

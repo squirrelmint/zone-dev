@@ -181,7 +181,19 @@ body {
                 </div>
                 <div class="row">
                     <div class="col-xl-8">
-                        <div class="bg-content">
+                        <div class="bg-content2">
+                            <div class="bg-green-content">
+                                <h1>AMB Lotto.vip แทงหวยออนไลน์ 24 ชั่วโมง</h1>
+                                            <p class="text-justify t-white">ด้วยประสบการณ์การให้บริการทั้งคาสิโนออนไลน์ และ แทงหวยออนไลน์ นานนับ 10 ปี และไม่หยุด
+                                พัฒนาเพื่อประสบการณ์ต่อผู้เล่น ที่สะดวก เสถียรที่สุด รองรับทั้งมือถือ และ คอมพิวเตอร์ โดยไม่
+                                ต้องดาวน์โหลดใดๆ อีกทั้งยังมีระบบฝากถอนรวดเร็ว ทำให้เว็บที่ทีมงานดูแลและพัฒนาเป็นที่นิยม
+                                แพร่หลายจนถึงทุกวันนี้ ซึ่งผู้เล่นอยากจะแทง หวยยี่กี ที่มีให้ลุ้นรวยทั้งวัน รวมทั้งหวยหุ้นทั้งในและ
+                                ต่างประเทศ หวยลาว และหวยอื่นๆ อีกมากมายต้องนึกถึง เราเป็นเว็บแรกแน่นอน
+                                โปรโมชั่นพิเศษ
+                                สำหรับสมาชิกใหม่ และสิทธิพิเศษมากมาย แจกเครดิตฟรีอย่างต่อเนื่อง</p>
+                            </div>
+                        </div>
+                        {{-- <div class="bg-content">
                             <h1>AMB Lotto.vip แทงหวยออนไลน์ 24 ชั่วโมง</h1>
                             <p class="text-justify t-white">ด้วยประสบการณ์การให้บริการทั้งคาสิโนออนไลน์ และ แทงหวยออนไลน์ นานนับ 10 ปี และไม่หยุด
                 พัฒนาเพื่อประสบการณ์ต่อผู้เล่น ที่สะดวก เสถียรที่สุด รองรับทั้งมือถือ และ คอมพิวเตอร์ โดยไม่
@@ -190,13 +202,80 @@ body {
                 ต่างประเทศ หวยลาว และหวยอื่นๆ อีกมากมายต้องนึกถึง เราเป็นเว็บแรกแน่นอน
                 โปรโมชั่นพิเศษ
                 สำหรับสมาชิกใหม่ และสิทธิพิเศษมากมาย แจกเครดิตฟรีอย่างต่อเนื่อง</p>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="col-xl-4 mt-2 d-flex align-items-center justify-content-center d-flex d-xl-none">
                         <div class="reward-text fill-text">ผลสลากกินแบ่งรัฐบาล</div>
                     </div>
                     <div class="col-xl-4 ps-0 padding-left3-m">
-                        <div class="bg-reward">
+                        <div class="px-reward-content-m">
+                            <div class="bg-reward-content">
+                                <div class="bg-green-reward">
+                                    <div class="row">
+                                        <div class="col-xxl-12 t-white">
+                                            <div class="bg-datereward bg-green p">
+                                            <p class="text-center mb-0">งวดประจำวันที่ <span>1</span> <span>สิงหาคม</span> <span>2564</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-black-reward">
+                                        <div class="row">
+                                            <div class="col-xxl-12">
+                                                <p class="text-center mb-0 mt-2 fill-text six-top">รางวัลที่ 1</p>
+                                            </div>
+                                        </div>
+                                        <div class="row padding-x-m">
+                                            <div class="col-xxl-12">
+                                                <div class="bg-gold-border2 bg-num6">
+                                                    <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                        <h2 class="text-center mb-0 t-white">910261</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 margin-top-m padding-x-m">
+                                            <div class="col-6 col-sm-6 col-xxl-6 pe-0 d-flex flex-column">
+                                                <div class="row padding-right-m">
+                                                    <div class="col-xxl-12 pe-0">
+                                                        <p class="t-left mb-0 fill-text front3">เลขหน้า 3 ตัว</p>
+                                                        <div class="mt-1"></div>
+                                                        <div class="bg-gold-border2 bg-front3">
+                                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                                <h3 class="text-center mb-0 t-white">103, 307</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-3 margin-top-m"></div>
+                                                    <div class="col-xxl-12 pe-0">
+                                                        <p class="t-left mb-0 fill-text back3">เลขท้าย 3 ตัว</p>
+                                                        <div class="mt-1"></div>
+                                                        <div class="bg-gold-border2 bg-back3">
+                                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                                <h3 class="text-center mb-0 t-white">910, 261</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-6 col-xxl-6 ps-0 d-flex flex-column">
+                                                <div class="row padding-left5-m">
+                                                    <div class="col-xxl-12">
+                                                        <p class="text-center mb-0 fill-text back2">ท้าย 2 ตัว</p>
+                                                        <div class="mt-1"></div>
+                                                        <div class="bg-gold-border2 bg-back2">
+                                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
+                                                                <h1 class="text-center mb-0 t-white">69</h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="bg-reward">
                             <div class="row">
                                 <div class="col-xxl-12 t-white">
                                     <div class="bg-datereward bg-green p">
@@ -256,7 +335,7 @@ body {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -266,6 +345,26 @@ body {
                         <div class="title-text fill-text">โปรโมชั่นสำหรับสมาชิก</div>
                     </div>
                     <div class="row pe-0">
+                        <div class="col-xxl-12 pe-0 d-flex">
+                            <div class="row">
+                                <div class="col-12 col-xxl-9 pe-0 padding-right3-m">
+                                    <div class="bg-promotion-content">
+                                        <div class="ban-promotion">
+                                            <img src="{{asset('img/ban-pro-x4.png')}}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-xxl-3 ps-0">
+                                    <div class="qr padding-y-6 d-none d-xxl-block">
+                                        <div class="bg-qr">
+                                            <img src="{{asset('img/qr.png')}}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="row pe-0">
                         <div class="col-xxl-12 pe-0 d-flex">
                             <div class="row">
                                 <div class="col-12 col-xxl-9 pe-0 padding-right3-m">
@@ -282,9 +381,9 @@ body {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
-                <div class="row d-none d-xl-flex">
+                {{-- <div class="row d-none d-xl-flex">
                     <div class="col-xxl-12 my-3">
                         <div class="foot-ban padding-x-5">
                             <div class="col-xxl-8">
@@ -300,7 +399,7 @@ body {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="margin-top3-m"></div>
                 <div class="row">
                     <div class="col-xxl-12">
@@ -470,7 +569,7 @@ body {
                     <div class="col-xxl-12">
                         <div class="bg-fade">
                             <div class="row row-cols-2">
-                                <div class="col-xxl-6 padding-x-5 padding-y-5 pe-0 padding-xy-m">
+                                <div class="col-8 col-md-6 padding-x-5 padding-y-5 pe-0 padding-xy-m">
                                     <ul>
                                         <li class="t-white">
                                             เราเป็นทีมงานโดยตรงในไทย สามารถตอบคำถามและช่วยเหลือได้ตลอด
@@ -489,7 +588,6 @@ body {
                                         </li>
                                         <li class="t-white">
                                             ระบบฝาก – ถอน ปลอดภัย รวดเร็ว ไว้ใจได้ โอนไวด้วยระบบอัตโนมัติ
-
                                         </li>
                                         <li class="t-white">
                                             เราเปิดให้เล่นหวยทุกชนิด จับยี่กี หวยรัฐบาล หวยลาว ฮานอย หวยหุ้นไทย
@@ -505,16 +603,16 @@ body {
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-xxl-6">
+                                <div class="col-4 col-md-6">
                                     <div class="set-image relative">
-                                        <img class="absolute" src="{{asset('img/ban1.png')}}" alt="">
+                                        <img class="absolute" src="{{asset('img/ban1.png')}}">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex d-xl-none">
+                {{-- <div class="row d-flex d-xl-none">
                     <div class="col-xxl-12 my-3 margin-bottom-m">
                         <div class="foot-ban padding-x-5 padding-left4-m">
                             <div class="col-xxl-8">
@@ -530,7 +628,7 @@ body {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="mt-4 margin-top4-m"></div>
                 <div class="row">
                     <div class="col-xxl-12">
@@ -598,8 +696,8 @@ body {
                     </div>
                 </div>
                 <div class="margin-y-6 mt-0 margin-bottom-mobile"></div>
-                <div class="row row-cols-2 row-cols-lg-3 x-gap-m">
-                    <div class="col-6 col-xxl-4">
+                <div class="row row-cols-2 x-gap-m">
+                    {{-- <div class="col-6 col-xxl-4">
                         <div class="bg-gold-border3 h-100">
                             <div class="bg-foot-green h-100">
                                 <h5 class="title-text fw-light fill-text mb-0">เกี่ยวกับเรา</h5>
@@ -614,33 +712,36 @@ body {
                                     ออกผลทุก 5 นาที</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     {{-- <div class="mt-m"></div> --}}
-                    <div class="col-6 col-xxl-4">
+                    <div class="col-6 col-xxl-6">
                         <div class="bg-gold-border3 h-100">
                             <div class="bg-foot-green h-100">
                                 <h5 class="title-text fw-light fill-text mb-0">ฝาก - ถอน 24 ชม.</h5>
                                 <hr class="mt-0 fill-text2">
                                 <p class="mb-0 t-white">ผ่านธนาคารชั้นนำของไทย โอนไว จ่ายเต็ม มั่นใจ 100%</p>
                                 <div class="mt-3 d-none d-block-lg"></div>
-                                <div class="mt-2 d-block d-none-lg"></div>
-                                <div class="row row-cols-4 px-3 size-m-img">
-                                    <div class="col-xxl-3 padding-x2-m text-center">
+                                <div class="mt-3 d-block d-none-lg"></div>
+                                <div class="row row-cols-4 row-cols-xl-6 px-3 bank-trans size-m-img">
+                                    <div class="col-3 col-xl-2 padding-x2-m text-center">
                                         <img class="kbank" src="{{asset('img/kbank.png')}}" alt="">
                                     </div>
-                                    <div class="col-xxl-3 padding-x2-m text-center">
+                                    <div class="col-3 col-xl-2 padding-x2-m text-center">
                                         <img class="scb" src="{{asset('img/scb.png')}}" alt="">
                                     </div>
-                                    <div class="col-xxl-3 padding-x2-m text-center">
+                                    <div class="col-3 col-xl-2 padding-x2-m text-center">
                                         <img class="ktb" src="{{asset('img/ktb.png')}}" alt="">
                                     </div>
-                                    <div class="col-xxl-3 padding-x2-m text-center">
+                                    <div class="col-3 col-xl-2 padding-x2-m text-center">
                                         <img class="kungsi" src="{{asset('img/kungsi.png')}}" alt="">
+                                    </div>
+                                    <div class="col-xl-3 d-none d-xl-block text-center padding-x2-m mb-2">
+                                        <img class="tmb" src="{{asset('img/tmb.png')}}" alt="">
                                     </div>
                                 </div>
                                 <div class="mt-4 d-none d-block-lg"></div>
                                 <div class="mt-2 d-block d-none-lg"></div>
-                                <div class="row px-3">
+                                <div class="row px-3 d-flex d-xl-none">
                                     <div class="col-5 padding-x2-m mb-2">
                                         <img class="tmb" src="{{asset('img/tmb.png')}}" alt="">
                                     </div>
@@ -648,12 +749,13 @@ body {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 d-none d-lg-block">
+                    <div class="col-6 col-xxl-6">
                         <div class="bg-gold-border3 h-100">
                             <div class="bg-foot-green h-100">
-                                <h5 class="title-text fw-light fill-text mb-0">เกี่ยวกับเรา</h5>
+                                <h5 class="title-text fw-light fill-text mb-0">ติดต่อเรา</h5>
                                 <hr class="mt-0 fill-text2">
                                 <p class="mb-0 t-white">สอบถามหรือแจ้งปัญหากับทางเว็บไซต์ได้ตลอด 24 ชม.</p>
+                                <p class="t-white">02 - xxxxxxx</p>
                             </div>
                         </div>
                     </div>

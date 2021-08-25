@@ -1,0 +1,13 @@
+/* .bg-content {
+    background-image: url("../img/bg-content.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 12px 63px 118px 31px;
+    padding: 0.625vmax 3.28125vmax 6.1458333333vmax 1.6145833333vmax;
+}*/
+.bg-reward {
+    background-image: url("../img/bg-reward.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2px 2px 32px 2px;
+}

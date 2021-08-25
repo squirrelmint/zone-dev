@@ -210,6 +210,10 @@ marquee > b {
 .absolute {
     position: absolute;
 }
+.t-white.details {
+    /* font-size: 16px; */
+    font-size: 0.8333333333vmax;
+}
 
 /* zone */
 .zone-text-gold {
@@ -507,17 +511,17 @@ a:hover {
         width: 10.3125vmin;
         height: 12.1875vmin;
     }
-    .bg-content h1 {
+    .bg-green-content h1 {
+        /* font-size: 16px; */
+        font-size: 4.53333333vmin;
+    }
+    .bg-green-content p {
         /* font-size: 12px; */
-        font-size: 3.75vmin;
+        font-size: 3.2vmin;
     }
-    .bg-content p {
-        /* font-size: 9px; */
-        font-size: 2.8125vmin;
-    }
-    .bg-content {
+    .bg-green-content {
         /* padding: 6px 31px 1px 10px; */
-        padding: 1.875vmin 9.6875vmin 0.3125vmin 3.125vmin;
+        padding: 2.66666667vmin;
     }
     .bg-green p {
         /* font-size: 13px; */
@@ -561,7 +565,7 @@ a:hover {
     .margin-top-m {
         margin-top: .5rem !important;
     }
-    .bg-reward {
+    .px-reward-content-m {
         /* margin: 0 61px 0 61px; */
         margin: 0 19.0625vmin 0 19.0625vmin;
     }
@@ -585,7 +589,8 @@ a:hover {
         padding: 0 0 0 3.75vmin;
     }
     .padding-left3-m {
-        padding-left: calc(var(--bs-gutter-x) * .5) !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
     .margin-top2-m {
         margin-top: 10px;
@@ -598,10 +603,11 @@ a:hover {
     }
     .bg-fade ul {
         margin-bottom: .5rem;
+        padding-left: 2.5rem;
     }
     .bg-fade li {
-        /* font-size: 5px; */
-        font-size: 1.5625vmin;
+        /* font-size: 12px; */
+        font-size: 3.2vmin;
     }
     .padding-xy-m {
         padding: 15px 0px 2px 0px !important;
@@ -647,7 +653,7 @@ a:hover {
     }
     .t-white.details {
         /* font-size: 8px; */
-        font-size: 2.5vmin;
+        font-size: 2.66666667vmin;
         font-weight: 400;
     }
     .padding-xy2-m {
@@ -659,7 +665,7 @@ a:hover {
     }
     .bg-foot-green p {
         /* font-size: 6px; */
-        font-size: 1.875vmin;
+        font-size: 3.2vmin;
     }
     .bg-foot-green hr {
         margin: .25rem 0;
@@ -767,11 +773,17 @@ a:hover {
         .set-image {
             height: 80%;
         }
+        .px-reward-content-m {
+            margin: 0 50vmin;
+        }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .bg-fade {
+            padding-left: 25px;
+        }
         .set-image img {
-            width: 41.6666666667vmin;
-            right: 0;
+            width: 75vmin;
+            right: -60%;
         }
         .bg-content {
             /* padding: 6px 31px 1px 10px; */
@@ -802,9 +814,6 @@ a:hover {
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
     .padding-right3-m {
         padding-right: calc(var(--bs-gutter-x) * .5) !important;
-    }
-    .padding-left3-m {
-        padding-left: calc(var(--bs-gutter-x) * .5) !important;
     }
     .footer-mobile p,
     .footer-mobile a,
@@ -840,7 +849,7 @@ a:hover {
         /* font-size: 11px; */
         font-size: 1.07421875vmin;
     }
-    @media only screen and (max-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         .set-image img {
@@ -865,6 +874,14 @@ a:hover {
     @media only screen and (min-device-width: 1201px) and (max-device-width: 1899px) and (orientation: portrait) {
         #body-content .page-content {
             padding: 0px 2vmin 60px 2vmin;
+        }
+    }
+    @media only screen and (min-device-width: 1201px) and (max-device-width: 1899px) and (orientation: landscape) {
+        .title-text-2 {
+            font-size: 2.19619327vmax;
+        }
+        .t-white.details {
+            font-size: 1.61054173vmax;
         }
     }
     @media only screen and (min-device-width: 1921px) {

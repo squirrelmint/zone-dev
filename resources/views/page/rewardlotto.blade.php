@@ -7,7 +7,7 @@
 </style>
     <div class="col-12 col-md-9">
         <div class="h-100 zone-background zone-reward zone-content">
-            <h1 class="zone-select-title text-center">ตรวจผลหวยที่เปิดให้บริการ</h1>
+            <h1 class="zone-select-title text-center">กติกาหวยที่เปิดให้บริการ</h1>
             <div class="row row-cols-3 space-row">
                 <div class="col ">
                     <a href="{{route('role.thai')}}">

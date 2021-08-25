@@ -19,12 +19,12 @@
 </head>
 <style>
     body {
-        background-image: url("../img/BGzonelotto2.png");
+        background-image: url({{asset('/img/BGzonelotto2.png')}});
         background-position: unset;
 }
 @media (max-width: 991px) {
     body {
-        background-image: url("../img/mobile/BGzonelotto-mobile.png");
+        background-image: url({{asset("/img/mobile/BGzonelotto-mobile.png")}});
         background-position: center;
     }
 }

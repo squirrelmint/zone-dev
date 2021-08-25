@@ -40,27 +40,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto zone-navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.index')}}">
+                    <a class="nav-links zone-nav-links" href="{{route('Landingpage.index')}}">
                         <span class='icon-home'></span> หน้าแรก
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="#">
+                    <a class="nav-links zone-nav-links" href="#">
                         <span class='icon-register'></span> สมัครสมาชิก
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.rewardlotto')}}">
+                    <a class="nav-links zone-nav-links" href="{{route('Landingpage.rewardlotto')}}">
                         <span class='icon-gift'></span> วิธีเช็ครางวัลหวย
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.promotion')}}">
+                    <a class="nav-links zone-nav-links" href="{{route('Landingpage.promotion')}}">
                         <span class='icon-promotion'></span> โปรโมชั่น
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link zone-nav-link" href="{{route('Landingpage.contact')}}">
+                    <a class="nav-links zone-nav-links" href="{{route('Landingpage.contact')}}">
                         <span class='icon-contact'></span> ติดต่อเรา
                     </a>
                 </li>

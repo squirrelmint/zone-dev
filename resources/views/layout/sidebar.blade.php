@@ -20,25 +20,27 @@
                                 <span class='icon-contact-lotto'></span> หวยออนไลน์ที่เปิดให้บริการ
                             </div>
                             <ul class="zone-sidebar-contact">
-                                <li><a href="#" class="zone-sidebar-link">หวยรัฐบาลไทย</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หวยเบอร์ทอง</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หวยปิงปอง</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หวยมาเลย์</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นสิงค์โปร</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นเกาหลี</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นจีน</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นไต้หวัน</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นอังกฤษ</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นอินเดีย</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นอียิปต์</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นฮั่งเส็ง</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นดาวโจนส์</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หวยยี่กี</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นนิเคอิ</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นรัสเซีย</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หวยหุ้นไทย</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นเยอรมัน</a></li>
-                                <li><a href="#" class="zone-sidebar-link">หุ้นใต้หวัน</a></li>
+                                <li><a href="{{route('role.thai')}}" class="zone-sidebar-link">หวยรัฐบาลไทย</a></li>
+                                <li><a href="{{route('role.bacc')}}" class="zone-sidebar-link">หวยธกส.</a></li>
+                                <li><a href="{{route('role.gsb')}}" class="zone-sidebar-link">หวยออมสิน</a></li>
+                                <li><a href="{{route('role.laos')}}" class="zone-sidebar-link">หวยลาว</a></li>
+                                <li><a href="{{route('role.hanoy')}}" class="zone-sidebar-link">หวยมาฮานอย</a></li>
+                                <li><a href="{{route('role.malay')}}" class="zone-sidebar-link">หวยมาเลย์</a></li>
+                                <li><a href="{{route('role.yeekee')}}" class="zone-sidebar-link">หวยยี่กี</a></li>
+                                <li><a href="{{route('role.pingpong')}}" class="zone-sidebar-link">หวยปิงปอง</a></li>
+                                <li><a href="{{route('role.stocksinggapore')}}" class="zone-sidebar-link">หุ้นสิงค์โปร</a></li>
+                                <li><a href="{{route('role.stockthai')}}" class="zone-sidebar-link">หวยหุ้นไทย</a></li>
+                                <li><a href="{{route('role.stocknikkei')}}" class="zone-sidebar-link">หุ้นนิเคอิ</a></li>
+                                <li><a href="{{route('role.stockchina')}}" class="zone-sidebar-link">หุ้นจีน</a></li>
+                                <li><a href="{{route('role.stockhangseng')}}" class="zone-sidebar-link">หุ้นฮั่งเส็ง</a></li>
+                                <li><a href="{{route('role.stockkorea')}}" class="zone-sidebar-link">หุ้นเกาหลี</a></li>
+                                <li><a href="{{route('role.stocktaiwan')}}" class="zone-sidebar-link">หุ้นไต้หวัน</a></li>
+                                <li><a href="{{route('role.stockindia')}}" class="zone-sidebar-link">หุ้นอินเดีย</a></li>
+                                <li><a href="{{route('role.stockgerman')}}" class="zone-sidebar-link">หุ้นเยอรมัน</a></li>
+                                <li><a href="{{route('role.stockeng')}}" class="zone-sidebar-link">หุ้นอังกฤษ</a></li>
+                                <li><a href="{{route('role.stockdownjones')}}" class="zone-sidebar-link">หุ้นดาวโจนส์</a></li>
+                                <li><a href="{{route('role.stockrussia')}}" class="zone-sidebar-link">หุ้นรัสเซีย</a></li>
+                                <li><a href="{{route('role.stockegypt')}}" class="zone-sidebar-link">หุ้นอียิปต์</a></li>
                             </ul>
                         </div>
                     </div>

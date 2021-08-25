@@ -27,7 +27,7 @@ Route::get('/กติกา/หวยธกส.',function() {
     return view('page.role.bacc');
 })->name(('role.bacc'));
 
-Route::get('/กติกา/หวยออมสิน.',function() {
+Route::get('/กติกา/หวยออมสิน',function() {
     return view('page.role.gsb');
 })->name(('role.gsb'));
 Route::get('/กติกา/หวยลาว',function() {

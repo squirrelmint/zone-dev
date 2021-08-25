@@ -20,6 +20,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+p.indent {
+    text-indent: 2.5em;
+}
 #body-content .page-content {
     padding: 0px 16.9270833333vmax 60px 16.9270833333vmax;
 }

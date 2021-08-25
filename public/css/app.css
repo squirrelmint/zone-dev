@@ -283,7 +283,7 @@ a:hover {
 
 /* select-lotto */
 .zone-select-title {
-    font-size: 3.125rem;
+    font-size: 2.708333333vmax;
     color: #fff;
 }
 @media (hover: hover) {
@@ -306,7 +306,9 @@ a:hover {
 .footer-mobile .section-link {
     margin: 0 12px;
 }
-
+.space-row {
+    --bs-gutter-x: 0.5rem
+}
 /* mobile */
 /*  */
 @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -734,29 +736,21 @@ a:hover {
         padding-right: calc(var(--bs-gutter-x) * .5) !important;
     }
 
-    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-        .set-image img {
-            width: 41.6666666667vmin;
-            right: 0;
-        }
-        .bg-content {
-            /* padding: 6px 31px 1px 10px; */
-            padding: 1.875vmin 9.6875vmin 2.6041666667vmin 3.125vmin;
-        }
-        .foot-ban .text-area {
-            padding-right: 37.7604166667vmin;
-        }
-        .padding-right3-m {
-            padding-right: calc(var(--bs-gutter-x) * .5) !important;
-        }
-    }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-
-    }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-
+        .w1-m {
+            width: 13%;
+        }
+        .w2-m {
+            width: 87%;
+        }
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        .w1-m {
+            width: 23%;
+        }
+        .w2-m {
+            width: 77%;
+        }
         .foot-ban .text-area {
             padding-right: 65.625vmin;
         }
@@ -772,6 +766,36 @@ a:hover {
         }
         .set-image {
             height: 80%;
+        }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .set-image img {
+            width: 41.6666666667vmin;
+            right: 0;
+        }
+        .bg-content {
+            /* padding: 6px 31px 1px 10px; */
+            padding: 1.875vmin 9.6875vmin 2.6041666667vmin 3.125vmin;
+        }
+        .foot-ban .text-area {
+            padding-right: 37.7604166667vmin;
+        }
+        .padding-right3-m {
+            padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        }
+        .w1-m {
+            width: 25%;
+        }
+        .w2-m {
+            width: 75%;
+        }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        .w1-m {
+            width: 18%;
+        }
+        .w2-m {
+            width: 82%;
         }
     }
 }

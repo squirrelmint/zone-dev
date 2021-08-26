@@ -121,8 +121,8 @@ body {
             <div class="announce-mobile w-100 d-block d-xxl-none">
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
-                        <div class="fill-text announce-text" style="width:23%">ประกาศจากเว็บ :</div>
-                        <marquee style="width:77%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                        <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
+                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                     </div>
                 </div>
             </div>

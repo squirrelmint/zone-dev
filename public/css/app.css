@@ -896,14 +896,66 @@ a:hover {
             font-size: 2.44140625vmin;
             line-height: 3.7109375vmin;
         }
+        .margin-top2-m {
+            margin-top: 2rem;
+        }
+        .margin-top3-m {
+            margin-top: 2rem;
+        }
+        .bg-foot-green {
+            padding: 10px 10px 4.8828125vmin 10px;
+        }
+        .bg-foot-green p {
+            font-size: 2.34375vmin;
+        }
+        .padding-left3-m {
+            padding-left: calc(var(--bs-gutter-x) * .5);
+        }
+        .px-reward-content-m {
+            padding: 0 25vw;
+        }
+        .bg-green-content {
+            padding: 1.953125vmin 1.953125vmin 3.90625vmin 1.953125vmin;
+        }
+        .bg-green-content p {
+            font-size: 2.1484375vmin;
+        }
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         .set-image img {
             right: 0;
         }
+        .bg-foot-green {
+            padding: 10px 10px 3.09375vmax 10px;
+        }
         .bg-foot-green p {
             /* font-size: 13px; */
-            font-size: 1.26953125vmax;
+            font-size: 1.85546875vmax;
+        }
+        .margin-top2-m {
+            margin-top: 1rem;
+        }
+        .margin-top3-m {
+            margin-top: 1rem;
+        }
+        .padding-left3-m {
+            padding-left: calc(var(--bs-gutter-x) * .5);
+        }
+        .px-reward-content-m {
+            padding: 0 25vw;
+        }
+        .m-size {
+            width: auto;
+            height: 3.125vmax;
+        }
+        .bg-green-content {
+            padding: 0.625vmax 3.28125vmax 3.145833vmax 1.6145833333vmax;
+        }
+        .bg-green-content h1 {
+            font-size: 3.41796875vmax;
+        }
+        .bg-green-content p {
+            font-size: 1.953125vmax;
         }
     }
 }
@@ -928,6 +980,21 @@ a:hover {
         }
         .t-white.details {
             font-size: 1.61054173vmax;
+        }
+        .bg-foot-green p {
+            font-size: 1.31771596vmax;
+        }
+        .bg-green-content {
+            padding: 0.73206442vmax 0.73206442vmax 3.66032211vmax 0.73206442vmax;
+        }
+        .bg-green-content p {
+            font-size: 1.24450952vmax;
+        }
+        .margin-top2-m {
+            margin-top: 1rem;
+        }
+        .margin-top3-m {
+            margin-top: 1rem;
         }
     }
     @media only screen and (min-device-width: 1921px) {

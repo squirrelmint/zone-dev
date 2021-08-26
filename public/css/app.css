@@ -764,10 +764,10 @@ a:hover {
             padding-right: 65.625vmin;
         }
         .foot-ban p {
-            font-size: 1.3037809648vmax;;
+            font-size: 1.3037809648vmax;
         }
         .bg-fade li {
-            font-size: 1.3037809648vmax;;
+            font-size: 1.9366197183vmax;
         }
         .set-image img {
             width: 62.5vmin;
@@ -779,6 +779,18 @@ a:hover {
         .px-reward-content-m {
             margin: 0 50vmin;
         }
+        .size-m-img .kbank,
+        .size-m-img .scb,
+        .size-m-img .ktb,
+        .size-m-img .kungsi {
+            height: 13.875vmin;
+        }
+        .title-text-2 {
+            font-size: 3.1690140845vmax;
+        }
+        .t-white.details {
+            font-size: 2.6408450704vmax;
+        }
         @media only screen and (min-device-width: 640px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
             .w1-m {
                 width: 18%;
@@ -786,6 +798,12 @@ a:hover {
             .w2-m {
                 width: 82%;
             }
+            .size-m-img .kbank,
+        .size-m-img .scb,
+        .size-m-img .ktb,
+        .size-m-img .kungsi {
+            height: 11.875vmin;
+        }
         }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {

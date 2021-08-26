@@ -2,7 +2,7 @@
 @section('content')
     <div class="col-12 col-md-9">
         <div class="h-100 zone-background zone-reward zone-content">
-            <img src="{{asset('img/reward/banner-yeekee.png')}}">
+            <img src="{{asset('img/reward/banner-stockchina.png')}}">
             <h1 class="zone-contact-title-gradient">หวยหุ้นจีน</h1>
             <h2 class="zone-contact-title">หวยหุ้นจีน กติกาการเเทง AMBLOTTO</h2>
             						
@@ -13,7 +13,7 @@
                 <li>ระบบทำการคืนโพยเเละเครดิตให้ในกรณีที่ตลาดหุ้นไม่มีความเคลื่อนไหวใดๆ ภายใน 1 ชั่วโมง ถือว่าไม่มีการออกผลรางวัล</li>
             </ul>
             
-            <h1 class="zone-contact-title-gradient">วิธีการดูผลหวยหุ้นจีน</h1>
+            <h2 class="zone-contact-title">วิธีการดูผลหวยหุ้นจีน</h2>
             <ul>
                 <li>ใช้ผลปิดตลาดของหุ้น SZSE COMPONENT INDEX</li>
                 <li>ออกผลรางวัล จะนำเลขหลักหน่วยเเละจุดทศนิยมของค่า Last ออกรางวัล 3 ตัวบน เเละนำจุดทศนิยมของค่า Change ออกรางวัล 2 ตัวล่าง	</li>

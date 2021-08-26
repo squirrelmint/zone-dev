@@ -70,7 +70,7 @@ ul.zone-sidebar-contact>li {
     line-height: 10px;
     vertical-align: top;
 }
-.zone-sidebar-links:hover {
+.zone-sidebar-link:hover {
     font-weight: 400;
     background: linear-gradient(360deg, #8F774A 0%, #CAA663 50.52%, #FFEEC9 100%);
     -webkit-background-clip: text;

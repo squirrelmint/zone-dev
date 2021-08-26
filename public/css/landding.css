@@ -13,14 +13,14 @@
 }
 .bg-gold-border1 {
     background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
-    padding: 2px;
+    padding: 0.125rem;
 }
 .link-home {
     /* width: 210px;
     height: 71px; */
     width: 10.9375vmax;
     height: 3.6979166667vmax;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 0.625rem 0px 0px 0px;
 }
 .link-regis {
     /* width: 271px;
@@ -48,7 +48,7 @@
     height: 71px; */
     width: 11.5104166667vmax;
     height: 3.6979166667vmax;
-    border-radius: 0px 10px 0px 0px;
+    border-radius: 0px 0.625rem 0px 0px;
 }
 .bg-link-brown {
     border-radius: inherit;
@@ -61,35 +61,35 @@
     height: 35px; */
     width: 1.875vmax;
     height: 1.8229166667vmax;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .link-regis img {
     /* width: 41px;
     height: 45px; */
     width: 2.1354166667vmax;
     height: 2.34375vmax;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .link-reward img {
     /* width: 41px;
     height: 40px; */
     width: 2.1354166667vmax;
     height: 2.0833333333vmax;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .link-promotion img {
     /* width: 48px;
     height: 43px; */
     width: 2.5vmax;
     height: 2.2395833333vmax;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .link-contact img {
     /* width: 34px;
     height: 41px; */
     width: 1.7708333333vmax;
     height: 2.1354166667vmax;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 .bg-link-brown h3 {
     /* font-size: 30px; */
@@ -97,37 +97,37 @@
     font-weight: 400;
 }
 .btn-link-regis {
-    width: 366px;
-    height: 66px;
-    border-radius: 0px 0px 0px 10px;
-    border: 2px solid #000;
+    width: 22.875rem;
+    height: 4.125rem;
+    border-radius: 0px 0px 0px 0.625rem;
+    border: 0.125rem solid #000;
     background: linear-gradient(#FFEEC9,#CAA663,#8F774A);
 }
 .btn-link-regis a img {
-    width: 41px;
-    height: 45px;
-    margin-right: 10px;
+    width: 2.5625rem;
+    height: 2.8125rem;
+    margin-right: 0.625rem;
 }
 .btn-link-regis a div {
     color:#000;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 400;
 }
 .btn-link-intolotto {
-    width: 366px;
-    height: 66px;
+    width: 22.875rem;
+    height: 4.125rem;
     border-radius: 0px 0px 10px 0px;
-    border: 2px solid #000;
+    border: 0.125rem solid #000;
     background: linear-gradient(#FFEEC9,#CAA663,#8F774A);
 }
 .btn-link-intolotto a img {
-    width: 68px;
-    height: 41px;
-    margin-right: 10px;
+    width: 4.25rem;
+    height: 2.5625rem;
+    margin-right: 0.625rem;
 }
 .btn-link-intolotto a div {
     color:#000;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 400;
 
 }
@@ -136,7 +136,7 @@
 .bg-promotion-content {
     width: 100%;
     background: linear-gradient(#FFEEC9,#CAA663,#8F774A);
-    padding: 2px;
+    padding: 0.125rem;
     border-radius: 5px;
 }
 .bg-green-content,

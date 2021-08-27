@@ -316,6 +316,9 @@ a:hover {
 /* mobile */
 /*  */
 @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+    .zone-sidebar-line {
+        display: none;
+    }
     .announce-text {
         /* font-size: 10px; */
         font-size: 3.125vmin;
@@ -754,6 +757,9 @@ a:hover {
         }
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        .zone-sidebar-line {
+            display: none;
+        }
         .w1-m {
             width: 13%;
         }
@@ -807,6 +813,9 @@ a:hover {
         }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .zone-sidebar-line {
+            display: none;
+        }
         .bg-fade {
             padding-left: 25px;
         }
@@ -854,6 +863,9 @@ a:hover {
     }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
+    .zone-sidebar-line {
+        display: none;
+    }
     .padding-right3-m {
         padding-right: calc(var(--bs-gutter-x) * .5) !important;
     }
@@ -892,6 +904,9 @@ a:hover {
         font-size: 1.07421875vmin;
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .zone-sidebar-line {
+            display: none;
+        }
         .zone-content p {
             font-size: 2.44140625vmin;
             line-height: 3.7109375vmin;
@@ -922,6 +937,9 @@ a:hover {
         }
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        .zone-sidebar-line {
+            display: none;
+        }
         .set-image img {
             right: 0;
         }
@@ -960,6 +978,9 @@ a:hover {
     }
 }
 @media only screen and (min-device-width: 1201px) {
+    .zone-sidebar-line {
+        display: none;
+    }
     .set-image {
         height: 80%;
     }

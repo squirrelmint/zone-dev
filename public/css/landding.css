@@ -113,6 +113,23 @@
     font-size: 2.1875rem;
     font-weight: 400;
 }
+.btn-link-login {
+    width: 22.875rem;
+    height: 4.125rem;
+    border-radius: 0px 0px 0px 0px;
+    border: 0.125rem solid #000;
+    background: linear-gradient(#FFEEC9,#CAA663,#8F774A);
+}
+.btn-link-login div img {
+    width: 2.6875rem;
+    height: 2.6875rem;
+    margin-right: 0.625rem;
+}
+.btn-link-login div div {
+    color:#000;
+    font-size: 2.1875rem;
+    font-weight: 400;
+}
 .btn-link-intolotto {
     width: 22.875rem;
     height: 4.125rem;
@@ -420,7 +437,8 @@ img {
         box-shadow: inset 11px 8px 16px rgba(0, 0, 0, 0.9);
     }
     .btn-link-regis:hover,
-    .btn-link-intolotto:hover {
+    .btn-link-intolotto:hover,
+    .btn-link-login:hover {
         background: #CAA663;
     }
     .link-bg-hover:hover {

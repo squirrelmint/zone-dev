@@ -26,4 +26,8 @@ class Controller extends BaseController
     {
         return view('page.contact');
     }
+    public function register()
+    {
+        return view('page.register');
+    }
 }

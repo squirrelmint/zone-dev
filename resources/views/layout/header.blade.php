@@ -12,6 +12,7 @@
     integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +46,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-links zone-nav-links" href="#">
+                    <a class="nav-links zone-nav-links" href="{{route('Landingpage.register')}}">
                         <span class='icon-register'></span> สมัครสมาชิก
                     </a>
                 </li>
@@ -62,6 +63,11 @@
                 <li class="nav-item">
                     <a class="nav-links zone-nav-links" href="{{route('Landingpage.contact')}}">
                         <span class='icon-contact'></span> ติดต่อเรา
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="myModal" class="nav-links zone-nav-links" data-toggle="modal" data-target="#exampleModal">
+                        <span class='icon-contact'></span> เข้าสู่ระบบ
                     </a>
                 </li>
             </ul>
@@ -116,12 +122,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xxl-auto px-0">
+                <div class="col col-lg-auto px-0 d-none d-lg-block">
                     <div class="bg-gold-border1 link-contact m-noborder">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
                                 <img src="{{asset('img/icon-contact.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">ติดต่อเรา</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-auto px-0 d-block d-lg-none">
+                    <div class="bg-gold-border1 link-login m-noborder">
+                        <div class="bg-link-brown link-bg-hover">
+                            <a id="myModal-m" class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" data-toggle="modal" data-target="#exampleModal">
+                                <img src="{{asset('img/icon-login-m.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าสู่ระบบ</h3>
                             </a>
                         </div>
                     </div>
@@ -160,7 +176,7 @@
             <div class="margin-y-6 d-block d-xxl-none"></div>
             <div class="footer-mobile d-block d-xxl-none justify-content-center">
                 <div class="group-link2 d-flex justify-content-center">
-                    <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                    <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
@@ -204,7 +220,7 @@
                     <div class="footer zone-footer-content padding-x2-m zone-background zone-content justify-content-center text-center mb-4">
                         <div class="row row-cols-5 t-white justify-content-center">
                             <div class="col col-xxl-auto d-flex pe-0">
-                                <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                                <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                                 <div class="section-link">|</div>
                             </div>
 
@@ -234,5 +250,33 @@
             </div>
         </footer>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog edit-margin" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+            </div>
+          </div>
+        </div>
+    </div>
 </body>
+<script>
+    $(document).ready(function(){
+            $("#myModal").click(function(){
+                $("#exampleModal").modal('show');
+            });
+            $("#myModal-m").click(function(){
+                $("#exampleModal").modal('show');
+            });
+        });
+    </script>
 </html>

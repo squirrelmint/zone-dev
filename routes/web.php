@@ -18,6 +18,7 @@ Route::get('/', [Controller::class, 'index'])->name('Landingpage.index');
 Route::get('/check-lotto', [Controller::class, 'rewardlotto'])->name('Landingpage.rewardlotto');
 Route::get('/promotion', [Controller::class, 'promotion'])->name('Landingpage.promotion');
 Route::get('/contact', [Controller::class, 'contact'])->name('Landingpage.contact');
+Route::get('/register', [Controller::class, 'register'])->name('Landingpage.register');
 
 Route::get('/กติกา/หวยรัฐบาลไทย',function() {
     return view('page.role.thai');

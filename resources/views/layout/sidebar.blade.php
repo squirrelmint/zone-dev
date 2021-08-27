@@ -13,7 +13,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-2"></div>
+                    <div class="mt-2 spacing-m"></div>
                     <div class="col-12 col-sm-12">
                         <div class="zone-background">
                             <div class="zone-head-contact">

@@ -290,6 +290,70 @@ a:hover {
     font-size: 2.708333333vmax;
     color: #fff;
 }
+
+/* forme-regis */
+.form-regis {
+    padding: 30px 145px 157px 145px;
+}
+label {
+    font-size: 24px;
+    color: #fff;
+}
+.button-group .btn {
+    width: 250px;
+    font-size: 32px;
+    padding: 13px;
+    color: #fff;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.btn.btn-regis {
+    background: linear-gradient(180deg, #19A17A 0%, #11916C 100%);
+}
+.re-input,
+.re-select {
+    padding: 12px 18px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #8692A6;
+    border-radius: 7px;
+    color: #8692A6;
+}
+input::placeholder {
+    color: #8692A6;
+  }
+  select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+
+  /* For IE10 */
+  select::-ms-expand {
+    display: none;
+  }
+select.minimal {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      0px 0em;
+    background-repeat: no-repeat;
+}
+
+/* modal */
+.modal-dialog.edit-margin {
+
+}
+
 @media (hover: hover) {
     ::-webkit-scrollbar-thumb:hover {
         background: #555;
@@ -313,11 +377,17 @@ a:hover {
 .space-row {
     --bs-gutter-x: 0.5rem
 }
+.spacing-m {
+    display: none;
+}
 /* mobile */
 /*  */
 @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
     .zone-sidebar-line {
         display: none;
+    }
+    .spacing-m {
+        display: block;
     }
     .announce-text {
         /* font-size: 10px; */
@@ -424,6 +494,11 @@ a:hover {
         height: 20vmin;
         border-radius: 0;
     }
+    .link-login {
+        width: 100%;
+        height: 20vmin;
+        border-radius: 0;
+    }
     .link-home img {
         /* width: 25px; */
         /* height: 25px; */
@@ -457,6 +532,13 @@ a:hover {
         /* height: 29px; */
         width: 7.1875vmin;
         height: 9.0625vmin;
+        margin-right: 0;
+    }
+    .link-login img {
+        /* width: 31px; */
+        /* height: 31px; */
+        width: 9.6875vmin;
+        height: 9.6875vmin;
         margin-right: 0;
     }
     .bg-link-brown h3 {
@@ -815,6 +897,9 @@ a:hover {
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .zone-sidebar-line {
             display: none;
+        }
+        .spacing-m {
+            display: block;
         }
         .bg-fade {
             padding-left: 25px;

@@ -12,6 +12,7 @@
     integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,10 +46,15 @@ body {
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
                 <div class="btn-link-regis">
-                    <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="{{route('Landingpage.register')}}">
                         <img src="{{asset('img/icon-regis.png')}}">
                         <div>สมัครสมาชิก</div>
                     </a>
+                </div><div class="btn-link-login">
+                    <div id="myModal" class="d-flex h-100 align-items-center justify-content-center" data-toggle="modal" data-target="#exampleModal">
+                        <img src="{{asset('img/icon-login.png')}}">
+                        <div>เข้าสู่ระบบ</div>
+                    </div>
                 </div>
                 <div class="btn-link-intolotto">
                     <a class="d-flex h-100 align-items-center justify-content-center" href="">
@@ -73,7 +79,7 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-regis">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.register')}}">
                                 <img src="{{asset('img/icon-regis2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">สมัครสมาชิก</h3>
                             </a>
@@ -104,12 +110,22 @@ body {
                         </div>
                     </div>
                 </div>
-                <div class="col col-lg-auto px-0">
+                <div class="col col-lg-auto px-0 d-none d-lg-block">
                     <div class="bg-gold-border1 link-contact m-noborder">
                         <div class="bg-link-brown link-bg-hover">
                             <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.contact')}}">
                                 <img src="{{asset('img/icon-contact.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">ติดต่อเรา</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-auto px-0 d-block d-lg-none">
+                    <div class="bg-gold-border1 link-login m-noborder">
+                        <div class="bg-link-brown link-bg-hover">
+                            <a id="myModal-m" class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center" data-toggle="modal" data-target="#exampleModal">
+                                <img src="{{asset('img/icon-login-m.png')}}" alt="">
+                                <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าสู่ระบบ</h3>
                             </a>
                         </div>
                     </div>
@@ -141,7 +157,7 @@ body {
                     <div class="col-4 px-0">
                         <div class="bg-green-border h-100">
                             <div class="fill-black h-100">
-                                <a href="" class="regis d-flex flex-column align-items-center">
+                                <a href="{{route('Landingpage.register')}}" class="regis d-flex flex-column align-items-center">
                                     <img src="{{asset('img/mobile/icon-g-user.png')}}" alt="">
                                     <div class="fill-text3 size-h1">สมัครสมาชิก</div>
                                 </a>
@@ -151,7 +167,7 @@ body {
                     <div class="col-4 px-0">
                         <div class="bg-green-border h-100">
                             <div class="fill-black h-100">
-                                <a href="" class="intolotto d-flex flex-column align-items-center">
+                                <a class="intolotto d-flex flex-column align-items-center">
                                     <img src="{{asset('img/mobile/icon-g-intolotto.png')}}" alt="">
                                     <div class="fill-text3 size-h1">เข้าแทงหวย</div>
                                 </a>
@@ -765,7 +781,7 @@ body {
             <div class="footer text-center d-none d-xxl-block">
                 <div class="row footer text-center row-cols-5 row-cols-lg-5 mx-0 t-white justify-content-center">
                     <div class="col col-xxl-auto d-flex pe-0">
-                        <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                        <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                         <div class="section-link">|</div>
                     </div>
                     <div class="col col-xxl-auto d-flex pe-0">
@@ -788,7 +804,7 @@ body {
             </div>
             <div class="footer-mobile d-block d-xxl-none justify-content-center">
                 <div class="group-link2 d-flex justify-content-center">
-                    <a class="t-white fill-hover" href="">สมัครสมาชิก</a>
+                    <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
@@ -802,9 +818,35 @@ body {
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog edit-margin" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+            </div>
+          </div>
+        </div>
+    </div>
 </body>
 <script>
     // cal_img();
+    $(document).ready(function(){
+        $("#myModal").click(function(){
+            $("#exampleModal").modal('show');
+        });
+        $("#myModal-m").click(function(){
+            $("#exampleModal").modal('show');
+        });
+    });
     // function cal_img() {
     //     div = document.querySelector('.bg-fade').offsetHeight;
     //     cal1 = (div * 74.7474747475) / 100;

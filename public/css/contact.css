@@ -23,7 +23,8 @@
     font-style: normal;
     font-weight: 300;
     /* font-size: 30px; */
-    font-size: 1.5625vmax;
+    /* font-size: 1.5625vmax; */
+    font-size: 1.0416666667vmax;
     line-height: 45px;
     align-items: center;
     text-align: center;

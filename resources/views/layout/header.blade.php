@@ -67,7 +67,7 @@
                 </li>
                 <li class="nav-item">
                     <a id="myModal" class="nav-links zone-nav-links" data-toggle="modal" data-target="#exampleModal">
-                        <span class='icon-contact'></span> เข้าสู่ระบบ
+                        <span class='icon-login'></span> เข้าสู่ระบบ
                     </a>
                 </li>
             </ul>
@@ -241,7 +241,6 @@
 
                             <div class="col col-xxl-auto d-flex pe-0">
                                 <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
-                                <div class="section-link">|</div>
                             </div>
                         </div>
                         <p class="t-white m-0">Copyright © 2021 amblotto.com All right reserved.</p>
@@ -252,18 +251,48 @@
     </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog edit-margin" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+          <div class="modal-content edit-modal-content">
+            <div class="modal-header edit-pxy no-border-m">
             </div>
-            <div class="modal-body">
-              ...
+            <div class="modal-body edit-pxy no-border-m mb-3">
+                <div class="bg-gold-login mb-3">
+                    <div class="bg-white-input">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row g-2">
+                                    <div class="col-2 col-lg-1 img-input">
+                                        <img class="icon-email" src="{{asset('img/lotto-icon/icon-email.png')}}" alt="">
+                                    </div>
+                                    <div class="col-10 col-lg-11 size-text-input">
+                                        <input type="text" class="col-10 w-100" placeholder="อีเมลล์" style="border:none">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gold-login">
+                    <div class="bg-white-input">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row g-2">
+                                    <div class="col-2 col-lg-1 img-input">
+                                        <img class="icon-lockpass" src="{{asset('img/lotto-icon/icon-lockpass.png')}}" alt="">
+                                    </div>
+                                    <div class="col-10 col-lg-11 size-text-input">
+                                        <input type="password" class="col-10 w-100" placeholder="รหัสผ่าน" style="border:none">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+            <div class="modal-footer edit-pxy no-border-m">
+                <div class="w-100 button-group2 text-center edit-margin-m">
+                    <button type="button" class="btn-login btn-regis2">ลงชื่อเข้าใช้</button>
+                </div>
             </div>
           </div>
         </div>

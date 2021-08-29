@@ -120,12 +120,12 @@
     border: 0.125rem solid #000;
     background: linear-gradient(#FFEEC9,#CAA663,#8F774A);
 }
-.btn-link-login div img {
+.btn-link-login a img {
     width: 2.6875rem;
     height: 2.6875rem;
     margin-right: 0.625rem;
 }
-.btn-link-login div div {
+.btn-link-login a div {
     color:#000;
     font-size: 2.1875rem;
     font-weight: 400;

@@ -119,6 +119,14 @@ span.icon-contact {
     display: inline-block;
     margin-right: 8px;
 }
+span.icon-login {
+    background: url('../img/lotto-icon/login.png');
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+}
 span.icon-contact-lotto {
     background: url('../img/lotto-icon/contact-lotto.png') no-repeat;
     height: 35px;

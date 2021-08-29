@@ -9,18 +9,18 @@
 </style>
 <div class="col-12 col-md-9">
     <div class="h-100 zone-background zone-reward zone-content">
-        <h1 class="zone-select-title text-center">สมัครสมาชิก</h1>
+        <h1 class="zone-regis-title text-center">สมัครสมาชิก</h1>
         <div class="form-regis">
             <div class="row register-form">
-                <div class="col-12 d-flex flex-column mb-4">
+                <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="name">ชื่อ</label>
                     <input type="text" class="re-input" name="name" placeholder="ชื่อต้องตรงกับบัญชีธนาคาร..." onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
-                <div class="col-12 d-flex flex-column mb-4">
+                <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="surname">นามสกุล</label>
                     <input type="text" class="re-input" name="surname" placeholder="นามสกุลต้องตรงกับบัญชีธนาคาร..." onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
-                <div class="col-12 d-flex flex-column mb-4">
+                <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="bank">ธนาคาร</label>
                     <select name="bank" class="re-select custom-select minimal">
                         <option disabled="disabled" value="" selected>กรุณาเลือกธนาคาร...</option>
@@ -47,25 +47,25 @@
                         <option value="IBANK">ธนาคารอิสลามแห่งประเทศไทย</option>
                     </select>
                 </div>
-                <div class="col-12 d-flex flex-column mb-4">
+                <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="banknumber">หมายเลขบัญชี</label>
                     <input type="text" class="re-input" name="banknumber" placeholder="เลขบัญชี" onkeypress="if((event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
-                 <div class="col-12 d-flex flex-column mb-4">
+                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="number">เบอร์โทร</label>
                     <input type="text" class="re-input" name="number" placeholder="ต้องใช้งานได้จริง" onkeypress="if((event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
-                <div class="col-12 d-flex flex-column minimal mb-4">
+                <div class="col-12 d-flex flex-column minimal margin-bottom-m2">
                     <label for="promotion">เลือกโปร</label>
-                    <select name="promotion" class="re-select custom-select">
+                    <select name="promotion" class="re-select custom-select minimal">
                         <option disabled="disabled" value="" selected></option>
                     </select>
                 </div>
-                <div class="col-12 d-flex flex-column mb-4">
+                <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="userregis">ยูสที่เข้าเล่น</label>
                     <input disabled maxlength="36" type="text" class="re-input" name="userregis" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
-                <div class="col-12 d-flex flex-column mb-5">
+                <div class="col-12 d-flex flex-column margin-bottom-m3">
                     <label for="passwordregis">รหัสผ่าน</label>
                     <input maxlength="20" type="password" class="re-input" name="passwordregis" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>

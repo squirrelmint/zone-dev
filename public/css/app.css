@@ -461,6 +461,9 @@ select.minimal {
 /* mobile */
 /*  */
 @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        background-size: unset;
+    }
     .zone-sidebar-line {
         display: none;
     }
@@ -939,7 +942,7 @@ select.minimal {
     }
     .button-group2 .btn-login {
         width: 100%;
-        font-size: 16px;
+        font-size: 5vmin;
         padding: 7px;
         color: #fff;
         border-radius: 0px 0px 5.62613px 5.62613px;
@@ -986,7 +989,7 @@ select.minimal {
         height: 19px;
     }
     .size-text-input {
-        font-size: 13px;
+        font-size: 4.0625vmin;
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .w1-m {
@@ -1040,6 +1043,10 @@ select.minimal {
         .t-white.details {
             font-size: 2.6408450704vmax;
         }
+        .modal-dialog.edit-margin {
+            max-width: 540px;
+            margin: 27.8125vmin auto;
+        }
         @media only screen and (min-device-width: 640px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
             .w1-m {
                 width: 18%;
@@ -1048,11 +1055,12 @@ select.minimal {
                 width: 82%;
             }
             .size-m-img .kbank,
-        .size-m-img .scb,
-        .size-m-img .ktb,
-        .size-m-img .kungsi {
-            height: 11.875vmin;
-        }
+            .size-m-img .scb,
+            .size-m-img .ktb,
+            .size-m-img .kungsi {
+                height: 11.875vmin;
+            }
+
         }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -1098,6 +1106,10 @@ select.minimal {
         .zone-reward .zone-contact-title {
             font-size: 3.90625vmin;
         }
+        .modal-dialog.edit-margin {
+            max-width: 540px;
+            margin: 27.8125vmin auto;
+        }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 991px) and  (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
         .w1-m {
@@ -1120,7 +1132,6 @@ select.minimal {
     .footer-mobile .section-link {
         font-size: 18px;
     }
-
     #body-content .page-content {
         padding: 0px 61px 60px 61px;
     }
@@ -1148,6 +1159,10 @@ select.minimal {
     .bg-foot-green p {
         /* font-size: 11px; */
         font-size: 1.07421875vmin;
+    }
+    .modal-dialog.edit-margin {
+        max-width: 540px;
+        margin: 8.8vmin auto;
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .zone-sidebar-line {
@@ -1240,6 +1255,10 @@ select.minimal {
         #body-content .page-content {
             padding: 0px 2vmin 60px 2vmin;
         }
+        .modal-dialog.edit-margin {
+            max-width: 540px;
+            margin: 3.6477331944vmax auto;
+        }
     }
     @media only screen and (min-device-width: 1201px) and (max-device-width: 1899px) and (orientation: landscape) {
         .title-text-2 {
@@ -1262,6 +1281,10 @@ select.minimal {
         }
         .margin-top3-m {
             margin-top: 1rem;
+        }
+        .modal-dialog.edit-margin {
+            max-width: 540px;
+            margin: 5.1244509517vmax auto;
         }
     }
     @media only screen and (min-device-width: 1921px) {

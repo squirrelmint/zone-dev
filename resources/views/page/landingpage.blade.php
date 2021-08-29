@@ -829,10 +829,10 @@ body {
                         <div class="row">
                             <div class="col-12">
                                 <div class="row g-2">
-                                    <div class="col-2 col-lg-1 img-input">
+                                    <div class="col-2 col-md-1 img-input">
                                         <img class="icon-email" src="{{asset('img/lotto-icon/icon-email.png')}}" alt="">
                                     </div>
-                                    <div class="col-10 col-lg-11 size-text-input">
+                                    <div class="col-10 col-md-11 size-text-input">
                                         <input type="text" class="col-10 w-100" placeholder="อีเมลล์" style="border:none">
                                     </div>
 
@@ -846,10 +846,10 @@ body {
                         <div class="row">
                             <div class="col-12">
                                 <div class="row g-2">
-                                    <div class="col-2 col-lg-1 img-input">
+                                    <div class="col-2 col-md-1 img-input">
                                         <img class="icon-lockpass" src="{{asset('img/lotto-icon/icon-lockpass.png')}}" alt="">
                                     </div>
-                                    <div class="col-10 col-lg-11 size-text-input">
+                                    <div class="col-10 col-md-11 size-text-input">
                                         <input type="password" class="col-10 w-100" placeholder="รหัสผ่าน" style="border:none">
                                     </div>
                                 </div>

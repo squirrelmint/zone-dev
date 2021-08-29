@@ -859,9 +859,11 @@ body {
                 </div>
             </div>
             <div class="modal-footer edit-pxy no-border-m">
-                <div class="w-100 button-group2 text-center edit-margin-m">
-                    <button type="button" class="btn-login btn-regis2">ลงชื่อเข้าใช้</button>
-                </div>
+                <a href="http://zonelottoenvbeta-env.eba-que4rr6y.ap-southeast-1.elasticbeanstalk.com/" class="w-100">
+                    <div class="w-100 button-group2 text-center edit-margin-m">
+                        <button type="button" class="btn-login btn-regis2">ลงชื่อเข้าใช้</button>
+                    </div>
+                </a>
             </div>
           </div>
         </div>

@@ -885,7 +885,7 @@ $(document).ready(function(){
     $("#myModal-m").click(function(){
         $("#loginModal").modal('show');
     });
-    $("#myModalLoad").show();
+    // $("#myModalLoad").show();
 });
 
 function showResultLotto() {

@@ -3,7 +3,7 @@
 @import "promotion.css";
 @import "reward-lotto.css";
 
-.edit-d-block {
+.modal-open .edit-d-block {
     display: block;
 }
 img {

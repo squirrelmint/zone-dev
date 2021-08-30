@@ -14,15 +14,15 @@
             <div class="row register-form">
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="name">ชื่อ</label>
-                    <input type="text" class="re-input" name="name" placeholder="ชื่อต้องตรงกับบัญชีธนาคาร..." onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input type="text" class="re-input" id="firstname" name="firstname" placeholder="ชื่อต้องตรงกับบัญชีธนาคาร..." onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="surname">นามสกุล</label>
-                    <input type="text" class="re-input" name="surname" placeholder="นามสกุลต้องตรงกับบัญชีธนาคาร..." onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input type="text" class="re-input" id="surname" name="surname" placeholder="นามสกุลต้องตรงกับบัญชีธนาคาร..." onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="bank">ธนาคาร</label>
-                    <select name="bank" class="re-select custom-select minimal">
+                    <select id="bank" name="bank" class="re-select custom-select minimal">
                         <option disabled="disabled" value="" selected>กรุณาเลือกธนาคาร...</option>
                         <option value="SCB">ธนาคารไทยพาณิชย์</option>
                         <option value="KBANK">ธนาคารกสิกรไทย</option>
@@ -49,31 +49,139 @@
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="banknumber">หมายเลขบัญชี</label>
-                    <input type="text" class="re-input" name="banknumber" placeholder="เลขบัญชี" onkeypress="if((event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input maxlength="12" type="text" class="re-input" id="banknumber" name="banknumber" placeholder="เลขบัญชี" onkeypress="if((event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                  <div class="col-12 d-flex flex-column margin-bottom-m2">
-                    <label for="number">เบอร์โทร</label>
-                    <input type="text" class="re-input" name="number" placeholder="ต้องใช้งานได้จริง" onkeypress="if((event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
-                </div>
-                <div class="col-12 d-flex flex-column minimal margin-bottom-m2">
-                    <label for="promotion">เลือกโปร</label>
-                    <select name="promotion" class="re-select custom-select minimal">
-                        <option disabled="disabled" value="" selected></option>
-                    </select>
+                    <label for="number">เบอร์โทรศัพท์</label>
+                    <input maxlength="10" type="text" class="re-input" id="phone" name="phone" placeholder="ต้องใช้งานได้จริง" onkeypress="if((event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="userregis">ยูสที่เข้าเล่น</label>
-                    <input disabled maxlength="36" type="text" class="re-input" name="userregis" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input readonly maxlength="36" type="text" class="re-input" id="username" name="userregis" value="newamblotto" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m3">
                     <label for="passwordregis">รหัสผ่าน</label>
-                    <input maxlength="20" type="password" class="re-input" name="passwordregis" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input maxlength="20" type="password" class="re-input" id="password" name="passwordregis" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
             </div>
             <div class="button-group text-center">
-                <button type="button" class="btn btn-regis btn-secondary">สมัครสมาชิก</button>
+                <button type="button" class="btn btn-regis btn-secondary" onclick="registerAjax()">สมัครสมาชิก</button>
             </div>
         </div>
     </div>
 </div>
 @endsection
+
+@section('js')
+<script>
+
+$(document).on("change", 'input', function(e){
+    let input = $(e.target).val().trim();
+    $(e.target).val( input );
+});
+
+$(document).on("keyup", '#phone',  function(){
+    let phone = $('#phone').val();
+    let newname = 'newamblotto' + phone;
+    $('#username').val( newname );
+});
+
+function registerAjax() {
+    let formRequest = '';
+    let url = 'https://dev-api.pirate168.com/v1/api/frontend/member/register/wallet';
+
+    let firstname = $('#firstname').val();
+    if(!firstname){
+        alert('กรุณากรอกชื่อ');
+        return false;
+    }
+
+    let lastname = $('#surname').val();
+    if(!lastname){
+        alert('กรุณากรอกนามสกุล');
+        return false;
+    }
+
+    let bank = $('#bank').val();
+    if(!bank){
+        alert('กรุณาเลือกธนาคาร');
+        return false;
+    }
+
+    let acc_no = $('#banknumber').val();
+    if(!acc_no){
+        alert('กรุณากรอกหมายเลขบัญชี');
+        return false;
+    }
+
+    let phone = $('#phone').val();
+    if(!phone){
+        alert('กรุณากรอกเบอร์โทรศัพท์');
+        return false;
+    }else{
+        regex = new RegExp('(^0([8|9|6])([0-9]{8}$))');
+        if(regex.test(phone)==false){
+            alert('เบอร์โทรศัพท์ไม่ถูกต้อง');
+            return false;
+        }
+    }
+
+
+    let username = $('#username').val();
+    if(!username){
+        alert('กรุณากรอกยูสที่เข้าเล่น');
+        return false;
+    }else{
+        if(username != 'newamblotto'+phone){
+            alert('ยูสที่ใช้ไม่ถูกต้อง');
+            return false;
+        }
+    }
+
+    let password = $('#password').val();
+    if(!password){
+        alert('กรุณากรอกรหัสผ่าน');
+        return false;
+    }
+
+    let datajson = {
+            "username":username,
+            "password":password,
+            "firstname":firstname,
+            "lastname":lastname,
+            "bank":bank,
+            "acc_no":acc_no,
+            "phone":phone,
+            "promotion":1,
+            "parent":"d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa"
+        };
+
+    $.ajax({
+        url: url,
+        type: "POST",
+        cache: false,
+        dataType: "json",
+        data: JSON.stringify(datajson),
+        beforeSend: function() {
+            $('#myModalLoad').modal('show');
+        },
+        success: function(res) {
+            $('#myModalLoad').modal('hide');
+            if(res.code == 200){
+                alert('สมัครสมาชิกเรียบร้อยแล้ว');
+                setTimeout(function(){ window.location.href = "{{route('Landingpage.index')}}" }, 1000);
+            }else{
+                alert(res.message);
+                return false;
+            }
+        },
+        error: function (xhr, status, error) {
+            alert("invalid ajax");
+            // $('#modalAlert').modal('hide');
+            // location.reload(true);
+        },
+    });
+}
+</script>
+@endsection
+

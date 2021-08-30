@@ -29,7 +29,7 @@
                                 <li><a href="{{route('role.yeekee')}}" class="zone-sidebar-link">หวยยี่กี</a></li>
                                 <li><a href="{{route('role.pingpong')}}" class="zone-sidebar-link">หวยปิงปอง</a></li>
                                 <li><a href="{{route('role.stocksinggapore')}}" class="zone-sidebar-link">หวยหุ้นสิงคโปร์</a></li>
-                                <li><a href="{{route('role.stockthai')}}" class="zone-sidebar-link">หวยsหุ้นไทย</a></li>
+                                <li><a href="{{route('role.stockthai')}}" class="zone-sidebar-link">หวยหุ้นไทย</a></li>
                                 <li><a href="{{route('role.stocknikkei')}}" class="zone-sidebar-link">หวยหุ้นนิเคอิ</a></li>
                                 <li><a href="{{route('role.stockchina')}}" class="zone-sidebar-link">หวยหุ้นจีน</a></li>
                                 <li><a href="{{route('role.stockhangseng')}}" class="zone-sidebar-link">หวยหุ้นฮั่งเส็ง</a></li>

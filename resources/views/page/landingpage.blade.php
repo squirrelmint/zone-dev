@@ -819,7 +819,7 @@ body {
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog edit-margin" role="document">
           <div class="modal-content edit-modal-content">
             <div class="modal-header edit-pxy no-border-m">
@@ -834,7 +834,7 @@ body {
                                         <img class="icon-email" src="{{asset('img/lotto-icon/icon-email.png')}}" alt="">
                                     </div>
                                     <div class="col-10 col-md-11 size-text-input">
-                                        <input type="text" class="col-10 w-100" placeholder="อีเมลล์" style="border:none">
+                                        <input id="username" type="text" class="col-10 w-100" placeholder="ชื่อผู้ใช้" style="border:none">
                                     </div>
 
                                 </div>
@@ -851,7 +851,7 @@ body {
                                         <img class="icon-lockpass" src="{{asset('img/lotto-icon/icon-lockpass.png')}}" alt="">
                                     </div>
                                     <div class="col-10 col-md-11 size-text-input">
-                                        <input type="password" class="col-10 w-100" placeholder="รหัสผ่าน" style="border:none">
+                                        <input id="password" type="password" class="col-10 w-100" placeholder="รหัสผ่าน" style="border:none">
                                     </div>
                                 </div>
                             </div>
@@ -860,11 +860,9 @@ body {
                 </div>
             </div>
             <div class="modal-footer edit-pxy no-border-m">
-                <a href="http://zonelottoenvbeta-env.eba-que4rr6y.ap-southeast-1.elasticbeanstalk.com/" class="w-100">
-                    <div class="w-100 button-group2 text-center edit-margin-m">
-                        <button type="button" class="btn-login btn-regis2">ลงชื่อเข้าใช้</button>
-                    </div>
-                </a>
+                <div class="w-100 button-group2 text-center edit-margin-m">
+                    <button type="button" class="btn-login btn-regis2" onclick="loginAjax()">ลงชื่อเข้าใช้</button>
+                </div>
             </div>
           </div>
         </div>
@@ -872,14 +870,65 @@ body {
 </body>
 <script>
     // cal_img();
-    $(document).ready(function(){
-        $("#myModal").click(function(){
-            $("#exampleModal").modal('show');
-        });
-        $("#myModal-m").click(function(){
-            $("#exampleModal").modal('show');
-        });
+$(document).ready(function(){
+    $("#myModal").click(function(){
+        $("#loginModal").modal('show');
     });
-    // $('#myModalLoad').modal('show');
+    $("#myModal-m").click(function(){
+        $("#loginModal").modal('show');
+    });
+});
+
+function loginAjax() {
+    let formRequest = '';
+    let url = 'https://dev-api.pirate168.com/apiRoute/member/landing/login';
+
+    let username = $('#username').val();
+    let password = $('#password').val();
+
+    let datajson =  {
+                        "agentUsername": "ntc123",
+                        "agentApiKey": "d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa",
+                        "playerUsername": username,
+                        "playerPassword": password
+                    };
+
+    $.ajax({
+        url: url,
+        type: "POST",
+        cache: false,
+        dataType: "json",
+        data: JSON.stringify(datajson),
+        beforeSend: function() {
+            $('#myModalLoad').modal('show');
+        },
+        success: function(res) {
+            if(res.code = "0"){
+                window.location.href = res.data.urlFullPage;
+            }
+            $('#myModalLoad').modal('hide');
+        },
+        error: function (xhr, status, error) {
+            alert("invalid ajax");
+            // $('#modalAlert').modal('hide');
+            // location.reload(true);
+        },
+    });
+}
+    // function cal_img() {
+    //     div = document.querySelector('.bg-fade').offsetHeight;
+    //     cal1 = (div * 74.7474747475) / 100;
+    //     set_height = document.querySelector('.set-image').style.height = cal1 + "px"
+    //     cal2 = (((cal1 * 100) / 42.8364688857)* 100) / screen.width;;
+    //     set_width = document.querySelector('.absolute').style.width = cal2 + "vmax"
+    //     console.log(cal1,cal2)
+    // }
+    // function hover(thai) {
+    //     thai.setAttribute('src', "{{asset('img/lotto-icon/1thaihover.png')}}");
+    //     }
+
+    //     function unhover(thai) {
+    //         thai.setAttribute('src', "{{asset('img/lotto-icon/1thai.png')}}");
+    //     }
 </script>
 </html>

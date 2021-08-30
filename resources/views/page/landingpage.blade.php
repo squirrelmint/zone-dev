@@ -58,7 +58,7 @@ body {
                     </a>
                 </div>
                 <div class="btn-link-intolotto">
-                    <a class="d-flex h-100 align-items-center justify-content-center" href="https://dev-front.pirate168.com/?agent=ntc123">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="{{\config('lotto.url')}}/?agent=ntc123">
                         <img src="{{asset('img/icon-intolotto.png')}}">
                         <div>เข้าแทงหวย</div>
                     </a>
@@ -807,7 +807,7 @@ body {
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
-                    <a class="t-white fill-hover" href="https://dev-front.pirate168.com/?agent=ntc123">เข้าแทงหวย</a>
+                    <a class="t-white fill-hover" href="{{\config('lotto.url')}}/?agent=ntc123">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                     <div class="section-link">|</div>
@@ -929,7 +929,7 @@ function showResultLotto() {
 }
 
 function loginAjax() {
-    let url = 'https://dev-api.pirate168.com/apiRoute/member/landing/login';
+    let url = "{{\config('lotto.url')}}/apiRoute/member/landing/login";
 
     let username = $('#username').val();
     let password = $('#password').val();

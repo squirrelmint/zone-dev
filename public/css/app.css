@@ -3,7 +3,9 @@
 @import "promotion.css";
 @import "reward-lotto.css";
 
-
+.edit-d-block {
+    display: block;
+}
 img {
     width: 100%;
 }

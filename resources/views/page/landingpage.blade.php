@@ -41,6 +41,7 @@ body {
 
 </style>
 <body>
+    @include('layout.modallode')
     <div id="body-head">
         <img class="header d-none d-lg-block" src="{{asset('img/Header.png')}}" alt="">
         <div class="navbar-top d-none d-lg-block">
@@ -879,20 +880,6 @@ body {
             $("#exampleModal").modal('show');
         });
     });
-    // function cal_img() {
-    //     div = document.querySelector('.bg-fade').offsetHeight;
-    //     cal1 = (div * 74.7474747475) / 100;
-    //     set_height = document.querySelector('.set-image').style.height = cal1 + "px"
-    //     cal2 = (((cal1 * 100) / 42.8364688857)* 100) / screen.width;;
-    //     set_width = document.querySelector('.absolute').style.width = cal2 + "vmax"
-    //     console.log(cal1,cal2)
-    // }
-    // function hover(thai) {
-    //     thai.setAttribute('src', "{{asset('img/lotto-icon/1thaihover.png')}}");
-    //     }
-
-    //     function unhover(thai) {
-    //         thai.setAttribute('src', "{{asset('img/lotto-icon/1thai.png')}}");
-    //     }
+    // $('#myModalLoad').modal('show');
 </script>
 </html>

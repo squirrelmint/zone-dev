@@ -139,7 +139,7 @@ body {
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
-                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@ body {
                     <div class="col-xl-8">
                         <div class="bg-content2">
                             <div class="bg-green-content">
-                                <h1>AMB Lotto.vip แทงหวยออนไลน์ 24 ชั่วโมง</h1>
+                                <h1>Zone Lotto แทงหวยออนไลน์ 24 ชั่วโมง</h1>
                                             <p class="text-justify t-white">ด้วยประสบการณ์การให้บริการทั้งคาสิโนออนไลน์ และ แทงหวยออนไลน์ นานนับ 10 ปี และไม่หยุด
                                 พัฒนาเพื่อประสบการณ์ต่อผู้เล่น ที่สะดวก เสถียรที่สุด รองรับทั้งมือถือ และ คอมพิวเตอร์ โดยไม่
                                 ต้องดาวน์โหลดใดๆ อีกทั้งยังมีระบบฝากถอนรวดเร็ว ทำให้เว็บที่ทีมงานดูแลและพัฒนาเป็นที่นิยม
@@ -257,14 +257,8 @@ body {
                                                         <p class="t-left mb-0 fill-text front3">เลขท้าย 3 ตัว</p>
                                                         <div class="mt-1"></div>
                                                         <div class="bg-gold-border2 bg-front3">
-                                                            <div class="bg-content-green edit-padding-bottom3 d-flex align-items-center justify-content-center row cols-2 gx-0">
-                                                                {{-- <div class="row cols-2"> --}}
-                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">103</h3></div>
-                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">307</h3></div>
-                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">910</h3></div>
-                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">261</h3></div>
-                                                                {{-- </div> --}}
-                                                                {{-- <h3 class="text-center mb-0 t-white">103, 307</h3> --}}
+                                                            <div id="resultThreeBottom" class="bg-content-green edit-padding-bottom3 d-flex align-items-center justify-content-center row cols-2 gx-0">
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -411,13 +405,13 @@ body {
                         <div class="foot-ban padding-x-5">
                             <div class="col-xxl-8">
                                 <div class="text-area">
-                                    <h1 class="pt-1">AMBLOTTOVIP เว็บหวยออนไลน์ที่ดีที่สุด</h1>
-                            <p class="text-justify t-white">เว็บแทงหวยออนไลน์,    แทงหวย, แทงหวยออนไลน์, ซื้อหวย, แทงหวยหุ้น, หวยหุ้น, หวยรัฐบาล, ตรวจหวย,
-                                เว็บแทงหวย, ซื้อหวยหุ้น เว็บรับ แทงหวยออนไลน์ รูปแบบใหม่ ทำงานด้วยระบบอัตโนมัติ การฝากเงิน การ
-                                ถอนเงิน รวดเร็ว ปลอดภัย การเงินมั่นคง เหมาะสำหรับลูกค้าที่ต้องการความสะดวกสบาย โปรงใส่ 100%
-                                มีให้เลือกแทงหวยออนไลน์แทบทุกชนิด หวยรัฐบาล หวยหุ้นหวยต่างประเทศ หวยมาเลย์ และ หวยปิงปอง
-                                ( จับยี่กี ) 24 ชั่วโมง ทุก15นาที การประมวลผลด้วยทีมงานมืออาชีพ ท่านจึงมั่นใจ หวยออนไลน์ได้ว่าท่านจะ
-                                ได้รับการบริการและการแก้ไขปัญหาต่างๆ ในระดับที่ดีที่สุด</p>
+                                    <h1 class="pt-1">ZONELOTTO เว็บหวยออนไลน์ที่ดีที่สุด</h1>
+                                    <p class="text-justify t-white">เว็บแทงหวยออนไลน์,    แทงหวย, แทงหวยออนไลน์, ซื้อหวย, แทงหวยหุ้น, หวยหุ้น, หวยรัฐบาล, ตรวจหวย,
+                                        เว็บแทงหวย, ซื้อหวยหุ้น เว็บรับ แทงหวยออนไลน์ รูปแบบใหม่ ทำงานด้วยระบบอัตโนมัติ การฝากเงิน การ
+                                        ถอนเงิน รวดเร็ว ปลอดภัย การเงินมั่นคง เหมาะสำหรับลูกค้าที่ต้องการความสะดวกสบาย โปรงใส่ 100%
+                                        มีให้เลือกแทงหวยออนไลน์แทบทุกชนิด หวยรัฐบาล หวยหุ้นหวยต่างประเทศ หวยมาเลย์ และ หวยปิงปอง
+                                        ( จับยี่กี ) 24 ชั่วโมง ทุก15นาที การประมวลผลด้วยทีมงานมืออาชีพ ท่านจึงมั่นใจ หวยออนไลน์ได้ว่าท่านจะ
+                                        ได้รับการบริการและการแก้ไขปัญหาต่างๆ ในระดับที่ดีที่สุด</p>
                                 </div>
                             </div>
                         </div>
@@ -792,7 +786,7 @@ body {
                         <div class="section-link">|</div>
                     </div>
                     <div class="col col-xxl-auto d-flex pe-0">
-                        <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                        <a class="t-white fill-hover" href="https://dev-front.pirate168.com/?agent=ntc123">เข้าแทงหวย</a>
                         <div class="section-link">|</div>
                     </div>
                     <div class="col col-xxl-auto d-flex pe-0">
@@ -807,13 +801,13 @@ body {
                         <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                     </div>
                 </div>
-                <p class="t-white">Copyright © 2021 amblotto.com All right reserved.</p>
+                <p class="t-white">Copyright © 2021 askmebet.com All right reserved.</p>
             </div>
             <div class="footer-mobile d-block d-xxl-none justify-content-center">
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
-                    <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                    <a class="t-white fill-hover" href="https://dev-front.pirate168.com/?agent=ntc123">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                     <div class="section-link">|</div>
@@ -916,6 +910,12 @@ function showResultLotto() {
                 $('#resultDate').html('งวดประจำวันที่ ' +datadate[0]+ ' ' +thmonth[datadate[1]-1]+ ' ' + year );
                 $('#resultSixTop').html(data.result.top6);
                 $('#resultTwoBottom').html(data.result.bottom2);
+
+                let threebottomTest = '';
+                $(data.result.bottom3).each(function(e,v){
+                    threebottomTest += '<div class="col-6"><h3 class="text-center mb-0 t-white">'+v+'</h3></div>';
+                });
+                $('#resultThreeBottom').html(threebottomTest);
 
             }
             $('#myModalLoad').modal('hide');

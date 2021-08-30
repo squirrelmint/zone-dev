@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-yeekee.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยยี่กี</h1>
-            <h2 class="zone-contact-title">หวยยี่กี กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยยี่กี กติกาการเเทง ZONELOTTO</h1>
 
             <ul>
                 <li>เปิดรับแทงวันละ 88 รอบ ออกผลรางวัลทุกๆ 15 นาที</li>

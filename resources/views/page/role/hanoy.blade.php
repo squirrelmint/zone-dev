@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-hanoy.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยฮานอย</h1>
-            <h2 class="zone-contact-title">หวยฮานอย กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยฮานอย กติกาการเเทง ZONELOTTO</h1>
             
             <ul>
                 <li>ระบบจะทำการเปิดรับการเดิมพันทุกวัน</li>
@@ -37,7 +37,7 @@
             </ul>
 
             <h1 class="zone-contact-title-gradient">หวยฮานอย VIP</h1>
-            <h2 class="zone-contact-title">หวยฮานอย VIP กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยฮานอย VIP กติกาการเเทง ZONELOTTO</h1>
             
             <ul>
                 <li>ระบบจะทำการเปิดรับการเดิมพันทุกวัน</li>
@@ -47,7 +47,7 @@
             </ul>
 
             <h1 class="zone-contact-title-gradient">หวยฮานอยแบบชุด</h1>
-            <h2 class="zone-contact-title">หวยฮานอยแบบชุด กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยฮานอยแบบชุด กติกาการเเทง ZONELOTTO</h1>
             
             <ul>
                 <li>ระบบจะทำการเปิดรับการเดิมพันทุกวัน</li>
@@ -79,7 +79,7 @@
             </ul>
 
             <h1 class="zone-contact-title-gradient">หวยฮานอย VIP แบบชุด</h1>
-            <h2 class="zone-contact-title">หวยฮานอย VIP แบบชุดกติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยฮานอย VIP แบบชุดกติกาการเเทง ZONELOTTO</h1>
             
             <ul>
                 <li>ระบบจะทำการเปิดรับการเดิมพันทุกวัน</li>

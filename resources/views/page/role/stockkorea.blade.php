@@ -4,7 +4,7 @@
         <div class="h-100 zone-background zone-reward zone-content">
             <img src="{{asset('img/reward/banner-stockkorea.png')}}">
             <h1 class="zone-contact-title-gradient">หวยหุ้นเกาหลี</h1>
-            <h2 class="zone-contact-title">หวยหุ้นเกาหลี กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยหุ้นเกาหลี กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>เปิดรับเเทงออนไลน์ทุกวัน จันทร์ – ศุกร์ (ปิดรับเเทงตามวันหยุดของตลาดหุ้น)</li>

@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-pingpong.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยปิงปอง</h1>
-            <h2 class="zone-contact-title">หวยปิงปอง กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยปิงปอง กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>เปิดรับเเทงออนไลน์วันละ 16 รอบ ออกผลรางวัลทุกๆ 1 ชั่วโมง</li>

@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-stockrussia.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยหุ้นรัสเซีย</h1>
-            <h2 class="zone-contact-title">หวยหุ้นรัสเซีย กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยหุ้นรัสเซีย กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>เปิดรับเเทงออนไลน์ทุกวัน จันทร์ – ศุกร์ (ปิดรับเเทงตามวันหยุดของตลาดหุ้น)</li>

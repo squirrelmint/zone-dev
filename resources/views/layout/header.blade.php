@@ -152,7 +152,7 @@
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
-                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                 </div>
-                <p class="t-white text-center">Copyright © 2021 amblotto.com All right reserved.</p>
+                <p class="t-white text-center">Copyright © 2021 askmebet.com All right reserved.</p>
             </div>
         </div>
 
@@ -226,7 +226,7 @@
                             </div>
 
                             <div class="col col-xxl-auto d-flex pe-0">
-                                <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                                <a class="t-white fill-hover" href="https://dev-front.pirate168.com/?agent=ntc123">เข้าแทงหวย</a>
                                 <div class="section-link">|</div>
                             </div>
 
@@ -244,7 +244,7 @@
                                 <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                             </div>
                         </div>
-                        <p class="t-white m-0">Copyright © 2021 amblotto.com All right reserved.</p>
+                        <p class="t-white m-0">Copyright © 2021 askmebet.com All right reserved.</p>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-bacc.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยธกส.</h1>
-            <h2 class="zone-contact-title">หวยธกส. กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยธกส. กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>ใช้ผลการออกรางวัลที่ 1 ของ ผลรางวัลฉลาก ธกส. ในแต่ละเดือน นำมาออกรางวัล</li>

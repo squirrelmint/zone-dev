@@ -58,7 +58,7 @@ body {
                     </a>
                 </div>
                 <div class="btn-link-intolotto">
-                    <a class="d-flex h-100 align-items-center justify-content-center" href="">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="https://dev-front.pirate168.com/?agent=ntc123">
                         <img src="{{asset('img/icon-intolotto.png')}}">
                         <div>เข้าแทงหวย</div>
                     </a>
@@ -231,7 +231,7 @@ body {
                                     <div class="row">
                                         <div class="col-xxl-12 t-white">
                                             <div class="bg-datereward bg-green p">
-                                            <p class="text-center mb-0">งวดประจำวันที่ <span>1</span> <span>สิงหาคม</span> <span>2564</span></p>
+                                            <p id="resultDate" class="text-center mb-0">งวดประจำวันที่</p>
                                             </div>
                                         </div>
                                     </div>
@@ -245,7 +245,7 @@ body {
                                             <div class="col-xxl-12">
                                                 <div class="bg-gold-border2 bg-num6">
                                                     <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                        <h2 class="text-center mb-0 t-white">910261</h2>
+                                                        <h2 id="resultSixTop" class="text-center mb-0 t-white">XXXXXX</h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -287,7 +287,7 @@ body {
                                                         <div class="mt-1"></div>
                                                         <div class="bg-gold-border2 bg-back2">
                                                             <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                                <h1 class="text-center mb-0 t-white">69</h1>
+                                                                <h1 id="resultTwoBottom" class="text-center mb-0 t-white">XX</h1>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -302,7 +302,7 @@ body {
                             <div class="row">
                                 <div class="col-xxl-12 t-white">
                                     <div class="bg-datereward bg-green p">
-                                    <p class="text-center mb-0">งวดประจำวันที่ <span>1</span> <span>สิงหาคม</span> <span>2564</span></p>
+                                    <p class="text-center mb-0">งวดประจำวันที่ 1 สิงหาคม 2564</p>
                                     </div>
                                 </div>
                             </div>
@@ -315,7 +315,7 @@ body {
                                 <div class="col-xxl-12">
                                     <div class="bg-gold-border2 bg-num6">
                                         <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                            <h2 class="text-center mb-0 t-white">910261</h2>
+                                            <h2 class="text-center mb-0 t-white">XXXXXX</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -351,7 +351,7 @@ body {
                                             <div class="mt-1"></div>
                                             <div class="bg-gold-border2 bg-back2">
                                                 <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                    <h1 class="text-center mb-0 t-white">69</h1>
+                                                    <h2 class="text-center mb-0 t-white">XX</h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -877,6 +877,8 @@ body {
 <script>
     // cal_img();
 $(document).ready(function(){
+    showResultLotto();
+
     $("#myModal").click(function(){
         $("#loginModal").modal('show');
     });
@@ -886,8 +888,47 @@ $(document).ready(function(){
     $("#myModalLoad").show();
 });
 
+function showResultLotto() {
+    let url = 'https://dev-api.pirate168.com/apiRoute/api/GetListBetResult';
+    let datajson =  {
+                        "agentUsername": "ntc123",
+                        "agentApiKey": "d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa",
+                        "lottotype": "thailotto",
+                        "startDate": "",
+                        "endDate": ""
+                    };
+
+    $.ajax({
+        url: url,
+        type: "POST",
+        cache: false,
+        dataType: "json",
+        data: JSON.stringify(datajson),
+        success: function(res) {
+            if(res.code == "0"){
+                let data = res.data[0];
+                let datadatetime = data.date.split(' ');
+                let datadate = datadatetime[0].split('-').reverse();
+                let thmonth = ["มกราคม","กุมภาพันธ์","มีนาคม", "เมษายน","พฤษภาคม","มิถุนายน", "กรกฎาคม","สิงหาคม","กันยายน", "ตุลาคม","พฤศจิกายน","ธันวาคม"];
+                let year = Number(datadate[2])+Number(543);
+
+
+                $('#resultDate').html('งวดประจำวันที่ ' +datadate[0]+ ' ' +thmonth[datadate[1]-1]+ ' ' + year );
+                $('#resultSixTop').html(data.result.top6);
+                $('#resultTwoBottom').html(data.result.bottom2);
+
+            }
+            $('#myModalLoad').modal('hide');
+        },
+        error: function (xhr, status, error) {
+            alert("invalid lotto ajax");
+            // $('#modalAlert').modal('hide');
+            // location.reload(true);
+        },
+    });
+}
+
 function loginAjax() {
-    let formRequest = '';
     let url = 'https://dev-api.pirate168.com/apiRoute/member/landing/login';
 
     let username = $('#username').val();
@@ -910,10 +951,10 @@ function loginAjax() {
             // $('#myModalLoad').modal('show');
         },
         success: function(res) {
-            if(res.code = "0"){
-                window.location.href = res.data.urlFullPage;
+            $('#myModalLoad').modal('hide');
+            if(res.code == "0"){
+                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 3000);
             }
-            // $('#myModalLoad').modal('hide');
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");

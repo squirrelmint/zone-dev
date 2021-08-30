@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m3">
                     <label for="passwordregis">รหัสผ่าน</label>
-                    <input maxlength="20" type="password" class="re-input" id="password" name="passwordregis" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input maxlength="20" type="password" class="re-input" id="password" name="passwordregis" placeholder="รหัสผ่าน" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
             </div>
             <div class="button-group text-center">

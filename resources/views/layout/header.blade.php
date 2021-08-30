@@ -165,7 +165,7 @@
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                 </div>
                 <div class="mt-3 d-none d-lg-block"></div>
                 <div class="row">
@@ -307,6 +307,10 @@ $(document).ready(function(){
     $("#myModal-m").click(function(){
         $("#loginModal").modal('show');
     });
+
+    $("#myModalLoad").hide();
+    $(".modal-back-drop").hide().removeClass('show');
+    $(".modal-overlay").hide().removeClass('show');
 });
 
 function loginAjax() {
@@ -329,7 +333,8 @@ function loginAjax() {
         dataType: "json",
         data: JSON.stringify(datajson),
         beforeSend: function() {
-            // $('#myModalLoad').modal('show');
+            $("#myModalLoad").show();
+            $(".modal-overlay").show().addClass('show');
         },
         success: function(res) {
             if(res.code == "0"){
@@ -338,12 +343,11 @@ function loginAjax() {
                 alert(res.message);
                 return false;
             }
-            // $('#myModalLoad').modal('hide');
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");
-            // $('#modalAlert').modal('hide');
-            // location.reload(true);
+            $("#myModalLoad").hide();
+            $(".modal-overlay").hide().removeClass('show');
         },
     });
 }

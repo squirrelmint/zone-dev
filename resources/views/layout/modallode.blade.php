@@ -24,8 +24,22 @@
     .modal-back-drop.show {
         opacity: 1;
     }
+
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999995;
+        width: 100vw;
+        height: 100vh;
+        background:#000000;
+        opacity: 0;
+    }
+    .modal-overlay.show {
+        opacity: 0.8;
+    }
 </style>
-<div id="myModalLoad" style="display:none">
+<div id="myModalLoad">
     <div class="modal-edit" data-backdrop="static" data-keyboard="false">
         <div class="d-flex justify-content-center" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #6EEAA6 !important;">
             <div class="spinner-border" role="status" style="width: 10rem; height: 10rem; font-size: 5rem;">
@@ -34,5 +48,8 @@
         </div>
     </div>
 </div>
-<div class="modal-back-drop" style="display:none">
+<div class="modal-back-drop show">
+</div>
+
+<div class="modal-overlay">
 </div>

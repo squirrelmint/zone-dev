@@ -83,7 +83,7 @@ $(document).on("change", 'input', function(e){
 $(document).on("keyup", '#phone',  function(){
     let phone = $('#phone').val();
     let newname = 'newamblotto' + phone;
-    $('#username').val( newname );
+    $('#userregis').val( newname );
 });
 
 function registerAjax() {
@@ -163,10 +163,12 @@ function registerAjax() {
         dataType: "json",
         data: JSON.stringify(datajson),
         beforeSend: function() {
-            $('#myModalLoad').modal('show');
+            $("#myModalLoad").show();
+            $(".modal-overlay").show().addClass('show');
         },
         success: function(res) {
-            $('#myModalLoad').modal('hide');
+            $("#myModalLoad").hide();
+            $(".modal-overlay").hide().removeClass('show');
             if(res.code == 200){
                 alert('สมัครสมาชิกเรียบร้อยแล้ว');
                 setTimeout(function(){ window.location.href = "{{route('Landingpage.index')}}" }, 1000);
@@ -177,8 +179,8 @@ function registerAjax() {
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");
-            // $('#modalAlert').modal('hide');
-            // location.reload(true);
+            $("#myModalLoad").hide();
+            $(".modal-overlay").hide().removeClass('show');
         },
     });
 }

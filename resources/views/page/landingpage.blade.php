@@ -152,7 +152,7 @@ body {
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                 </div>
                 <div class="row group-link d-flex d-lg-none">
                     <div class="col-4 px-0">
@@ -879,12 +879,17 @@ $(document).ready(function(){
     $("#myModal-m").click(function(){
         $("#loginModal").modal('show');
     });
-    // $("#myModalLoad").show();
-    // $(".modal-back-drop").show().addClass('show');
+
+    setTimeout(function(){ 
+        $("#myModalLoad").hide();
+        $(".modal-back-drop").hide().removeClass('show');
+        $(".modal-overlay").hide().removeClass('show');
+    }, 2000);
+    
 });
 
 function showResultLotto() {
-    let url = 'https://dev-api.pirate168.com/apiRoute/api/GetListBetResult';
+    let url = "{{\config('lotto.url')}}/apiRoute/api/GetListBetResult";
     let datajson =  {
                         "agentUsername": "ntc123",
                         "agentApiKey": "d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa",
@@ -919,13 +924,9 @@ function showResultLotto() {
                 $('#resultThreeBottom').html(threebottomTest);
 
             }
-            // $("#myModalLoad").hide();
-            // $(".modal-back-drop").hide().removeClass('show');
         },
         error: function (xhr, status, error) {
             alert("invalid lotto ajax");
-            // $('#modalAlert').modal('hide');
-            // location.reload(true);
         },
     });
 }
@@ -963,8 +964,8 @@ function loginAjax() {
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");
-            // $('#modalAlert').modal('hide');
-            // location.reload(true);
+            $("#myModalLoad").hide();
+            $(".modal-back-drop").hide().removeClass('show');
         },
     });
 }

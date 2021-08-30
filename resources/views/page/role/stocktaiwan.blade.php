@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-stocktaiwan.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยหุ้นไต้หวัน</h1>
-            <h2 class="zone-contact-title">หวยหุ้นไต้หวัน กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยหุ้นไต้หวัน กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>เปิดรับเเทงออนไลน์ทุกวัน จันทร์ – ศุกร์ (ปิดรับเเทงตามวันหยุดของตลาดหุ้น)</li>

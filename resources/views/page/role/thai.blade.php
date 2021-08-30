@@ -4,7 +4,7 @@
         <div class="h-100 zone-background zone-reward zone-content">
             <img src="{{asset('img/reward/banner-thai.png')}}">
             <h1 class="zone-contact-title-gradient">หวยรัฐบาล</h1>
-            <h2 class="zone-contact-title">หวยรัฐบาล กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยรัฐบาล กติกาการเเทง ZONELOTTO</h1>
             <p class="indent">
                 เปิดรับเเทงออนไลน์ สามารถเเทงได้ก่อนวันหวยออก 10 วัน และแทงได้ 24 ชั่วโมง
                 หลังจากที่เปิด ระบบปิดรับเเทงเวลา 15:25 น. เลขดัง เเละ เลขอั้น	</br>										

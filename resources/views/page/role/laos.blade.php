@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-laos.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยลาว</h1>
-            <h2 class="zone-contact-title">หวยลาว กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยลาว กติกาการเเทง ZONELOTTO</h1>
 
             <ul>
                 <li>เปิดรับเเทงล่วงหน้า 1 วัน ตั้งเเต่เวลา 05.00 น. (ตามเวลาประเทศไทย)</li>
@@ -16,7 +16,7 @@
             </ul>
 
             <h1 class="zone-contact-title-gradient">หวยลาวแบบชุด</h1>
-            <h2 class="zone-contact-title">หวยลาวแบบชุด กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยลาวแบบชุด กติกาการเเทง ZONELOTTO</h1>
 
             <ul>
                 <li>หวยชุดลาวจะออกรางวัลเเค่ 4 หมายเลข	</li>

@@ -41,6 +41,7 @@ body {
 
 </style>
 <body>
+    @include('layout.modallode')
     <div id="body-head">
         <img class="header d-none d-lg-block" src="{{asset('img/Header.png')}}" alt="">
         <div class="navbar-top d-none d-lg-block">

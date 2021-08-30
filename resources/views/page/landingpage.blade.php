@@ -210,16 +210,6 @@ body {
                                 สำหรับสมาชิกใหม่ และสิทธิพิเศษมากมาย แจกเครดิตฟรีอย่างต่อเนื่อง</p>
                             </div>
                         </div>
-                        {{-- <div class="bg-content">
-                            <h1>AMB Lotto.vip แทงหวยออนไลน์ 24 ชั่วโมง</h1>
-                            <p class="text-justify t-white">ด้วยประสบการณ์การให้บริการทั้งคาสิโนออนไลน์ และ แทงหวยออนไลน์ นานนับ 10 ปี และไม่หยุด
-                พัฒนาเพื่อประสบการณ์ต่อผู้เล่น ที่สะดวก เสถียรที่สุด รองรับทั้งมือถือ และ คอมพิวเตอร์ โดยไม่
-                ต้องดาวน์โหลดใดๆ อีกทั้งยังมีระบบฝากถอนรวดเร็ว ทำให้เว็บที่ทีมงานดูแลและพัฒนาเป็นที่นิยม
-                แพร่หลายจนถึงทุกวันนี้ ซึ่งผู้เล่นอยากจะแทง หวยยี่กี ที่มีให้ลุ้นรวยทั้งวัน รวมทั้งหวยหุ้นทั้งในและ
-                ต่างประเทศ หวยลาว และหวยอื่นๆ อีกมากมายต้องนึกถึง เราเป็นเว็บแรกแน่นอน
-                โปรโมชั่นพิเศษ
-                สำหรับสมาชิกใหม่ และสิทธิพิเศษมากมาย แจกเครดิตฟรีอย่างต่อเนื่อง</p>
-                        </div> --}}
                     </div>
                     <div class="col-xl-4 mt-2 d-flex align-items-center justify-content-center d-flex d-xl-none">
                         <div class="reward-text fill-text">ผลสลากกินแบ่งรัฐบาล</div>
@@ -258,20 +248,9 @@ body {
                                                         <div class="mt-1"></div>
                                                         <div class="bg-gold-border2 bg-front3">
                                                             <div id="resultThreeBottom" class="bg-content-green edit-padding-bottom3 d-flex align-items-center justify-content-center row cols-2 gx-0">
-
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    {{-- <div class="mt-3 margin-top-m"></div>
-                                                    <div class="col-xxl-12 pe-0">
-                                                        <p class="t-left mb-0 fill-text back3">เลขท้าย 3 ตัว</p>
-                                                        <div class="mt-1"></div>
-                                                        <div class="bg-gold-border2 bg-back3">
-                                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                                <h3 class="text-center mb-0 t-white">910, 261</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div> --}}
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-6 col-xxl-6 ps-0 d-flex flex-column">
@@ -292,67 +271,6 @@ body {
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="bg-reward">
-                            <div class="row">
-                                <div class="col-xxl-12 t-white">
-                                    <div class="bg-datereward bg-green p">
-                                    <p class="text-center mb-0">งวดประจำวันที่ 1 สิงหาคม 2564</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xxl-12">
-                                    <p class="text-center mb-0 mt-2 fill-text six-top">รางวัลที่ 1</p>
-                                </div>
-                            </div>
-                            <div class="row padding-x-m">
-                                <div class="col-xxl-12">
-                                    <div class="bg-gold-border2 bg-num6">
-                                        <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                            <h2 class="text-center mb-0 t-white">XXXXXX</h2>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mt-3 margin-top-m padding-x-m">
-                                <div class="col-6 col-sm-6 col-xxl-6 pe-0 d-flex flex-column">
-                                    <div class="row padding-right-m">
-                                        <div class="col-xxl-12 pe-0">
-                                            <p class="t-left mb-0 fill-text front3">เลขหน้า 3 ตัว</p>
-                                            <div class="mt-1"></div>
-                                            <div class="bg-gold-border2 bg-front3">
-                                                <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                    <h3 class="text-center mb-0 t-white">103, 307</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="mt-3 margin-top-m"></div>
-                                        <div class="col-xxl-12 pe-0">
-                                            <p class="t-left mb-0 fill-text back3">เลขท้าย 3 ตัว</p>
-                                            <div class="mt-1"></div>
-                                            <div class="bg-gold-border2 bg-back3">
-                                                <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                    <h3 class="text-center mb-0 t-white">910, 261</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 col-sm-6 col-xxl-6 ps-0 d-flex flex-column">
-                                    <div class="row padding-left5-m">
-                                        <div class="col-xxl-12">
-                                            <p class="text-center mb-0 fill-text back2">ท้าย 2 ตัว</p>
-                                            <div class="mt-1"></div>
-                                            <div class="bg-gold-border2 bg-back2">
-                                                <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                    <h2 class="text-center mb-0 t-white">XX</h1>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
                     </div>
                 </div>
 
@@ -381,42 +299,7 @@ body {
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="row pe-0">
-                        <div class="col-xxl-12 pe-0 d-flex">
-                            <div class="row">
-                                <div class="col-12 col-xxl-9 pe-0 padding-right3-m">
-                                    <div class="ban-promotion">
-                                        <img src="{{asset('img/ban-pro.png')}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="col col-xxl-3 ps-0">
-                                    <div class="qr padding-y-6 d-none d-xxl-block">
-                                        <div class="bg-qr">
-                                            <img src="{{asset('img/qr.png')}}" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
                 </div>
-                {{-- <div class="row d-none d-xl-flex">
-                    <div class="col-xxl-12 my-3">
-                        <div class="foot-ban padding-x-5">
-                            <div class="col-xxl-8">
-                                <div class="text-area">
-                                    <h1 class="pt-1">ZONELOTTO เว็บหวยออนไลน์ที่ดีที่สุด</h1>
-                                    <p class="text-justify t-white">เว็บแทงหวยออนไลน์,    แทงหวย, แทงหวยออนไลน์, ซื้อหวย, แทงหวยหุ้น, หวยหุ้น, หวยรัฐบาล, ตรวจหวย,
-                                        เว็บแทงหวย, ซื้อหวยหุ้น เว็บรับ แทงหวยออนไลน์ รูปแบบใหม่ ทำงานด้วยระบบอัตโนมัติ การฝากเงิน การ
-                                        ถอนเงิน รวดเร็ว ปลอดภัย การเงินมั่นคง เหมาะสำหรับลูกค้าที่ต้องการความสะดวกสบาย โปรงใส่ 100%
-                                        มีให้เลือกแทงหวยออนไลน์แทบทุกชนิด หวยรัฐบาล หวยหุ้นหวยต่างประเทศ หวยมาเลย์ และ หวยปิงปอง
-                                        ( จับยี่กี ) 24 ชั่วโมง ทุก15นาที การประมวลผลด้วยทีมงานมืออาชีพ ท่านจึงมั่นใจ หวยออนไลน์ได้ว่าท่านจะ
-                                        ได้รับการบริการและการแก้ไขปัญหาต่างๆ ในระดับที่ดีที่สุด</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
                 <div class="margin-top3-m"></div>
                 <div class="row">
                     <div class="col-xxl-12">
@@ -629,23 +512,6 @@ body {
                         </div>
                     </div>
                 </div>
-                {{-- <div class="row d-flex d-xl-none">
-                    <div class="col-xxl-12 my-3 margin-bottom-m">
-                        <div class="foot-ban padding-x-5 padding-left4-m">
-                            <div class="col-xxl-8">
-                                <div class="text-area">
-                                    <h1 class="pt-1">AMBLOTTOVIP เว็บหวยออนไลน์ที่ดีที่สุด</h1>
-                            <p class="text-justify t-white">เว็บแทงหวยออนไลน์,    แทงหวย, แทงหวยออนไลน์, ซื้อหวย, แทงหวยหุ้น, หวยหุ้น, หวยรัฐบาล, ตรวจหวย,
-                                เว็บแทงหวย, ซื้อหวยหุ้น เว็บรับ แทงหวยออนไลน์ รูปแบบใหม่ ทำงานด้วยระบบอัตโนมัติ การฝากเงิน การ
-                                ถอนเงิน รวดเร็ว ปลอดภัย การเงินมั่นคง เหมาะสำหรับลูกค้าที่ต้องการความสะดวกสบาย โปรงใส่ 100%
-                                มีให้เลือกแทงหวยออนไลน์แทบทุกชนิด หวยรัฐบาล หวยหุ้นหวยต่างประเทศ หวยมาเลย์ และ หวยปิงปอง
-                                ( จับยี่กี ) 24 ชั่วโมง ทุก15นาที การประมวลผลด้วยทีมงานมืออาชีพ ท่านจึงมั่นใจ หวยออนไลน์ได้ว่าท่านจะ
-                                ได้รับการบริการและการแก้ไขปัญหาต่างๆ ในระดับที่ดีที่สุด</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
                 <div class="mt-4 margin-top4-m"></div>
                 <div class="row">
                     <div class="col-xxl-12">
@@ -714,23 +580,6 @@ body {
                 </div>
                 <div class="margin-y-6 mt-0 margin-bottom-mobile"></div>
                 <div class="row row-cols-2 x-gap-m">
-                    {{-- <div class="col-6 col-xxl-4">
-                        <div class="bg-gold-border3 h-100">
-                            <div class="bg-foot-green h-100">
-                                <h5 class="title-text fw-light fill-text mb-0">เกี่ยวกับเรา</h5>
-                                <hr class="mt-0 fill-text2">
-                                <p class="mb-0 t-white text-justify">เรามีทีมงานมืออาชีพ ที่คอยดูแลท่านดั่ง VIP ตลอด 24
-                                    ชั่วโมง จึงเชื่อใจได้ว่าเรามีระบบที่มีคุณภาพระดับโลกและ
-                                    การดูแลที่เป็นเลิศ เพื่อคุณ เรามีหวยต่างๆมากมาย หวย
-                                    รัฐบาลไทย หวยลาว หวยหุ้นไทย หุ้นดาวน์โจนส์ หุ้นนิเคอิ
-                                    หุ้นฮั่งเส็ง หุ้นสิงคโปร์ หุ้นเกาหลีหุ้นจีน หุ้นไต้หวัน หวย
-                                    เวียดนาม หวยมาเลย์ หวยยี่กีที่นิยม ที่สุดในประเทศไทย
-                                    ออกทุก 15 นาที วันละ 88 รอบ และ หวยยี่กี 264 รอบ
-                                    ออกผลทุก 5 นาที</p>
-                            </div>
-                        </div>
-                    </div> --}}
-                    {{-- <div class="mt-m"></div> --}}
                     <div class="col-6 col-xxl-6">
                         <div class="bg-gold-border3 h-100">
                             <div class="bg-foot-green h-100">
@@ -969,20 +818,5 @@ function loginAjax() {
         },
     });
 }
-    // function cal_img() {
-    //     div = document.querySelector('.bg-fade').offsetHeight;
-    //     cal1 = (div * 74.7474747475) / 100;
-    //     set_height = document.querySelector('.set-image').style.height = cal1 + "px"
-    //     cal2 = (((cal1 * 100) / 42.8364688857)* 100) / screen.width;;
-    //     set_width = document.querySelector('.absolute').style.width = cal2 + "vmax"
-    //     console.log(cal1,cal2)
-    // }
-    // function hover(thai) {
-    //     thai.setAttribute('src', "{{asset('img/lotto-icon/1thaihover.png')}}");
-    //     }
-
-    //     function unhover(thai) {
-    //         thai.setAttribute('src', "{{asset('img/lotto-icon/1thai.png')}}");
-    //     }
 </script>
 </html>

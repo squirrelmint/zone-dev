@@ -3,13 +3,26 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 1055;
+        z-index: 9999999;
         /* display: none; */
         width: 100%;
         height: 100%;
         overflow-x: hidden;
         overflow-y: auto;
         outline: 0;
+    }
+    .modal-back-drop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999995;
+        width: 100vw;
+        height: 100vh;
+        background: -webkit-linear-gradient(#FFFFFF,#000000);
+        opacity: 0;
+    }
+    .modal-back-drop.show {
+        opacity: 1;
     }
 </style>
 <div id="myModalLoad" style="display:none">
@@ -20,4 +33,6 @@
             </div>
         </div>
     </div>
+</div>
+<div class="modal-back-drop" style="display:none">
 </div>

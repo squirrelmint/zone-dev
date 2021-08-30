@@ -879,7 +879,8 @@ $(document).ready(function(){
     $("#myModal-m").click(function(){
         $("#loginModal").modal('show');
     });
-    // $("#myModalLoad").show();
+    $("#myModalLoad").show();
+    $(".modal-back-drop").show().addClass('show');
 });
 
 function showResultLotto() {
@@ -918,7 +919,8 @@ function showResultLotto() {
                 $('#resultThreeBottom').html(threebottomTest);
 
             }
-            $('#myModalLoad').modal('hide');
+            $("#myModalLoad").hide();
+            $(".modal-back-drop").hide().removeClass('show');
         },
         error: function (xhr, status, error) {
             alert("invalid lotto ajax");
@@ -948,12 +950,14 @@ function loginAjax() {
         dataType: "json",
         data: JSON.stringify(datajson),
         beforeSend: function() {
-            // $('#myModalLoad').modal('show');
+            $("#myModalLoad").show();
+            $(".modal-back-drop").show().addClass('show');
         },
         success: function(res) {
-            $('#myModalLoad').modal('hide');
             if(res.code == "0"){
                 setTimeout(function(){ window.location.href = res.data.urlFullPage }, 3000);
+                $("#myModalLoad").hide();
+                $(".modal-back-drop").hide().removeclass('show');
             }
         },
         error: function (xhr, status, error) {

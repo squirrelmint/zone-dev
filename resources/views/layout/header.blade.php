@@ -330,13 +330,13 @@ function loginAjax() {
         dataType: "json",
         data: JSON.stringify(datajson),
         beforeSend: function() {
-            $('#myModalLoad').modal('show');
+            // $('#myModalLoad').modal('show');
         },
         success: function(res) {
             if(res.code = "0"){
                 window.location.href = res.data.urlFullPage;
             }
-            $('#myModalLoad').modal('hide');
+            // $('#myModalLoad').modal('hide');
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");

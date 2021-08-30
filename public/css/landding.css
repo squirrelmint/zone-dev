@@ -197,7 +197,7 @@
 }
 .bg-green.p {
     /* padding: 12.4px 26px; */
-    padding: 0.6458333333vmax 1.3541666667vmax;
+    padding: 0.6458333333vmax 0.6458333333vmax;
 }
 .bg-green p {
     /* font-size: 28px; */
@@ -232,11 +232,14 @@
     width: 100%;
     height: 100%;
 }
+.edit-padding-bottom3 {
+    padding: 2.083333333vmax 0;
+}
 .bg-front3,
 .bg-back3 {
     width: 100%;
     /* height: 45px; */
-    height: 2.34375vmax;
+    /* height: 2.34375vmax; */
 }
 .bg-back2 {
     width: 100%;

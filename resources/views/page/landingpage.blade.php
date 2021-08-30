@@ -254,15 +254,21 @@ body {
                                             <div class="col-6 col-sm-6 col-xxl-6 pe-0 d-flex flex-column">
                                                 <div class="row padding-right-m">
                                                     <div class="col-xxl-12 pe-0">
-                                                        <p class="t-left mb-0 fill-text front3">เลขหน้า 3 ตัว</p>
+                                                        <p class="t-left mb-0 fill-text front3">เลขท้าย 3 ตัว</p>
                                                         <div class="mt-1"></div>
                                                         <div class="bg-gold-border2 bg-front3">
-                                                            <div class="bg-content-green d-flex align-items-center justify-content-center">
-                                                                <h3 class="text-center mb-0 t-white">103, 307</h3>
+                                                            <div class="bg-content-green edit-padding-bottom3 d-flex align-items-center justify-content-center row cols-2 gx-0">
+                                                                {{-- <div class="row cols-2"> --}}
+                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">103</h3></div>
+                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">307</h3></div>
+                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">910</h3></div>
+                                                                    <div class="col-6"><h3 class="text-center mb-0 t-white">261</h3></div>
+                                                                {{-- </div> --}}
+                                                                {{-- <h3 class="text-center mb-0 t-white">103, 307</h3> --}}
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="mt-3 margin-top-m"></div>
+                                                    {{-- <div class="mt-3 margin-top-m"></div>
                                                     <div class="col-xxl-12 pe-0">
                                                         <p class="t-left mb-0 fill-text back3">เลขท้าย 3 ตัว</p>
                                                         <div class="mt-1"></div>
@@ -271,7 +277,7 @@ body {
                                                                 <h3 class="text-center mb-0 t-white">910, 261</h3>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-6 col-xxl-6 ps-0 d-flex flex-column">
@@ -877,6 +883,7 @@ $(document).ready(function(){
     $("#myModal-m").click(function(){
         $("#loginModal").modal('show');
     });
+    $("#myModalLoad").show();
 });
 
 function loginAjax() {
@@ -900,13 +907,13 @@ function loginAjax() {
         dataType: "json",
         data: JSON.stringify(datajson),
         beforeSend: function() {
-            $('#myModalLoad').modal('show');
+            // $('#myModalLoad').modal('show');
         },
         success: function(res) {
             if(res.code = "0"){
                 window.location.href = res.data.urlFullPage;
             }
-            $('#myModalLoad').modal('hide');
+            // $('#myModalLoad').modal('hide');
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");

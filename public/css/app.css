@@ -3,9 +3,6 @@
 @import "promotion.css";
 @import "reward-lotto.css";
 
-.modal-open .edit-d-block {
-    display: block;
-}
 img {
     width: 100%;
 }
@@ -715,6 +712,9 @@ select.minimal {
         /* font-size: 13px; */
         font-size: 4.0625vmin;
     }
+    .edit-padding-bottom3 {
+        padding: 5.3125vmin 0px;
+    }
     .bg-back2 .bg-content-green h1 {
         /* font-size: 40px; */
         font-size: 12.5vmin;
@@ -724,7 +724,7 @@ select.minimal {
     }
     .bg-front3, .bg-back3 {
         /* height: 19px; */
-        height: 5.9375vmin;
+        /* height: 5.9375vmin; */
     }
     .bg-back2 {
         /* height: 69px; */

@@ -333,8 +333,11 @@ function loginAjax() {
             // $('#myModalLoad').modal('show');
         },
         success: function(res) {
-            if(res.code = "0"){
-                window.location.href = res.data.urlFullPage;
+            if(res.code == "0"){
+                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 1000);
+            }else{
+                alert(res.message);
+                return false;
             }
             // $('#myModalLoad').modal('hide');
         },

@@ -664,7 +664,7 @@ body {
                                 </div>
                                 <div class="col-8 padding-y-1 pb-1 ps-0">
                                     <div class="bg-fade3 h-100 padding-x-2 padding-y-2 padding-xy2-m">
-                                        <h6 class="title-text-2 fill-text2 mb-0">หวยยี่กี หวยยี่กี</h6>
+                                        <h6 class="title-text-2 fill-text2 mb-0">หวยยี่กี</h6>
                                     <p class="t-white details mb-0"> หวยจับยี่กีออนไลน์ หรือ อีกชื่อนึงคือหวยปิงปอง เป็น การเลือกซื้อหวยออนไลน์อีกรูปแบบ ที่กำลังเป็นที่ชื่น ชอบและเป็นที่นิยมเป็นอย่างมากในกลุ่มคอหวย หวย ปิงปอง (ยี่กี) นี้ สามารถแทงได้ทุกๆ 15 นาที ใน 1 วัน สามารถซื้อยี่กีนี้ได้ถึง 88 ครั้งเลยทีเดียว</p>
                                     </div>
                                 </div>
@@ -953,7 +953,10 @@ function loginAjax() {
         success: function(res) {
             $('#myModalLoad').modal('hide');
             if(res.code == "0"){
-                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 3000);
+                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 1000);
+            }else{
+                alert(res.message);
+                return false;
             }
         },
         error: function (xhr, status, error) {

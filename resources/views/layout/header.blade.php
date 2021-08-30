@@ -37,6 +37,7 @@
     }
 </style>
 <body>
+    @include('layout.modallode')
     <nav class="navbar navbar-expand-lg zone-navbar-top d-none d-lg-flex">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto zone-navbar-nav">
@@ -307,5 +308,6 @@
                 $("#exampleModal").modal('show');
             });
         });
+    // $('#myModalLoad').modal('show');
     </script>
 </html>

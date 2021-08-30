@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-stockindia.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยหุ้นอินเดีย</h1>
-            <h2 class="zone-contact-title">หวยหุ้นอินเดีย กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยหุ้นอินเดีย กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>เปิดรับเเทงออนไลน์ทุกวัน จันทร์ – ศุกร์ (ปิดรับเเทงตามวันหยุดของตลาดหุ้น)</li>

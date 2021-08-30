@@ -22,7 +22,7 @@
 
 
             <h1 class="zone-contact-title-gradient">หวยฮานอยพิเศษ</h1>
-            <h2 class="zone-contact-title">หวยฮานอยพิเศษ กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยฮานอยพิเศษ กติกาการเเทง ZONELOTTO</h1>
             
             <ul>
                 <li>ระบบจะทำการเปิดรับการเดิมพันทุกวัน</li>
@@ -63,7 +63,7 @@
             </ul>
 
             <h1 class="zone-contact-title-gradient">หวยฮานอยพิเศษแบบชุด</h1>
-            <h2 class="zone-contact-title">หวยฮานอยพิเศษแบบชุด กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยฮานอยพิเศษแบบชุด กติกาการเเทง ZONELOTTO</h1>
             
             <ul>
                 <li>ระบบจะทำการเปิดรับการเดิมพันทุกวัน</li>

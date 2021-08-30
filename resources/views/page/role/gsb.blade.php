@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-gsb.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยออมสิน</h1>
-            <h2 class="zone-contact-title">หวยออมสิน กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยออมสิน กติกาการเเทง ZONELOTTO</h1>
 
             <ul>
                 <li>หวยออมสิน จะออกทุกวันที่ 1 และ 16 ของเดือน</li>

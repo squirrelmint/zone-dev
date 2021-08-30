@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-malay.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยมาเลย์</h1>
-            <h2 class="zone-contact-title">หวยมาเลย์ กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยมาเลย์ กติกาการเเทง ZONELOTTO</h1>
                                     
             <ul>
                 <li>เปิดรับเเทงออนไลน์ทุกวัน พุธ, เสาร์, อาทิตย์</li>

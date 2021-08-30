@@ -801,20 +801,23 @@ function loginAjax() {
         data: JSON.stringify(datajson),
         beforeSend: function() {
             $("#myModalLoad").show();
-            $(".modal-back-drop").show().addClass('show');
+            $(".modal-overlay").show().addClass('show');
+
         },
         success: function(res) {
             if(res.code == "0"){
                 setTimeout(function(){ window.location.href = res.data.urlFullPage }, 1000);
             }else{
                 alert(res.message);
+                $("#myModalLoad").hide();
+                $(".modal-overlay").hide().removeClass('show');
                 return false;
             }
         },
         error: function (xhr, status, error) {
             alert("invalid ajax");
             $("#myModalLoad").hide();
-            $(".modal-back-drop").hide().removeClass('show');
+            $(".modal-overlay").hide().removeClass('show');
         },
     });
 }

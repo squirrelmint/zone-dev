@@ -284,9 +284,11 @@ $(document).ready(function(){
         $("#loginModal").modal('show');
     });
 
-    $("#myModalLoad").hide();
-    $(".modal-back-drop").hide().removeClass('show');
-    $(".modal-overlay").hide().removeClass('show');
+    setTimeout(function(){ 
+        $("#myModalLoad").hide();
+        $(".modal-back-drop").hide().removeClass('show');
+        $(".modal-overlay").hide().removeClass('show');
+    }, 2000);
 });
 
 function loginAjax() {
@@ -317,6 +319,8 @@ function loginAjax() {
                 setTimeout(function(){ window.location.href = res.data.urlFullPage }, 1000);
             }else{
                 alert(res.message);
+                $("#myModalLoad").hide();
+                $(".modal-overlay").hide().removeClass('show');
                 return false;
             }
         },

@@ -48,8 +48,6 @@
         </div>
     </div>
 </div>
-<div class="modal-back-drop show">
-</div>
 
-<div class="modal-overlay">
+<div class="modal-overlay show">
 </div>

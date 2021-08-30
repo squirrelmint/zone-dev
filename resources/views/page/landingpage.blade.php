@@ -58,7 +58,7 @@ body {
                     </a>
                 </div>
                 <div class="btn-link-intolotto">
-                    <a class="d-flex h-100 align-items-center justify-content-center" href="https://dev-front.pirate168.com/?agent=ntc123">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="{{\config('lotto.url')}}/?agent=ntc123">
                         <img src="{{asset('img/icon-intolotto.png')}}">
                         <div>เข้าแทงหวย</div>
                     </a>
@@ -664,7 +664,7 @@ body {
                                 </div>
                                 <div class="col-8 padding-y-1 pb-1 ps-0">
                                     <div class="bg-fade3 h-100 padding-x-2 padding-y-2 padding-xy2-m">
-                                        <h6 class="title-text-2 fill-text2 mb-0">หวยยี่กี หวยยี่กี</h6>
+                                        <h6 class="title-text-2 fill-text2 mb-0">หวยยี่กี</h6>
                                     <p class="t-white details mb-0"> หวยจับยี่กีออนไลน์ หรือ อีกชื่อนึงคือหวยปิงปอง เป็น การเลือกซื้อหวยออนไลน์อีกรูปแบบ ที่กำลังเป็นที่ชื่น ชอบและเป็นที่นิยมเป็นอย่างมากในกลุ่มคอหวย หวย ปิงปอง (ยี่กี) นี้ สามารถแทงได้ทุกๆ 15 นาที ใน 1 วัน สามารถซื้อยี่กีนี้ได้ถึง 88 ครั้งเลยทีเดียว</p>
                                     </div>
                                 </div>
@@ -807,7 +807,7 @@ body {
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
-                    <a class="t-white fill-hover" href="https://dev-front.pirate168.com/?agent=ntc123">เข้าแทงหวย</a>
+                    <a class="t-white fill-hover" href="{{\config('lotto.url')}}/?agent=ntc123">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                     <div class="section-link">|</div>
@@ -879,8 +879,8 @@ $(document).ready(function(){
     $("#myModal-m").click(function(){
         $("#loginModal").modal('show');
     });
-    $("#myModalLoad").show();
-    $(".modal-back-drop").show().addClass('show');
+    // $("#myModalLoad").show();
+    // $(".modal-back-drop").show().addClass('show');
 });
 
 function showResultLotto() {
@@ -919,8 +919,8 @@ function showResultLotto() {
                 $('#resultThreeBottom').html(threebottomTest);
 
             }
-            $("#myModalLoad").hide();
-            $(".modal-back-drop").hide().removeClass('show');
+            // $("#myModalLoad").hide();
+            // $(".modal-back-drop").hide().removeClass('show');
         },
         error: function (xhr, status, error) {
             alert("invalid lotto ajax");
@@ -931,7 +931,7 @@ function showResultLotto() {
 }
 
 function loginAjax() {
-    let url = 'https://dev-api.pirate168.com/apiRoute/member/landing/login';
+    let url = "{{\config('lotto.url')}}/apiRoute/member/landing/login";
 
     let username = $('#username').val();
     let password = $('#password').val();
@@ -955,9 +955,10 @@ function loginAjax() {
         },
         success: function(res) {
             if(res.code == "0"){
-                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 3000);
-                $("#myModalLoad").hide();
-                $(".modal-back-drop").hide().removeclass('show');
+                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 1000);
+            }else{
+                alert(res.message);
+                return false;
             }
         },
         error: function (xhr, status, error) {

@@ -57,11 +57,11 @@
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="userregis">ยูสที่เข้าเล่น</label>
-                    <input readonly maxlength="36" type="text" class="re-input" id="username" name="userregis" value="newamblotto" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input readonly maxlength="36" type="text" class="re-input" id="userregis" name="userregis" value="newamblotto" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m3">
                     <label for="passwordregis">รหัสผ่าน</label>
-                    <input maxlength="20" type="password" class="re-input" id="password" name="passwordregis" placeholder="รหัสผ่าน" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input maxlength="20" type="password" class="re-input" id="passregis" name="passwordregis" placeholder="รหัสผ่าน" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57) && (event.which < 35 || event.which > 38) && (event.which < 40 || event.which > 43) && event.which != 33 && event.which != 64 && event.which != 94 && event.which != 95) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
             </div>
             <div class="button-group text-center">
@@ -88,7 +88,7 @@ $(document).on("keyup", '#phone',  function(){
 
 function registerAjax() {
     let formRequest = '';
-    let url = 'https://dev-api.pirate168.com/v1/api/frontend/member/register/wallet';
+    let url = "{{\config('lotto.url')}}/v1/api/frontend/member/register/wallet";
 
     let firstname = $('#firstname').val();
     if(!firstname){
@@ -127,7 +127,7 @@ function registerAjax() {
     }
 
 
-    let username = $('#username').val();
+    let username = $('#userregis').val();
     if(!username){
         alert('กรุณากรอกยูสที่เข้าเล่น');
         return false;
@@ -138,7 +138,7 @@ function registerAjax() {
         }
     }
 
-    let password = $('#password').val();
+    let password = $('#passregis').val();
     if(!password){
         alert('กรุณากรอกรหัสผ่าน');
         return false;

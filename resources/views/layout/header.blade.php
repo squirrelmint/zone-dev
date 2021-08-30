@@ -106,7 +106,7 @@
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-block d-xxl-none" href="https://dev-front.pirate168.com/?agent=ntc123">
+                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-block d-xxl-none" href="{{\config('lotto.url')}}/?agent=ntc123">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -310,8 +310,7 @@ $(document).ready(function(){
 });
 
 function loginAjax() {
-    let formRequest = '';
-    let url = 'https://dev-api.pirate168.com/apiRoute/member/landing/login';
+    let url = "{{\config('lotto.url')}}/apiRoute/member/landing/login";
 
     let username = $('#username').val();
     let password = $('#password').val();
@@ -333,8 +332,11 @@ function loginAjax() {
             // $('#myModalLoad').modal('show');
         },
         success: function(res) {
-            if(res.code = "0"){
-                window.location.href = res.data.urlFullPage;
+            if(res.code == "0"){
+                setTimeout(function(){ window.location.href = res.data.urlFullPage }, 1000);
+            }else{
+                alert(res.message);
+                return false;
             }
             // $('#myModalLoad').modal('hide');
         },

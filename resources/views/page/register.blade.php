@@ -89,53 +89,53 @@ $(document).on("keyup", '#phone',  function(){
 function registerAjax() {
     let url = "{{\config('lottoapi.url')}}/v1/api/frontend/member/register/wallet";
 
-    // let firstname = $('#firstname').val();
-    // if(!firstname){
-    //     alert('กรุณากรอกชื่อ');
-    //     return false;
-    // }
+    let firstname = $('#firstname').val();
+    if(!firstname){
+        alert('กรุณากรอกชื่อ');
+        return false;
+    }
 
-    // let lastname = $('#surname').val();
-    // if(!lastname){
-    //     alert('กรุณากรอกนามสกุล');
-    //     return false;
-    // }
+    let lastname = $('#surname').val();
+    if(!lastname){
+        alert('กรุณากรอกนามสกุล');
+        return false;
+    }
 
-    // let bank = $('#bank').val();
-    // if(!bank){
-    //     alert('กรุณาเลือกธนาคาร');
-    //     return false;
-    // }
+    let bank = $('#bank').val();
+    if(!bank){
+        alert('กรุณาเลือกธนาคาร');
+        return false;
+    }
 
-    // let acc_no = $('#banknumber').val();
-    // if(!acc_no){
-    //     alert('กรุณากรอกหมายเลขบัญชี');
-    //     return false;
-    // }
+    let acc_no = $('#banknumber').val();
+    if(!acc_no){
+        alert('กรุณากรอกหมายเลขบัญชี');
+        return false;
+    }
 
-    // let phone = $('#phone').val();
-    // if(!phone){
-    //     alert('กรุณากรอกเบอร์โทรศัพท์');
-    //     return false;
-    // }else{
-    //     regex = new RegExp('(^0([8|9|6])([0-9]{8}$))');
-    //     if(regex.test(phone)==false){
-    //         alert('เบอร์โทรศัพท์ไม่ถูกต้อง');
-    //         return false;
-    //     }
-    // }
+    let phone = $('#phone').val();
+    if(!phone){
+        alert('กรุณากรอกเบอร์โทรศัพท์');
+        return false;
+    }else{
+        regex = new RegExp('(^0([8|9|6])([0-9]{8}$))');
+        if(regex.test(phone)==false){
+            alert('เบอร์โทรศัพท์ไม่ถูกต้อง');
+            return false;
+        }
+    }
 
 
-    // let username = $('#userregis').val();
-    // if(!username){
-    //     alert('กรุณากรอกยูสที่เข้าเล่น');
-    //     return false;
-    // }else{
-    //     if(username != 'newamblotto'+phone){
-    //         alert('ยูสที่ใช้ไม่ถูกต้อง');
-    //         return false;
-    //     }
-    // }
+    let username = $('#userregis').val();
+    if(!username){
+        alert('กรุณากรอกยูสที่เข้าเล่น');
+        return false;
+    }else{
+        if(username != 'newamblotto'+phone){
+            alert('ยูสที่ใช้ไม่ถูกต้อง');
+            return false;
+        }
+    }
 
     let password = $('#passregis').val();
     if(!password){

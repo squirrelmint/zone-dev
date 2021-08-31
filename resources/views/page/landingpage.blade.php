@@ -58,7 +58,7 @@ body {
                     </a>
                 </div>
                 <div class="btn-link-intolotto">
-                    <a class="d-flex h-100 align-items-center justify-content-center" href="{{\config('lotto.url')}}/?agent=ntc123">
+                    <a class="d-flex h-100 align-items-center justify-content-center" href="{{\config('lotto.url')}}">
                         <img src="{{asset('img/icon-intolotto.png')}}">
                         <div>เข้าแทงหวย</div>
                     </a>
@@ -94,7 +94,7 @@ body {
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-lg-none" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-lg-none" href="{{\config('lotto.url')}}">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -168,7 +168,7 @@ body {
                     <div class="col-4 px-0">
                         <div class="bg-green-border h-100">
                             <div class="fill-black h-100">
-                                <a class="intolotto d-flex flex-column align-items-center">
+                                <a class="intolotto d-flex flex-column align-items-center" href="{{\config('lotto.url')}}">
                                     <img src="{{asset('img/mobile/icon-g-intolotto.png')}}" alt="">
                                     <div class="fill-text3 size-h1">เข้าแทงหวย</div>
                                 </a>
@@ -635,7 +635,7 @@ body {
                         <div class="section-link">|</div>
                     </div>
                     <div class="col col-xxl-auto d-flex pe-0">
-                        <a class="t-white fill-hover" href="https://dev-front.pirate168.com/?agent=ntc123">เข้าแทงหวย</a>
+                        <a class="t-white fill-hover" href="{{\config('lotto.url')}}">เข้าแทงหวย</a>
                         <div class="section-link">|</div>
                     </div>
                     <div class="col col-xxl-auto d-flex pe-0">
@@ -656,7 +656,7 @@ body {
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
-                    <a class="t-white fill-hover" href="{{\config('lotto.url')}}/?agent=ntc123">เข้าแทงหวย</a>
+                    <a class="t-white fill-hover" href="{{\config('lotto.url')}}">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                     <div class="section-link">|</div>
@@ -664,7 +664,7 @@ body {
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.contact')}}">ติดต่อเรา</a>
                 </div>
-                <p class="t-white text-center">Copyright © 2021 amblotto.com All right reserved.</p>
+                <p class="t-white text-center">Copyright © 2021 askmebet.com All right reserved.</p>
             </div>
         </div>
     </div>
@@ -738,7 +738,7 @@ $(document).ready(function(){
 });
 
 function showResultLotto() {
-    let url = "{{\config('lotto.url')}}/apiRoute/api/GetListBetResult";
+    let url = "{{\config('lottoapi.url')}}/apiRoute/api/GetListBetResult";
     let datajson =  {
                         "agentUsername": "ntc123",
                         "agentApiKey": "d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa",
@@ -781,10 +781,19 @@ function showResultLotto() {
 }
 
 function loginAjax() {
-    let url = "{{\config('lotto.url')}}/apiRoute/member/landing/login";
+    let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/login";
 
     let username = $('#username').val();
+    if( !username ){
+        alert('กรุณากรอกชื่อผู้ใช้');
+        return false;
+    }
+
     let password = $('#password').val();
+    if( !password ){
+        alert('กรุณากรอกรหัสผ่าน');
+        return false;
+    }
 
     let datajson =  {
                         "agentUsername": "ntc123",

@@ -88,7 +88,7 @@ $(document).on("keyup", '#phone',  function(){
 
 function registerAjax() {
     let formRequest = '';
-    let url = "{{\config('lotto.url')}}/v1/api/frontend/member/register/wallet";
+    let url = "{{\config('lottoapi.url')}}/v1/api/frontend/member/register/wallet";
 
     let firstname = $('#firstname').val();
     if(!firstname){

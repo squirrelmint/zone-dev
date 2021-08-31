@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-stockthai.png')}}">
 
             <h1 class="zone-contact-title-gradient">หวยหุ้นไทย</h1>
-            <h2 class="zone-contact-title">หวยหุ้นไทย กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยหุ้นไทย กติกาการเเทง ZONELOTTO</h2>
 	
             <ul>
                 <li>ทางระบบจะทำการเปิดรับการเดิมพันทุกวัน จันทร์ - ศุกร์ (ปิดรับแทงตามวันหยุดของตลาดหุ้น)</li>

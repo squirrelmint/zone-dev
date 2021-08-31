@@ -106,7 +106,7 @@
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-block d-xxl-none" href="{{\config('lotto.url')}}/?agent=ntc123">
+                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-block d-xxl-none" href="{{\config('lotto.url')}}">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -179,7 +179,7 @@
                 <div class="group-link2 d-flex justify-content-center">
                     <a class="t-white fill-hover" href="{{route('Landingpage.register')}}">สมัครสมาชิก</a>
                     <div class="section-link">|</div>
-                    <a class="t-white fill-hover" href="">เข้าแทงหวย</a>
+                    <a class="t-white fill-hover" href="{{\config('lotto.url')}}">เข้าแทงหวย</a>
                     <div class="section-link">|</div>
                     <a class="t-white fill-hover" href="{{route('Landingpage.rewardlotto')}}">ตรวจเช็ครางวัลหวย</a>
                     <div class="section-link">|</div>
@@ -292,10 +292,19 @@ $(document).ready(function(){
 });
 
 function loginAjax() {
-    let url = "{{\config('lotto.url')}}/apiRoute/member/landing/login";
+    let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/login";
 
     let username = $('#username').val();
+    if( !username ){
+        alert('กรุณากรอกชื่อผู้ใช้');
+        return false;
+    }
+
     let password = $('#password').val();
+    if( !password ){
+        alert('กรุณากรอกรหัสผ่าน');
+        return false;
+    }
 
     let datajson =  {
                         "agentUsername": "ntc123",

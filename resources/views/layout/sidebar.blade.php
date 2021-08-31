@@ -24,7 +24,7 @@
                                 <li><a href="{{route('role.bacc')}}" class="zone-sidebar-link">หวยธกส.</a></li>
                                 <li><a href="{{route('role.gsb')}}" class="zone-sidebar-link">หวยออมสิน</a></li>
                                 <li><a href="{{route('role.laos')}}" class="zone-sidebar-link">หวยลาว</a></li>
-                                <li><a href="{{route('role.hanoy')}}" class="zone-sidebar-link">หวยมาฮานอย</a></li>
+                                <li><a href="{{route('role.hanoy')}}" class="zone-sidebar-link">หวยฮานอย</a></li>
                                 <li><a href="{{route('role.malay')}}" class="zone-sidebar-link">หวยมาเลย์</a></li>
                                 <li><a href="{{route('role.yeekee')}}" class="zone-sidebar-link">หวยยี่กี</a></li>
                                 <li><a href="{{route('role.pingpong')}}" class="zone-sidebar-link">หวยปิงปอง</a></li>

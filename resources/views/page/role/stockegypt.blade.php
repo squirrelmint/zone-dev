@@ -5,7 +5,7 @@
             <img src="{{asset('img/reward/banner-stockegypt.png')}}">
             
             <h1 class="zone-contact-title-gradient">หวยหุ้นอียิปต์</h1>
-            <h2 class="zone-contact-title">หวยหุ้นอียิปต์ กติกาการเเทง AMBLOTTO</h2>
+            <h2 class="zone-contact-title">หวยหุ้นอียิปต์ กติกาการเเทง ZONELOTTO</h2>
 
             <ul>
                 <li>เปิดรับเเทงออนไลน์ทุกวัน จันทร์ – ศุกร์ (ปิดรับเเทงตามวันหยุดของตลาดหุ้น)</li>

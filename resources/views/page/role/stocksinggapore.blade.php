@@ -4,7 +4,7 @@
         <div class="h-100 zone-background zone-reward zone-content">
             <img src="{{asset('img/reward/banner-stocksinggapore.png')}}">
             <h1 class="zone-contact-title-gradient">หวยหุ้นสิงคโปร์</h1>
-            <h2 class="zone-contact-title">หวยหุ้นสิงคโปร์ กติกาการเเทง AMBLOTTO</h1>
+            <h2 class="zone-contact-title">หวยหุ้นสิงคโปร์ กติกาการเเทง ZONELOTTO</h1>
         
             <ul>    
                 <li>เปิดรับเเทงออนไลน์ทุกวัน จันทร์ – ศุกร์ (ปิดรับเเทงตามวันหยุดของตลาดหุ้น)</li>

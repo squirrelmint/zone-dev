@@ -784,7 +784,16 @@ function loginAjax() {
     let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/login";
 
     let username = $('#username').val();
+    if( !username ){
+        alert('กรุณากรอกชื่อผู้ใช้');
+        return false;
+    }
+
     let password = $('#password').val();
+    if( !password ){
+        alert('กรุณากรอกรหัสผ่าน');
+        return false;
+    }
 
     let datajson =  {
                         "agentUsername": "ntc123",

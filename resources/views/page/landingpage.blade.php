@@ -683,7 +683,7 @@ body {
                                         <img class="icon-email" src="{{asset('img/lotto-icon/icon-email.png')}}" alt="">
                                     </div>
                                     <div class="col-10 col-md-11 size-text-input">
-                                        <input id="username" type="text" class="col-10 w-100" placeholder="ชื่อผู้ใช้" style="border:none">
+                                        <input id="username" maxlength="36" type="text" class="col-10 w-100" placeholder="ชื่อผู้ใช้" style="border:none" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}">
                                     </div>
 
                                 </div>
@@ -787,6 +787,17 @@ function loginAjax() {
     if( !username ){
         alert('กรุณากรอกชื่อผู้ใช้');
         return false;
+    }else{
+        if(username.length < 4){
+            alert('กรุณากรอกตัวอักษรมากกว่า 4 ตัว');
+            return false;
+        }
+
+        regex = new RegExp('^[a-zA-Z0-9]*$');
+        if(regex.test(username)==false){
+            alert('ชื่อผู้ใช้ไม่ถูกต้อง');
+            return false;
+        }
     }
 
     let password = $('#password').val();

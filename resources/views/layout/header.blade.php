@@ -298,6 +298,17 @@ function loginAjax() {
     if( !username ){
         alert('กรุณากรอกชื่อผู้ใช้');
         return false;
+    }else{
+        if(username.length < 4){
+            alert('กรุณากรอกตัวอักษรมากกว่า 4 ตัว');
+            return false;
+        }
+
+        regex = new RegExp('^[a-zA-Z0-9]*$');
+        if(regex.test(username)==false){
+            alert('ชื่อผู้ใช้ไม่ถูกต้อง');
+            return false;
+        }
     }
 
     let password = $('#password').val();

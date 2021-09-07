@@ -154,7 +154,7 @@
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
-                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID : j8day</marquee>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID : j8day</marquee>
                 </div>
                 <div class="mt-3 d-none d-lg-block"></div>
                 <div class="row">

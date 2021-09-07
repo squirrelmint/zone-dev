@@ -27,12 +27,41 @@ body {
         background-image: url({{asset("/img/BGzonelotto.png")}});
         background-position: unset;
     }
+/* .box-cir {
+    position: absolute;
+    z-index: 10;
+}
+.cir-size1 {
+    max-width: 100%;
+    width: unset;
+    height: 104px;
+}
+.cir-size2 {
+    max-width: 100%;
+    width: unset;
+    height: 110px;
+}
+.cir-size3 {
+    max-width: 100%;
+    width: unset;
+    height: 120px;
+}
+.cir-size4 {
+    max-width: 100%;
+    width: unset;
+    height: 157px;
+} */
 @media (max-width: 991px) {
     body {
         background-image: url({{asset("/img/mobile/BGzonelotto-mobile.png")}});
         background-position: center;
     }
 }
+/* @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+        .box-cir {
+            display: none;
+        }
+    } */
 @media only screen and (min-device-width: 992px) and (max-device-width: 1399px) and (-webkit-min-device-pixel-ratio: 2) {
     body {
         background-image: url({{asset("/img/mobile/bg-x4.png")}});
@@ -45,6 +74,20 @@ body {
 <body>
     @include('layout.modallode')
     <div id="body-head">
+        {{-- <div class="box-cir">
+            <div class="box-1">
+                <img class="cir-size1" src="{{asset('img/cir-1.png')}}" alt="">
+            </div>
+            <div class="box-2">
+                <img class="cir-size2" src="{{asset('img/cir-2.png')}}" alt="">
+            </div>
+            <div class="box-3">
+                <img class="cir-size3" src="{{asset('img/cir-3.png')}}" alt="">
+            </div>
+            <div class="box-4">
+                <img class="cir-size4" src="{{asset('img/cir-4.png')}}" alt="">
+            </div>
+        </div> --}}
         <img class="header d-none d-lg-block" src="{{asset('img/Header2.png')}}" alt="">
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
@@ -141,7 +184,7 @@ body {
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
-                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID : j8day</marquee>
                     </div>
                 </div>
             </div>
@@ -154,7 +197,7 @@ body {
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID : j8day</marquee>
                 </div>
                 <div class="row group-link d-flex d-lg-none">
                     <div class="col-4 px-0">
@@ -623,7 +666,7 @@ body {
                                 <h5 class="title-text fw-light fill-text mb-0">ติดต่อเรา</h5>
                                 <hr class="mt-0 fill-text2">
                                 <p class="mb-0 t-white">สอบถามหรือแจ้งปัญหากับทางเว็บไซต์ได้ตลอด 24 ชม.</p>
-                                <p class="t-white">02 - xxxxxxx</p>
+                                <p class="t-white">Line : j8day</p>
                             </div>
                         </div>
                     </div>

@@ -9,9 +9,9 @@
 </style>
             <div class="col-12 col-md-9">
                 <div class="h-100 zone-background zone-content zone-promotion text-center">
+                    {{-- <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
                     <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
-                    <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
-                    <img src="{{asset('img/promotion/banner-promotion.jpg')}}">
+                    <img src="{{asset('img/promotion/banner-promotion.jpg')}}"> --}}
                 </div>
             </div>
 @endsection

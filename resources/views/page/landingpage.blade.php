@@ -276,7 +276,7 @@ body {
                     </div>
                 </div>
 
-                <div class="row margin-top2-m">
+                {{-- <div class="row margin-top2-m">
                     <div class="d-flex align-items-baseline">
                         <img class="me-2 w-0 m-size" src="{{asset('img/icon-annouce.png')}}" alt="">
                         <div class="title-text fill-text">โปรโมชั่นสำหรับสมาชิก</div>
@@ -301,7 +301,7 @@ body {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="margin-top3-m"></div>
                 <div class="row">
                     <div class="col-xxl-12">

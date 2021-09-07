@@ -78,7 +78,7 @@
     </nav>
 
     <div id="body-head">
-        <img src="{{asset('img/Header.png')}}" class="d-none d-lg-block" alt="">
+        <img src="{{asset('img/Header2.png')}}" class="d-none d-lg-block" alt="">
         <div class="navbar-bottom w-100">
             <div class="row row-cols-5 mx-0 justify-content-center">
                 <div class="col-xxl-auto px-0">
@@ -149,7 +149,7 @@
         </div>
 
         <div class="header-mobile w-100">
-            <img src="{{asset('img/mobile/header.png')}}" alt="">
+            <img src="{{asset('img/mobile/Header2.png')}}" alt="">
             <div class="announce-mobile w-100 d-block d-xxl-none">
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
@@ -286,7 +286,7 @@ $(document).ready(function(){
         $("#loginModal").modal('show');
     });
 
-    setTimeout(function(){ 
+    setTimeout(function(){
         $("#myModalLoad").hide();
         $(".modal-back-drop").hide().removeClass('show');
         $(".modal-overlay").hide().removeClass('show');

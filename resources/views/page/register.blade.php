@@ -1,6 +1,9 @@
 @extends('layout.header')
 @section('content')
 <style>
+    .qr-pro {
+            display: none;
+        }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
         .qr-pro {
             display: none;

@@ -45,7 +45,7 @@ body {
 <body>
     @include('layout.modallode')
     <div id="body-head">
-        <img class="header d-none d-lg-block" src="{{asset('img/Header.png')}}" alt="">
+        <img class="header d-none d-lg-block" src="{{asset('img/Header2.png')}}" alt="">
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
                 <div class="btn-link-regis">
@@ -136,7 +136,7 @@ body {
             </div>
         </div>
         <div class="header-mobile w-100">
-            <img src="{{asset('img/mobile/header.png')}}" alt="">
+            <img src="{{asset('img/mobile/Header2.png')}}" alt="">
             <div class="announce-mobile w-100 d-block d-xxl-none">
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
@@ -731,12 +731,12 @@ $(document).ready(function(){
         $("#loginModal").modal('show');
     });
 
-    setTimeout(function(){ 
+    setTimeout(function(){
         $("#myModalLoad").hide();
         $(".modal-back-drop").hide().removeClass('show');
         $(".modal-overlay").hide().removeClass('show');
     }, 2000);
-    
+
 });
 
 function showResultLotto() {

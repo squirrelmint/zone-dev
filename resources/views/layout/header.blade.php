@@ -78,6 +78,11 @@
     </nav>
 
     <div id="body-head">
+        <div class="box-cir d-none d-lg-block">
+            <div class="box-1">
+                <img src="{{asset('img/cir-all.png')}}" alt="">
+            </div>
+        </div>
         <img src="{{asset('img/Header2.png')}}" class="d-none d-lg-block" alt="">
         <div class="navbar-bottom w-100">
             <div class="row row-cols-5 mx-0 justify-content-center">
@@ -149,6 +154,11 @@
         </div>
 
         <div class="header-mobile w-100">
+            <div class="box-cir">
+                <div class="box-1">
+                    <img src="{{asset('img/mobile/cir-all.png')}}" alt="">
+                </div>
+            </div>
             <img src="{{asset('img/mobile/Header2.png')}}" alt="">
             <div class="announce-mobile w-100 d-block d-xxl-none">
                 <div class="bg-announce">

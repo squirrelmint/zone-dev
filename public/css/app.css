@@ -458,11 +458,105 @@ select.minimal {
 .spacing-m {
     display: none;
 }
+#box-cir1,
+#box-cir2 {
+    display: none;
+}
+.box-cir {
+    position: absolute;
+    z-index: 10;
+    max-width: 1430px;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    animation: movelarge 9s infinite;
+    -webkit-animation: movelarge 9s infinite;
+    -moz-animation: movelarge 9s infinite;
+    -o-animation: movelarge 9s infinite;
+    -ms-animation: movelarge 9s infinite;
+    /* animation-duration: 5s; */
+}
+.box-cir .box-1 {
+    animation: fadein linear;
+    animation-duration: .15s;
+    animation-iteration-count: 1;
+}
+@keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+}
+@-moz-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+  @-webkit-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+  @-o-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+  @-ms-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 /* mobile */
 /*  */
 @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
     body {
         background-size: unset;
+        /* overflow: hidden; */
     }
     /* .zone-sidebar-line {
         display: none;
@@ -541,6 +635,8 @@ select.minimal {
         display: block;
         position: relative;
         z-index: 10;
+        padding-top: 7.8125vmin;
+        overflow: hidden;
     }
     .bg-gold-border1 {
         padding: 0 1px 1px 0;
@@ -994,6 +1090,67 @@ select.minimal {
     .size-text-input {
         font-size: 4.0625vmin;
     }
+    .box-cir {
+        animation-duration: 5s;
+    }
+    @keyframes movelarge {
+        0% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        50% {
+            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+    }
+    @-moz-keyframes movelarge {
+        0% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        50% {
+            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+      }
+
+      @-webkit-keyframes movelarge {
+        0% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        50% {
+            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+      }
+
+      @-o-keyframes movelarge {
+        0% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        50% {
+            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+      }
+
+      @-ms-keyframes movelarge {
+        0% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        50% {
+            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+      }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .w1-m {
             width: 25%;
@@ -1121,6 +1278,20 @@ select.minimal {
         .w2-m {
             width: 89%;
         }
+        .px-reward-content-m {
+            margin: 0 25vw;
+        }
+        @keyframes movelarge {
+            0% {
+                transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+            50% {
+                transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+            100% {
+                transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+            }
+        }
     }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -1166,6 +1337,17 @@ select.minimal {
     .modal-dialog.edit-margin {
         max-width: 540px;
         margin: 8.8vmin auto;
+    }
+    @keyframes movelarge {
+        0% {
+            transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        50% {
+            transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+        100% {
+            transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         /* .zone-sidebar-line {
@@ -1291,7 +1473,13 @@ select.minimal {
         }
     }
     @media only screen and (min-device-width: 1400px) and (max-device-width: 1688px) and (orientation: portrait) {
-
+        #body-content .page-content {
+            padding: 0 3.5545023697vmin 60px 3.5545023697vmin;
+        }
+        .set-image img {
+            width: 36.0375vmin;
+            right: 0;
+        }
     }
     @media only screen and (min-device-width: 1400px) and (max-device-width: 1688px) and (orientation: landscape) {
 
@@ -1303,7 +1491,6 @@ select.minimal {
         }
     }
     @media only screen and (min-device-width: 1689px) and (max-device-width: 1919px) and (orientation: landscape) {
-
     }
     @media only screen and (min-device-width: 1921px) {
         .margin-top2-m {
@@ -1315,3 +1502,8 @@ select.minimal {
         }
     }
 }
+/* @media only screen and (max-device-width: 991px) {
+    .px-reward-content-m {
+        margin: 0;
+    }
+} */

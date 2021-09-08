@@ -27,41 +27,13 @@ body {
         background-image: url({{asset("/img/BGzonelotto.png")}});
         background-position: unset;
     }
-/* .box-cir {
-    position: absolute;
-    z-index: 10;
-}
-.cir-size1 {
-    max-width: 100%;
-    width: unset;
-    height: 104px;
-}
-.cir-size2 {
-    max-width: 100%;
-    width: unset;
-    height: 110px;
-}
-.cir-size3 {
-    max-width: 100%;
-    width: unset;
-    height: 120px;
-}
-.cir-size4 {
-    max-width: 100%;
-    width: unset;
-    height: 157px;
-} */
+
 @media (max-width: 991px) {
     body {
         background-image: url({{asset("/img/mobile/BGzonelotto-mobile.png")}});
         background-position: center;
     }
 }
-/* @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
-        .box-cir {
-            display: none;
-        }
-    } */
 @media only screen and (min-device-width: 992px) and (max-device-width: 1399px) and (-webkit-min-device-pixel-ratio: 2) {
     body {
         background-image: url({{asset("/img/mobile/bg-x4.png")}});
@@ -74,20 +46,11 @@ body {
 <body>
     @include('layout.modallode')
     <div id="body-head">
-        {{-- <div class="box-cir">
-            <div class="box-1">
-                <img class="cir-size1" src="{{asset('img/cir-1.png')}}" alt="">
+        <div id="box-cir1">
+            <div class="box-1 d-none d-lg-block">
+                <img src="{{asset('img/cir-all.png')}}" alt="">
             </div>
-            <div class="box-2">
-                <img class="cir-size2" src="{{asset('img/cir-2.png')}}" alt="">
-            </div>
-            <div class="box-3">
-                <img class="cir-size3" src="{{asset('img/cir-3.png')}}" alt="">
-            </div>
-            <div class="box-4">
-                <img class="cir-size4" src="{{asset('img/cir-4.png')}}" alt="">
-            </div>
-        </div> --}}
+        </div>
         <img class="header d-none d-lg-block" src="{{asset('img/Header2.png')}}" alt="">
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
@@ -179,7 +142,12 @@ body {
             </div>
         </div>
         <div class="header-mobile w-100">
-            <img src="{{asset('img/mobile/Header2.png')}}" alt="">
+            <div id="box-cir2" class="">
+                <div class="box-1">
+                    <img src="{{asset('img/mobile/cir-all.png')}}" alt="">
+                </div>
+            </div>
+            <img class="d-block d-lg-none" src="{{asset('img/mobile/Header2.png')}}" alt="">
             <div class="announce-mobile w-100 d-block d-xxl-none">
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
@@ -780,6 +748,12 @@ $(document).ready(function(){
         $(".modal-overlay").hide().removeClass('show');
     }, 2000);
 
+    setTimeout(function(){
+        $("#box-cir1").addClass('box-cir');
+        $("#box-cir1").addClass('d-none d-lg-block');
+        $("#box-cir2").addClass('box-cir');
+        $("#box-cir2").addClass('d-block d-lg-none');
+    }, 3500);
 });
 
 function showResultLotto() {

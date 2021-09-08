@@ -78,8 +78,8 @@
     </nav>
 
     <div id="body-head">
-        <div class="box-cir d-none d-lg-block">
-            <div class="box-1">
+        <div id="box-cir1">
+            <div class="box-1 d-none d-lg-block">
                 <img src="{{asset('img/cir-all.png')}}" alt="">
             </div>
         </div>
@@ -99,7 +99,7 @@
                 <div class="col-xxl-auto px-0">
                     <div class="bg-gold-border1 link-regis">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center" href="">
+                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center" href="{{route('Landingpage.register')}}">
                                 <img src="{{asset('img/icon-regis2.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">สมัครสมาชิก</h3>
                             </a>
@@ -154,7 +154,7 @@
         </div>
 
         <div class="header-mobile w-100">
-            <div class="box-cir">
+            <div id="box-cir2" class="">
                 <div class="box-1">
                     <img src="{{asset('img/mobile/cir-all.png')}}" alt="">
                 </div>
@@ -301,6 +301,13 @@ $(document).ready(function(){
         $(".modal-back-drop").hide().removeClass('show');
         $(".modal-overlay").hide().removeClass('show');
     }, 2000);
+
+    setTimeout(function(){
+        $("#box-cir1").addClass('box-cir');
+        $("#box-cir1").addClass('d-none d-lg-block');
+        $("#box-cir2").addClass('box-cir');
+        $("#box-cir2").addClass('d-block d-lg-none');
+    }, 3500);
 });
 
 function loginAjax() {

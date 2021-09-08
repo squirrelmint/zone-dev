@@ -1090,67 +1090,6 @@ select.minimal {
     .size-text-input {
         font-size: 4.0625vmin;
     }
-    .box-cir {
-        animation-duration: 5s;
-    }
-    @keyframes movelarge {
-        0% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        50% {
-            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        100% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-    }
-    @-moz-keyframes movelarge {
-        0% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        50% {
-            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        100% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-      }
-
-      @-webkit-keyframes movelarge {
-        0% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        50% {
-            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        100% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-      }
-
-      @-o-keyframes movelarge {
-        0% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        50% {
-            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        100% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-      }
-
-      @-ms-keyframes movelarge {
-        0% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        50% {
-            transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        100% {
-            transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-      }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .w1-m {
             width: 25%;
@@ -1338,16 +1277,8 @@ select.minimal {
         max-width: 540px;
         margin: 8.8vmin auto;
     }
-    @keyframes movelarge {
-        0% {
-            transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        50% {
-            transform: translate(-50%,-50%) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-        100% {
-            transform: translate(-50%,-50%) matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
+    .box-cir {
+        width: 65%;
     }
     @media only screen and (min-device-width: 992px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         /* .zone-sidebar-line {
@@ -1471,6 +1402,9 @@ select.minimal {
             max-width: 540px;
             margin: 5.1244509517vmax auto;
         }
+        .box-cir {
+            width: 65%;
+        }
     }
     @media only screen and (min-device-width: 1400px) and (max-device-width: 1688px) and (orientation: portrait) {
         #body-content .page-content {
@@ -1479,6 +1413,9 @@ select.minimal {
         .set-image img {
             width: 36.0375vmin;
             right: 0;
+        }
+        .box-cir {
+            width: 65%;
         }
     }
     @media only screen and (min-device-width: 1400px) and (max-device-width: 1688px) and (orientation: landscape) {
@@ -1507,3 +1444,70 @@ select.minimal {
         margin: 0;
     }
 } */
+@media only screen and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .box-cir {
+    animation: movelarge 5s infinite;
+    -webkit-animation: movelarge 5s infinite;
+    -moz-animation: movelarge 5s infinite;
+    -o-animation: movelarge 5s infinite;
+    -ms-animation: movelarge 5s infinite;
+}
+@keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+}
+@-moz-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+  @-webkit-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+  @-o-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+
+  @-ms-keyframes movelarge {
+    0% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    50% {
+        transform: translate(-50%,-50%) matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    100% {
+        transform: translate(-50%,-50%) matrix3d(1.1, 0, 0, 0, 0, 1.1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+  }
+}

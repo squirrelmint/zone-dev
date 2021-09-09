@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m2">
                     <label for="userregis">ยูสที่เข้าเล่น</label>
-                    <input readonly maxlength="36" type="text" class="re-input" id="userregis" name="userregis" value="newamblotto" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
+                    <input readonly maxlength="36" type="text" class="re-input" id="userregis" name="userregis" value="zone" onkeypress="if((event.which < 97 || event.which > 122) && (event.which < 65 || event.which > 90) && (event.which < 48 || event.which > 57)) return false;" onkeydown="if(event.ctrlKey && event.keyCode==86){return false;}" onpaste="return false;">
                 </div>
                 <div class="col-12 d-flex flex-column margin-bottom-m3">
                     <label for="passwordregis">รหัสผ่าน</label>
@@ -85,7 +85,7 @@ $(document).on("change", 'input', function(e){
 
 $(document).on("keyup", '#phone',  function(){
     let phone = $('#phone').val();
-    let newname = 'newamblotto' + phone;
+    let newname = 'zone' + phone;
     $('#userregis').val( newname );
 });
 

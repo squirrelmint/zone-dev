@@ -53,7 +53,7 @@ body {
                 <img src="{{asset('img/cir-all.png')}}" alt="">
             </div>
         </div>
-        {{-- <img class="header d-none d-lg-block" src="{{asset('img/Header2.png')}}" alt=""> --}}
+        <img class="header d-none d-lg-block" src="{{asset('img/Header2.png')}}" alt="">
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
                 <div class="btn-link-regis">

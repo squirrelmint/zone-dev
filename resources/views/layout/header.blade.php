@@ -339,8 +339,8 @@ function loginAjax() {
     }
 
     let datajson =  {
-                        "agentUsername": "ntc123",
-                        "agentApiKey": "d79bd07b119f83c7cde0e3471b4bef99731f550d26c394ba0c8f55cd4f89581595fa",
+                        "agentUsername": "789bet",
+                        "agentApiKey": "a2416ab778c62d4d7a8c02072ef10bbaad2d816f03ce8d7ce478cdcc8dceb1c24faa",
                         "playerUsername": username,
                         "playerPassword": password
                     };

@@ -134,7 +134,7 @@ function registerAjax() {
         alert('กรุณากรอกยูสที่เข้าเล่น');
         return false;
     }else{
-        if(username != 'newamblotto'+phone){
+        if(username != 'zone'+phone){
             alert('ยูสที่ใช้ไม่ถูกต้อง');
             return false;
         }

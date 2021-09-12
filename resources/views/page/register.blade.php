@@ -161,10 +161,8 @@ function registerAjax() {
             "bank":bank,
             "acc_no":acc_no,
             "phone":phone,
-            "agent": "ntc123",
+            "agent": "789betting",
             "master_member": ""
-            // "promotion":1,
-            // "parent":"a2416ab778c62d4d7a8c02072ef10bbaad2d816f03ce8d7ce478cdcc8dceb1c24faa"
         };
 
     $.ajax({

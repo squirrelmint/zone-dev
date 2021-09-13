@@ -452,6 +452,13 @@ select.minimal {
 .footer-mobile .section-link {
     margin: 0 12px;
 }
+.href-hover {
+    text-decoration: underline;
+}
+.href-hover:hover {
+    color: #F7EF8A;
+    text-decoration: underline;
+}
 .space-row {
     --bs-gutter-x: 0.5rem
 }

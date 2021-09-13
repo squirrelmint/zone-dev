@@ -154,7 +154,11 @@ body {
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
-                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID : j8day</marquee>
+                        <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
+                            <a class="href-hover" href="https://line.me/ti/p/~j8day">
+                                j8day
+                            </a>
+                        </marquee>
                     </div>
                 </div>
             </div>
@@ -167,7 +171,11 @@ body {
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID : j8day</marquee>
+                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
+                        <a class="href-hover" href="https://line.me/ti/p/~j8day">
+                            j8day
+                        </a>
+                    </marquee>
                 </div>
                 <div class="row group-link d-flex d-lg-none">
                     <div class="col-4 px-0">
@@ -636,7 +644,11 @@ body {
                                 <h5 class="title-text fw-light fill-text mb-0">ติดต่อเรา</h5>
                                 <hr class="mt-0 fill-text2">
                                 <p class="mb-0 t-white">สอบถามหรือแจ้งปัญหากับทางเว็บไซต์ได้ตลอด 24 ชม.</p>
-                                <p class="t-white">Line : j8day</p>
+                                <p class="t-white">Line :
+                                    <a class="href-hover" href="https://line.me/ti/p/~j8day">
+                                        j8day
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>

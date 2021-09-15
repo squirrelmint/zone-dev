@@ -430,7 +430,6 @@ img {
     margin-left: 12px;
 }
 
-
 @media (hover: hover) {
     .bg-border:hover::after {
         box-shadow: inset 11px 8px 16px rgb(0 0 0 / 90%);

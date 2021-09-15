@@ -178,7 +178,7 @@ function registerAjax() {
         success: function(res) {
             $("#myModalLoad").hide();
             $(".modal-overlay").hide().removeClass('show');
-            if(res.code == 200){
+            if(res.code == "0"){
                 alert('สมัครสมาชิกเรียบร้อยแล้ว');
                 setTimeout(function(){ window.location.href = "{{route('Landingpage.index')}}" }, 1000);
             }else{

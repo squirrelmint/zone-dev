@@ -9,6 +9,17 @@
             display: none;
         }
     }
+    .bg-fade-success {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        opacity: .5;
+        display: none;
+}
 </style>
 <div class="col-12 col-md-9">
     <div class="h-100 zone-background zone-reward zone-content">
@@ -72,6 +83,33 @@
             </div>
         </div>
     </div>
+</div>
+<div class="modal fade" id="success_regis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content edit-padding-t-success">
+        <div class="modal-header edit-padding-success">
+            <img src="{{ asset('img/icon-success.png')}}" alt="">
+          <h1 class="regis_success fill-text4">สมัครเรียบร้อย</h1>
+        </div>
+        <div class="modal-body edit-padding2-success">
+          <p class="text-green-success text-center">ขอบคุณสำหรับการสมัคร คุณสามารถใช้
+            ชื่อเข้าระบบ และ รหัสผ่าน ด้านล่างที่ตั้งไว้เพื่อเข้าสู่ระบบ</p>
+            <div class="bg-green-success t-white">
+                <p id="show_user">ssss</p>
+                <p id="show_password" class="mb-0">ssss</p>
+            </div>
+        </div>
+        <div class="modal-footer edit-margin-success">
+         <div class="bg-btn-success text-center">
+             <a href="{{route('Landingpage.index')}}" class="text-green-success2">
+                 กลับไปหน้าแรก
+             </a>
+         </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="bg-fade-success">
 </div>
 @endsection
 
@@ -179,8 +217,12 @@ function registerAjax() {
             $("#myModalLoad").hide();
             $(".modal-overlay").hide().removeClass('show');
             if(res.code == "0"){
-                alert('สมัครสมาชิกเรียบร้อยแล้ว');
-                setTimeout(function(){ window.location.href = "{{route('Landingpage.index')}}" }, 1000);
+                $(".bg-fade-success").show();
+                setTimeout(function(){ $("#success_regis").show().addClass('show'); }, 100);
+                $("#show_user").html("ชื่อเข้าสู่ระบบ : " +username)
+                $("#show_password").html("รหัสผ่าน : " +password)
+                // alert('สมัครสมาชิกเรียบร้อยแล้ว');
+                // setTimeout(function(){ window.location.href = "{{route('Landingpage.index')}}" }, 1000);
             }else{
                 alert(res.message);
                 return false;

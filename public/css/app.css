@@ -366,7 +366,60 @@ select.minimal {
       0px 0em;
     background-repeat: no-repeat;
 }
-
+.edit-padding-success {
+    padding: 2rem 1rem 0 1rem;
+    justify-content: center;
+    border-bottom: none;
+    flex-direction: column;
+}
+.edit-padding-success img {
+    width: 3.645833333vmax;
+    height: 3.645833333vmax;
+}
+.edit-padding-success .regis_success {
+    font-size: 3.125vmax;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.edit-padding-success .fill-text4 {
+    background: -webkit-linear-gradient(#378A75,#1C493E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.edit-padding2-success {
+    padding: 20px 3rem 0 3rem;
+}
+.modal-body .text-green-success {
+    color: #1C493E;
+    font-weight: 300;
+    font-size: 1.041666667vmax;
+}
+.bg-green-success {
+    background: -webkit-linear-gradient(#378A75,#1C493E);
+    padding: 20px 2rem;
+    border-radius: 10px;
+    font-size: 1.041666667vmax;
+}
+.edit-margin-success {
+    margin: 0 auto;
+    border-top: none;
+}
+.edit-margin-success .text-green-success2 {
+    color:#1C493E;
+}
+.edit-margin-success .bg-btn-success {
+    background: #E0E0E0;
+    border-radius: 96px;
+    padding: 11px 20px;
+}
+.modal#success_regis {
+    z-index: 2001;
+}
+@media (min-width: 576px){
+    #success_regis .modal-dialog {
+        margin: 13.75rem auto;
+    }
+}
 /* modal */
 
 .edit-modal-content {
@@ -1097,6 +1150,26 @@ select.minimal {
     .size-text-input {
         font-size: 4.0625vmin;
     }
+    .edit-padding-success img {
+        width: 21.875vmin;
+        height: 21.875vmin;
+    }
+    .edit-padding-success .regis_success {
+        font-size: 10vmin;
+    }
+    .edit-padding2-success {
+        padding: 1rem;
+    }
+    .modal-body .text-green-success {
+        font-size: 4.6875vmin;
+    }
+    .bg-green-success {
+        padding: 6.25vmin 5vmin;
+        font-size: 4.375vmin;
+    }
+    .edit-padding-t-success {
+        padding-top: 9.375vmin;
+    }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
         .w1-m {
             width: 25%;
@@ -1518,3 +1591,15 @@ select.minimal {
     }
   }
 }
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */
+    select.minimal {
+        background-color: #fff;
+    }
+}
+@supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */
+    select.minimal {
+        background-color: #fff;
+    }
+ }

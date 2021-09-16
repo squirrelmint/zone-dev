@@ -236,5 +236,6 @@ function registerAjax() {
     });
 }
 </script>
+
 @endsection
 

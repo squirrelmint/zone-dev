@@ -3,7 +3,7 @@
     background: linear-gradient(360deg, #0F0F0F 0%, #3F3F3F 100%);
     height: 71px;
     width: 100%;;
-    z-index: 1;
+    z-index: 20;
 }
 .zone-navbar-bottom {
     position: absolute;
@@ -81,58 +81,71 @@ ul.zone-sidebar-contact>li {
 /* icon */
 span.icon-home {
     background: url('../img/lotto-icon/home.png');
-    height: 34px;
-    width: 34px;
+    /* height: 34px;
+    width: 34px; */
+    height: 1.7708333333vmax;
+    width: 1.7708333333vmax;
     background-size: cover;
     display: inline-block;
     margin-right: 8px;
 }
 span.icon-register {
     background: url('../img/lotto-icon/register.png');
-    height: 36px;
-    width: 33px;
+    /* height: 36px;
+    width: 33px; */
+    height: 1.875vmax;
+    width: 1.71875vmax;
     background-size: cover;
     display: inline-block;
     margin-right: 8px;
 }
 span.icon-gift {
     background: url('../img/lotto-icon/gift.png');
-    height: 33px;
-    width: 35px;
+    /* height: 33px;
+    width: 35px; */
+    height: 1.71875vmax;
+    width: 1.822916667vmax;
     background-size: cover;
     display: inline-block;
     margin-right: 8px;
 }
 span.icon-promotion {
     background: url('../img/lotto-icon/promotion.png');
-    height: 34px;
-    width: 38px;
+    /* height: 34px;
+    width: 38px; */
+    height: 1.7708333333vmax;
+    width: 1.979166667vmax;
     background-size: cover;
     display: inline-block;
     margin-right: 8px;
 }
 span.icon-contact {
     background: url('../img/lotto-icon/contact.png');
-    height: 35px;
-    width: 30px;
+    /* height: 35px;
+    width: 30px; */
+    height: 1.822916667vmax;
+    width: 1.5625vmax;
     background-size: cover;
     display: inline-block;
     margin-right: 8px;
 }
 span.icon-login {
     background: url('../img/lotto-icon/login.png');
-    height: 32px;
-    width: 32px;
+    /* height: 32px;
+    width: 32px; */
+    height: 1.666666667vmax;
+    width: 1.666666667vmax;
     background-size: cover;
     display: inline-block;
     margin-right: 8px;
 }
 span.icon-contact-lotto {
     background: url('../img/lotto-icon/contact-lotto.png') no-repeat;
-    height: 35px;
-    width: 37px;
+    /* height: 35px;
+    width: 37px; */
+    height: 1.822916667vmax;
+    width: 1.927083333vmax;
     background-size: 100%;
     display: inline-block;
     margin-right: 8px;
 }
-

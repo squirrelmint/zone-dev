@@ -53,6 +53,11 @@
 <body>
     @include('layout.modallode')
     <div id="body-head">
+        <div id="box-cir1">
+            <div class="box-1 d-none d-lg-block">
+                <img src="{{asset('img/cir-all.png')}}" alt="">
+            </div>
+        </div>
         <img class="header d-none d-lg-block" src="{{ asset('img/Header.png') }}" alt="">
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
@@ -109,7 +114,7 @@
                                 <img src="{{ asset('img/icon-reward.png') }}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-lg-none"
+                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center d-flex d-lg-none"
                                 href="#">
                                 <img src="{{ asset('img/mobile/icon-intolotto.png') }}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
@@ -154,13 +159,18 @@
             </div>
         </div>
         <div class="header-mobile w-100">
+            <div id="box-cir2" class="">
+                <div class="box-1">
+                    <img src="{{asset('img/mobile/cir-all.png')}}" alt="">
+                </div>
+            </div>
             <img src="{{ asset('img/mobile/header.png') }}" alt="">
             <div class="announce-mobile w-100 d-block d-xxl-none">
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
                         <marquee class="w2-m" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์
-                            <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
+                            <b>AMBLOTTO.COM</b> ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                     </div>
                 </div>
             </div>
@@ -173,7 +183,7 @@
                     <div class="announce" style="width:14%">
                         <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b>
+                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>AMBLOTTO.COM</b>
                         ติดต่อแอดมินได้ที่ Tel: 09x-xxx-xxx Line ID: @xxx</marquee>
                 </div>
                 <div class="row group-link d-flex d-lg-none">
@@ -222,7 +232,7 @@
                     <div class="col-xl-8">
                         <div class="bg-content2">
                             <div class="bg-green-content">
-                                <h1>Zone Lotto แทงหวยออนไลน์ 24 ชั่วโมง</h1>
+                                <h1>AMB LOTTO แทงหวยออนไลน์ 24 ชั่วโมง</h1>
                                 <p class="text-justify t-white">ด้วยประสบการณ์การให้บริการทั้งคาสิโนออนไลน์ และ
                                     แทงหวยออนไลน์ นานนับ 10 ปี และไม่หยุด
                                     พัฒนาเพื่อประสบการณ์ต่อผู้เล่น ที่สะดวก เสถียรที่สุด รองรับทั้งมือถือ และ
@@ -797,7 +807,12 @@
             $(".modal-back-drop").hide().removeClass('show');
             $(".modal-overlay").hide().removeClass('show');
         }, 2000);
-
+        setTimeout(function(){
+            $("#box-cir1").addClass('box-cir');
+            $("#box-cir1").addClass('d-none d-lg-block');
+            $("#box-cir2").addClass('box-cir');
+            $("#box-cir2").addClass('d-block d-lg-none');
+        }, 3500);
     });
 
 </script>

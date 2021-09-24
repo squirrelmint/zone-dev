@@ -288,16 +288,16 @@
                                                             <div id="resultThreeBottom"
                                                                 class="bg-content-green edit-padding-bottom3 d-flex align-items-center justify-content-center row cols-2 gx-0">
                                                                 <div class="col-6">
-                                                                    <h3 class="text-center mb-0 t-white">278</h3>
+                                                                    <h3 class="text-center mb-0 t-white">999</h3>
                                                                 </div>
                                                                 <div class="col-6">
-                                                                    <h3 class="text-center mb-0 t-white">302</h3>
+                                                                    <h3 class="text-center mb-0 t-white">999</h3>
                                                                 </div>
                                                                 <div class="col-6">
-                                                                    <h3 class="text-center mb-0 t-white">123</h3>
+                                                                    <h3 class="text-center mb-0 t-white">999</h3>
                                                                 </div>
                                                                 <div class="col-6">
-                                                                    <h3 class="text-center mb-0 t-white">458</h3>
+                                                                    <h3 class="text-center mb-0 t-white">999</h3>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -313,7 +313,7 @@
                                                             <div
                                                                 class="bg-content-green d-flex align-items-center justify-content-center">
                                                                 <h1 id="resultTwoBottom"
-                                                                    class="text-center mb-0 t-white">77</h1>
+                                                                    class="text-center mb-0 t-white">99</h1>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -95,8 +95,8 @@
           <p class="text-green-success text-center">ขอบคุณสำหรับการสมัคร คุณสามารถใช้
             ชื่อเข้าระบบ และ รหัสผ่าน ด้านล่างที่ตั้งไว้เพื่อเข้าสู่ระบบ</p>
             <div class="bg-green-success t-white">
-                <p id="show_user">ssss</p>
-                <p id="show_password" class="mb-0">ssss</p>
+                <p id="show_user">...</p>
+                <p id="show_password" class="mb-0">...</p>
             </div>
         </div>
         <div class="modal-footer edit-margin-success">

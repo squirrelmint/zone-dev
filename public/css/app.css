@@ -538,6 +538,10 @@ select.minimal {
 }
 .box-cir .box-1 {
     animation: fadein linear;
+    -webkit-animation: fadein linear;
+    -moz-animation: fadein linear;
+    -ms-animation: fadein linear;
+    -o-animation: fadein linear;
     animation-duration: .15s;
     animation-iteration-count: 1;
 }

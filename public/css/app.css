@@ -600,15 +600,120 @@ select.minimal {
     }
   }
 
-@keyframes fadein {
+  @keyframes fadein {
     0% {
         opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        -o-opacity: 0;
+        -ms-opacity: 0;
     }
     50% {
         opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        -ms-opacity: 0.5;
     }
     100% {
         opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        -ms-opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        -o-opacity: 0;
+        -ms-opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        -ms-opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        -ms-opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        -o-opacity: 0;
+        -ms-opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        -ms-opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        -ms-opacity: 1;
+    }
+}
+
+  @-o-keyframes fadein {
+    0% {
+        opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        -o-opacity: 0;
+        -ms-opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        -ms-opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        -ms-opacity: 1;
+    }
+}
+  @-ms-keyframes fadein {
+    0% {
+        opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        -o-opacity: 0;
+        -ms-opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -o-opacity: 0.5;
+        -ms-opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -o-opacity: 1;
+        -ms-opacity: 1;
     }
 }
 /* mobile */
@@ -1596,10 +1701,152 @@ select.minimal {
     select.minimal {
         background-color: #fff;
     }
+    @media only screen and (min-width: 992px) {
+        .box-cir {
+            width: 65%;
+        }
+        .bg-gold-border1 {
+            background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+            padding: 0.125rem;
+        }
+        .navbar-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 11;
+            transform: translateX(-50%);
+        }
+        .bg-link-brown h3 {
+            /* font-size: 30px; */
+            font-size: 1.5625vmax;
+            font-weight: 400;
+        }
+        .link-home img {
+            width: 1.875vmax;
+            height: 1.8229166667vmax;
+            margin-right: 0.625rem;
+        }
+        .link-regis img {
+            width: 2.1354166667vmax;
+            height: 2.34375vmax;
+            margin-right: 0.625rem;
+        }
+        .link-reward img {
+            width: 2.1354166667vmax;
+            height: 2.0833333333vmax;
+            margin-right: 0.625rem;
+        }
+        .link-promotion img {
+            width: 2.5vmax;
+            height: 2.2395833333vmax;
+            margin-right: 0.625rem;
+        }
+        .link-contact img {
+            width: 1.7708333333vmax;
+            height: 2.1354166667vmax;
+            margin-right: 0.625rem;
+        }
+        .link-home {
+            width: 10.9375vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0.625rem 0px 0px 0px;
+        }
+        .link-regis {
+            width: 14.1145833333vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .link-reward {
+            width: 16.6666666667vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .link-promotion {
+            width: 11.9270833333vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .link-contact {
+            width: 11.5104166667vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0.625rem 0px 0px;
+        }
+    }
 }
 @supports not (-webkit-touch-callout: none) {
     /* CSS for other than iOS devices */
     select.minimal {
         background-color: #fff;
+    }
+    @media only screen and (min-width: 992px) {
+        .box-cir {
+            width: 65%;
+        }
+        .bg-gold-border1 {
+            background: -webkit-linear-gradient(#FFEEC9,#CAA663,#8F774A);
+            padding: 0.125rem;
+        }
+        .navbar-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 11;
+            transform: translateX(-50%);
+        }
+        .bg-link-brown h3 {
+            /* font-size: 30px; */
+            font-size: 1.5625vmax;
+            font-weight: 400;
+        }
+        .link-home img {
+            width: 1.875vmax;
+            height: 1.8229166667vmax;
+            margin-right: 0.625rem;
+        }
+        .link-regis img {
+            width: 2.1354166667vmax;
+            height: 2.34375vmax;
+            margin-right: 0.625rem;
+        }
+        .link-reward img {
+            width: 2.1354166667vmax;
+            height: 2.0833333333vmax;
+            margin-right: 0.625rem;
+        }
+        .link-promotion img {
+            width: 2.5vmax;
+            height: 2.2395833333vmax;
+            margin-right: 0.625rem;
+        }
+        .link-contact img {
+            width: 1.7708333333vmax;
+            height: 2.1354166667vmax;
+            margin-right: 0.625rem;
+        }
+        .link-home {
+            width: 10.9375vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0.625rem 0px 0px 0px;
+        }
+        .link-regis {
+            width: 14.1145833333vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .link-reward {
+            width: 16.6666666667vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .link-promotion {
+            width: 11.9270833333vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0px 0px 0px;
+        }
+        .link-contact {
+            width: 11.5104166667vmax;
+            height: 3.6979166667vmax;
+            border-radius: 0px 0.625rem 0px 0px;
+        }
     }
  }

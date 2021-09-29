@@ -100,11 +100,11 @@ body {
                 <div class="col col-lg-auto px-0">
                     <div class="bg-gold-border1 link-reward">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-lg-row h-100 align-items-center justify-content-center d-none d-lg-flex" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="flex-column flex-lg-row h-100 align-items-center justify-content-center d-none d-lg-flex" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-flex d-lg-none" href="{{\config('lotto.url')}}">
+                            <a class="flex-column flex-lg-row h-100 align-items-center justify-content-center d-flex d-lg-none" href="{{\config('lotto.url')}}">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -143,14 +143,14 @@ body {
                 </div>
             </div>
         </div>
-        <div class="header-mobile w-100">
+        <div class="header-mobile w-100 d-block d-lg-none">
             <div id="box-cir2" class="">
                 <div class="box-1">
                     <img src="{{asset('img/mobile/cir-all.png')}}" alt="">
                 </div>
             </div>
             <img class="d-block d-lg-none" src="{{asset('img/mobile/Header2.png')}}" alt="">
-            <div class="announce-mobile w-100 d-block d-xxl-none">
+            <div class="announce-mobile w-100">
                 <div class="bg-announce">
                     <div class="fill-black w-100 d-flex align-items-center">
                         <div class="fill-text announce-text w1-m">ประกาศจากเว็บ :</div>
@@ -168,14 +168,28 @@ body {
         <div class="page-content">
             <div class="container-fluid px-0">
                 <div class="bg-wrapper d-flex align-items-center d-none d-lg-flex">
-                    <div class="announce" style="width:14%">
-                        <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
+                    <div class="row gx-1 w-100 align-items-center">
+                        <div class="col-2 d-flex align-items-center">
+                            <div class="announce">
+                                <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
+                            </div>
+                        </div>
+                        <div class="col-10 d-flex align-items-center">
+                            <marquee loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
+                                <a class="href-hover" href="https://line.me/ti/p/~j8day">
+                                    j8day
+                                </a>
+                            </marquee>
+                        </div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
+                    {{-- <div class="announce" style="width:auto">
+                        <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
+                    </div> --}}
+                    {{-- <marquee style="width:auto" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
                         <a class="href-hover" href="https://line.me/ti/p/~j8day">
                             j8day
                         </a>
-                    </marquee>
+                    </marquee> --}}
                 </div>
                 <div class="row group-link d-flex d-lg-none">
                     <div class="col-4 px-0">

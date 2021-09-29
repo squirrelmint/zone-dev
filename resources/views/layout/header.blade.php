@@ -86,7 +86,7 @@
             </div>
         </div>
         <img src="{{asset('img/Header2.png')}}" class="d-none d-lg-block" alt="">
-        <div class="navbar-bottom w-100">
+        <div class="navbar-bottom w-100 d-block d-lg-none">
             <div class="row row-cols-5 mx-0 justify-content-center">
                 <div class="col-xxl-auto px-0">
                     <div class="bg-gold-border1 link-home">
@@ -111,11 +111,11 @@
                 <div class="col-xxl-auto px-0">
                     <div class="bg-gold-border1 link-reward">
                         <div class="bg-link-brown link-bg-hover">
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-none d-xxl-flex" href="{{route('Landingpage.rewardlotto')}}">
+                            <a class="flex-column flex-lg-row h-100 align-items-center justify-content-center d-none d-lg-flex" href="{{route('Landingpage.rewardlotto')}}">
                                 <img src="{{asset('img/icon-reward.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">วิธีเช็ครางวัลหวย</h3>
                             </a>
-                            <a class="d-flex flex-column flex-xxl-row h-100 align-items-center justify-content-center d-block d-xxl-none" href="{{\config('lotto.url')}}">
+                            <a class="flex-column flex-lg-row h-100 align-items-center justify-content-center d-block d-lg-none" href="{{\config('lotto.url')}}">
                                 <img src="{{asset('img/mobile/icon-intolotto.png')}}" alt="">
                                 <h3 class="text-center mb-0 fill-text fill-text-hover">เข้าแทงหวย</h3>
                             </a>
@@ -155,7 +155,7 @@
             </div>
         </div>
 
-        <div class="header-mobile w-100">
+        <div class="header-mobile w-100 d-block d-lg-none">
             <div id="box-cir2" class="">
                 <div class="box-1">
                     <img src="{{asset('img/mobile/cir-all.png')}}" alt="">
@@ -180,18 +180,23 @@
         <div class="page-content">
             <div class="container-fluid px-0">
                 <div class="bg-wrapper d-flex align-items-center d-none d-lg-flex">
-                    <div class="announce" style="width:14%">
-                        <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
+                    <div class="row gx-1 w-100 align-items-center">
+                        <div class="col-2 d-flex align-items-center">
+                            <div class="announce">
+                                <div class="fill-text announce-text">ประกาศจากเว็บ :</div>
+                            </div>
+                        </div>
+                        <div class="col-10 d-flex align-items-center">
+                            <marquee loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
+                                <a class="href-hover" href="https://line.me/ti/p/~j8day">
+                                    j8day
+                                </a>
+                            </marquee>
+                        </div>
                     </div>
-                    <marquee style="width:86%" loop="infinite">ยินดีต้อนรับเข้าสู่เว็บแทงหวยออนไลน์ <b>ZONELOTTO.COM</b> ติดต่อแอดมินได้ที่ Line ID :
-                        <a class="href-hover" href="https://line.me/ti/p/~j8day">
-                            j8day
-                        </a>
-                    </marquee>
                 </div>
                 <div class="mt-3 d-none d-lg-block"></div>
                 <div class="row">
-                {{-- <div class="row paading-x-2large"> --}}
                     @yield('content')
                     @include('layout.sidebar')
                 </div>

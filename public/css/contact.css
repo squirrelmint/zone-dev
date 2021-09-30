@@ -50,6 +50,7 @@
     font-weight: 300;
     line-height: 37.38px;
     padding: 13px 8px;
+    align-items: baseline;
 }
 ul.zone-sidebar-contact {
     list-style-image: url('../img/lotto-icon/arrow-rigth.png');

@@ -543,6 +543,7 @@ select.minimal {
     -ms-animation: fadein linear;
     -o-animation: fadein linear;
     animation-duration: .15s;
+
     animation-iteration-count: 1;
 }
 @keyframes movelarge {
@@ -722,7 +723,8 @@ select.minimal {
 }
 /* mobile */
 /*  */
-@media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) {
+/* @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) { */
+@media only screen and (max-width: 991px) {
     body {
         background-size: unset;
         /* overflow: hidden; */
@@ -1279,15 +1281,78 @@ select.minimal {
     .edit-padding-t-success {
         padding-top: 9.375vmin;
     }
-    @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    @media only screen and (max-width: 991px) and (orientation: portrait) {
         .w1-m {
             width: 25%;
         }
         .w2-m {
             width: 75%;
         }
-        @media only screen and (min-device-width: 640px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    }
+    @media only screen and (max-width: 991px) and (orientation: landscape) {
+        .w1-m {
+            width: 13%;
+        }
+        .w2-m {
+            width: 87%;
+        }
+        .foot-ban .text-area {
+            padding-right: 65.625vmin;
+        }
+        .foot-ban p {
+            font-size: 1.3037809648vmax;
+        }
+        .bg-fade li {
+            font-size: 1.9366197183vmax;
+        }
+        .set-image img {
+            width: 62.5vmin;
+            right: 0;
+        }
+        .set-image {
+            height: 80%;
+        }
+        .px-reward-content-m {
+            margin: 0 50vmin;
+        }
+        .size-m-img .kbank,
+        .size-m-img .scb,
+        .size-m-img .ktb,
+        .size-m-img .kungsi {
+            height: 13.875vmin;
+        }
+        .title-text-2 {
+            font-size: 3.1690140845vmax;
+        }
+        .t-white.details {
+            font-size: 2.6408450704vmax;
+        }
+        .modal-dialog.edit-margin {
+            max-width: 540px;
+            margin: 27.8125vmin auto;
+        }
+        @media only screen and (min-width: 640px) and (orientation: landscape) {
+            .w1-m {
+                width: 18%;
+            }
+            .w2-m {
+                width: 82%;
+            }
+            .size-m-img .kbank,
+            .size-m-img .scb,
+            .size-m-img .ktb,
+            .size-m-img .kungsi {
+                height: 11.875vmin;
+            }
 
+        }
+    }
+    @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+        .w1-m {
+            width: 25%;
+        }
+        .w2-m {
+            width: 75%;
         }
     }
     @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
@@ -1781,6 +1846,9 @@ select.minimal {
     /* CSS for other than iOS devices */
     select.minimal {
         background-color: #fff;
+    }
+    @media only screen and (max-width: 991px) {
+
     }
     @media only screen and (min-width: 992px) {
         .box-cir {

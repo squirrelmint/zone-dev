@@ -53,7 +53,14 @@ body {
                 <img src="{{asset('img/cir-all.png')}}" alt="">
             </div>
         </div>
-        <img class="header d-none d-lg-block" src="{{asset('img/Header2.png')}}" alt="">
+        <div class="position-relative d-none d-lg-block">
+            <img class="header" src="{{asset('img/Header2.png')}}" alt="">
+            <div class="logo-img position-absolute">
+                <div class="area-logo position-relative">
+                    <img src="{{asset('img/logo/logo.png')}}" alt="">
+                </div>
+            </div>
+        </div>
         <div class="navbar-top d-none d-lg-block">
             <div class="menu d-flex justify-content-center">
                 <div class="btn-link-regis">

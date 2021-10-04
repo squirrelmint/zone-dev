@@ -59,7 +59,15 @@ a {
     color: #fff;
     text-decoration: none;
 }
-
+.logo-img {
+    bottom: 2.604166667vmax;
+    right: 17.44791667vmax;
+    z-index: 11;
+}
+.area-logo {
+    max-width: 34.01041667vmax;
+    height: 15.625vmax;
+}
 .bg-wrapper {
     background-image: url("../img/bg-slidetext.png");
     background-repeat: no-repeat;
@@ -798,9 +806,6 @@ select.minimal {
         position: relative;
         left: 0;
         transform: translateX(0%);
-    }
-    .header {
-        display: none;
     }
     .header-mobile {
         display: block;

@@ -326,7 +326,7 @@ $(document).ready(function(){
 });
 
 function loginAjax() {
-    let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/login";
+    let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/login/noaddress";
 
     let username = $('#username').val();
     if( !username ){

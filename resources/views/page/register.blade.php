@@ -129,7 +129,7 @@ $(document).on("keyup", '#phone',  function(){
 
 function registerAjax() {
     // let url = "{{\config('lottoapi.url')}}/v1/api/frontend/member/register/wallet";
-    let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/register";
+    let url = "{{\config('lottoapi.url')}}/apiRoute/member/landing/register/noaddress";
 
     let firstname = $('#firstname').val();
     if(!firstname){

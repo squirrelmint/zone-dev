@@ -725,6 +725,22 @@ select.minimal {
 /*  */
 /* @media only screen and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 2) { */
 @media only screen and (max-width: 991px) {
+    .sticky {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index:999;
+        animation: fadeIn ease .4s;
+        -webkit-animation: fadeIn ease .4s;
+    }
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
     body {
         background-size: unset;
         /* overflow: hidden; */

@@ -312,6 +312,10 @@ label {
     font-size: 24px;
     color: #fff;
 }
+label.place-holder {
+    font-size: 18px;
+    color: #a7a7a7;
+}
 .button-group .btn {
     max-width: 250px;
     font-size: 32px;
@@ -1202,6 +1206,9 @@ select.minimal {
     }
     label {
         font-size: 3.125vmin;
+    }
+    label.place-holder {
+        font-size: 2.5vmin;
     }
     .re-input,
     .re-select {
